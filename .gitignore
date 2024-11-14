@@ -2,3 +2,5 @@
 samba-data
 esdata-public
 postgresql_data
+gn-public-data
+logs

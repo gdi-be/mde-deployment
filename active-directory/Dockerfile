@@ -4,7 +4,10 @@ RUN apt update && apt -y install samba krb5-config winbind smbclient iproute2 op
 
 RUN rm /etc/krb5.conf
 RUN mkdir -p /opt/ad-scripts
+COPY scripts/* /opt/ad-scripts/
 
 WORKDIR /opt/ad-scripts
 
-CMD chmod +x *.sh && ./samba-ad-setup.sh && ./samba-ad-run.sh
+RUN chmod +x *.sh
+
+CMD ./samba-ad-setup.sh && ./samba-ad-run.sh

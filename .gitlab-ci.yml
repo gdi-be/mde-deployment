@@ -1,0 +1,35 @@
+stages:
+  - build
+  - deploy
+
+build-images:
+  stage: build
+  only:
+    - main
+  tags: ['intranet']
+  script:
+    - docker login -u $NEXUS_USER -p $NEXUS_PASSWORD gdi-berlin-docker.terrestris.de
+    - docker build -f active-directory/Dockerfile active-directory -t gdi-berlin-docker.terrestris.de/gdi-berlin/active-directory
+    - docker push gdi-berlin-docker.terrestris.de/gdi-berlin/active-directory
+
+deploy-internal:
+  stage: deploy
+  environment:
+    name: internal
+  only:
+    - main
+  when: manual
+  tags: ['intranet']
+  script:
+    - eval $(ssh-agent -s)
+    - echo "$SSH_KEY" | ssh-add -
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - ssh gitlab-ci@hsensw-geoportal-berlin-mde.intranet.terrestris.de mkdir -p mde/nginx
+    - ssh gitlab-ci@hsensw-geoportal-berlin-mde.intranet.terrestris.de mkdir -p mde/postgres
+    - ssh gitlab-ci@hsensw-geoportal-berlin-mde.intranet.terrestris.de mkdir -p mde/active-directory
+    - scp docker-compose-internal.yaml gitlab-ci@sensw-geoportal-berlin-mde.intranet.terrestris.de:mde/docker-compose.yaml
+    - scp nginx/internal-test/default.conf gitlab-ci@sensw-geoportal-berlin-mde.intranet.terrestris.de:mde/nginx/default.conf
+    - scp -r mde-postgres/init-data/ gitlab-ci@sensw-geoportal-berlin-mde.intranet.terrestris.de:mde/mde-postgres/
+    - ssh gitlab-ci@sensw-geoportal-berlin-mde.intranet.terrestris.de podman compose pull
+    - ssh gitlab-ci@sensw-geoportal-berlin-mde.intranet.terrestris.de podman compose up -d
