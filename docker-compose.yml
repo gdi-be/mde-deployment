@@ -121,15 +121,14 @@ services:
     volumes:
       - $HOME/.m2:/root/.m2
   mde-client:
-    image: oven/bun:latest
+    image: oven/bun:1.1.33-alpine
     container_name: mde-client
-    restart: unless-stopped
     volumes:
       - ${CLIENT_LOCATION}:/app
     working_dir: /app
     init: true
     ports:
       - 5173:5173
-    command: "bun --bun run dev"
+    entrypoint: "bun --bun run dev"
     environment:
       - NODE_ENV=development
