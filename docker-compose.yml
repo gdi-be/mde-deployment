@@ -28,18 +28,6 @@ services:
     volumes:
       - ./mde-postgres/postgresql_data:/var/lib/postgresql/data:rw #,U
       - ./mde-postgres/init_data:/docker-entrypoint-initdb.d
-  mde-ad:
-    container_name: mde-ad
-    build:
-      dockerfile: Dockerfile
-      context: ./active-directory
-    restart: unless-stopped
-    environment:
-      - SMB_ADMIN_PASSWORD
-    ports:
-      - 636:636
-    volumes:
-      - ./active-directory/samba-data:/var/lib/samba:rw #,U
   mde-keycloak:
     container_name: mde-keycloak
     image: quay.io/keycloak/keycloak:26.0
