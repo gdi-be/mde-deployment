@@ -28,16 +28,6 @@ services:
     volumes:
       - ./mde-postgres/postgresql_data:/var/lib/postgresql/data:Z
       - ./mde-postgres/init_data:/docker-entrypoint-initdb.d
-  mde-ad:
-    container_name: mde-ad
-    image: gdi-berlin-docker.terrestris.de/gdi-berlin/active-directory
-    restart: unless-stopped
-    environment:
-      - SMB_ADMIN_PASSWORD
-    ports:
-      - 636:636
-    volumes:
-      - ./active-directory/samba-data:/var/lib/samba
   mde-keycloak:
     container_name: mde-keycloak
     image: quay.io/keycloak/keycloak:26.0
