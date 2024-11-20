@@ -108,6 +108,7 @@ services:
     restart: unless-stopped
     volumes:
       - $HOME/.m2:/root/.m2
+      - ${BACKEND_LOCATION}/mde-services/:/app/
   mde-client:
     image: oven/bun:1.1.33-alpine
     container_name: mde-client
