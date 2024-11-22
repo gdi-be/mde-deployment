@@ -4,3 +4,6 @@ esdata-public
 postgresql_data
 gn-public-data
 logs
+
+mde-nginx/ssl/private/*.crt
+mde-nginx/ssl/private/*.key
