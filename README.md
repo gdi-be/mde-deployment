@@ -6,6 +6,7 @@
 * run `sudo chown -R 999:999 logs` and `sudo chown -R 1000:1000 esdata-public`
 * manually add an admin user in keycloak by changing into the container, cd to `/opt/keycloak/bin` and running `./kc.sh bootstrap-admin user`
 * run `./setEnvironment.sh` to prepare keystore for SSL communication during devlopment
+* an `.env` file has to be configured. Use `cp ./env.example ./.env` as a starting point.
 
 ### Permissions setup/reset
 
