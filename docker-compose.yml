@@ -105,6 +105,7 @@ services:
       - $HOME/.m2:/root/.m2
       - ${BACKEND_LOCATION}/mde-services/:/app/
       - ./mde-backend/keystore/cacerts:/opt/java/openjdk/lib/security/cacerts
+      - ./mde-backend/lucene/indices:/lucene/indices
     environment:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       KEYCLOAK_HOST: ${KEYCLOAK_HOST}
