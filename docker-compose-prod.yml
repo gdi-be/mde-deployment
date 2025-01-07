@@ -1,6 +1,7 @@
 services:
   mde-nginx:
     container_name: mde-nginx
+    hostname: mde-nginx
     image: nginx
     restart: unless-stopped
     volumes:
@@ -14,23 +15,28 @@ services:
       timeout: 3s
       start_period: 30s
     depends_on:
+      - mde-gnos
       - mde-backend
       - mde-client
       - mde-keycloak
   mde-postgres:
     container_name: mde-postgres
+    hostname: mde-postgres
     image: postgres:17
     restart: unless-stopped
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
-      - ./mde-postgres/postgresql_data:/var/lib/postgresql/data:Z
+      - ./mde-postgres/postgresql_data:/var/lib/postgresql/data:rw #,U
       - ./mde-postgres/init_data:/docker-entrypoint-initdb.d
   mde-keycloak:
     container_name: mde-keycloak
+    hostname: mde-keycloak
     image: quay.io/keycloak/keycloak:26.0
     restart: unless-stopped
+    depends_on:
+      - mde-postgres
     environment:
       KEYCLOAK_USER: ${KEYCLOAK_ADMIN}
       KEYCLOAK_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD}
@@ -49,10 +55,18 @@ services:
   mde-backend:
     image: ghcr.io/gdi-be/mde-backend
     container_name: mde-backend
+    hostname: mde-backend
+    restart: unless-stopped
+    depends_on:
+      - mde-postgres
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      KEYCLOAK_HOST: ${KEYCLOAK_HOST}
+      KEYCLOAK_REALM: ${KEYCLOAK_REALM}
+  mde-client:
+    image: ghcr.io/gdi-be/mde-client:main
+    container_name: mde-client
+    hostname: mde-client
     restart: unless-stopped
     volumes:
-      - ./mde-backend/lucene/indices:/lucene/indices
-  mde-client:
-    image: ghcr.io/gdi-be/mde-client
-    container_name: mde-client
-    restart: unless-stopped
+      - .client-env:/app/.env
