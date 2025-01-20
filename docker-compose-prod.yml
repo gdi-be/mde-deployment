@@ -63,6 +63,8 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       KEYCLOAK_HOST: ${KEYCLOAK_HOST}
       KEYCLOAK_REALM: ${KEYCLOAK_REALM}
+    volumes:
+      - ./mde-backend/lucene:/lucene
   mde-client:
     image: ghcr.io/gdi-be/mde-client:main
     container_name: mde-client

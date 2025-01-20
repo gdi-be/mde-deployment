@@ -9,3 +9,4 @@ mde-nginx/ssl/private/*.crt
 mde-nginx/ssl/private/*.key
 
 mde-backend/lucene/indices/*
+!mde-backend/lucene/indices/.gitkeep
