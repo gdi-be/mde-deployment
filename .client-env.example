@@ -1,0 +1,15 @@
+AUTH_KEYCLOAK_URL=https://<HOSTNAME>/auth
+AUTH_KEYCLOAK_REALM=metadata-editor
+AUTH_KEYCLOAK_CLIENT_ID=mde
+AUTH_KEYCLOAK_CLIENT_SECRET=
+# This is a route in the client
+AUTH_REDIRECT_URI=https://<HOSTNAME>/auth-callback
+
+# The Backend URL as accesible from the docker network
+BACKEND_URL=http://mde-backend:8080
+
+# The log level for the client
+CLIENT_LOG_LEVEL=debug
+
+# Allows self-signed certificates
+NODE_TLS_REJECT_UNAUTHORIZED=0

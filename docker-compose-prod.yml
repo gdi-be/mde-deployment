@@ -3,9 +3,10 @@ services:
     container_name: mde-nginx
     hostname: mde-nginx
     image: nginx
+    privileged: true
     restart: unless-stopped
     volumes:
-      - ./mde-nginx/prod/default.conf:/etc/nginx/conf.d/default.conf
+      - ./mde-nginx/prod/default.conf:/etc/nginx/conf.d/default.conf:rw,U
     ports:
       - 80:80
       - 443:443
@@ -23,12 +24,13 @@ services:
     container_name: mde-postgres
     hostname: mde-postgres
     image: postgres:17
+    privileged: true
     restart: unless-stopped
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
-      - ./mde-postgres/postgresql_data:/var/lib/postgresql/data:rw #,U
+      - ./mde-postgres/postgresql_data:/var/lib/postgresql/data:rw,U
       - ./mde-postgres/init_data:/docker-entrypoint-initdb.d
   mde-keycloak:
     container_name: mde-keycloak
@@ -63,6 +65,7 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       KEYCLOAK_HOST: ${KEYCLOAK_HOST}
       KEYCLOAK_REALM: ${KEYCLOAK_REALM}
+      VARIABLE_FILE: ${VARIABLE_FILE}
     volumes:
       - ./mde-backend/lucene:/lucene
   mde-client:
