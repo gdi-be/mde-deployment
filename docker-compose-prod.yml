@@ -7,6 +7,8 @@ services:
     restart: unless-stopped
     volumes:
       - ./mde-nginx/prod/default.conf:/etc/nginx/conf.d/default.conf:rw,U
+      - ./mde-nginx/prod/gdi-con-t-server.selfsign.crt:/etc/nginx/ssl/private/gdi-con-t-server.selfsign.crt:U
+      - ./mde-nginx/prod/gdi-con-t-server.key:/etc/nginx/ssl/private/gdi-con-t-server.key:U
     ports:
       - 80:80
       - 443:443
@@ -68,10 +70,14 @@ services:
       VARIABLE_FILE: ${VARIABLE_FILE}
     volumes:
       - ./mde-backend/lucene:/lucene
+      - ./mde-backend/keystore/cacerts:/opt/java/openjdk/lib/security/cacerts:U
+      - ./mde-backend/variables.json:/variables.json:U
+    privileged: true
   mde-client:
     image: ghcr.io/gdi-be/mde-client:main
     container_name: mde-client
     hostname: mde-client
     restart: unless-stopped
     volumes:
-      - .client-env:/app/.env
+      - .client-env:/app/.env:U
+    privileged: true
