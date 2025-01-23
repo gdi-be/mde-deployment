@@ -1,0 +1,217 @@
+- id: 1
+  shortname: Standard
+  active: true
+  description: |
+    Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden.
+    Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar.
+    Der Quellenvermerk gemäß (2) der Lizenz lautet 'Geoportal Berlin / {{isoMetadata.title}}'.
+  openData: true
+  json:
+    id: dl-by-de/2.0
+    name: Datenlizenz Deutschland - Namensnennung - Version 2.0
+    url: https://www.govdata.de/dl-de/by-2-0
+    quelle: Geoportal Berlin / {{isoMetadata.title}}
+  note: gültig ab 6.6.2019
+
+- id: 3
+  shortname: Standard alt
+  active: false
+  description: |
+    Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf
+    Der Quellenvermerk gemäß §2 lautet 'Geoportal Berlin / {{isoMetadata.title}}'.
+  openData: true
+  json:
+    id: geonutz-be-2013-10-01
+    name: Nutzungsbestimmungen für die Bereitstellung von Geodaten des Landes Berlin
+    url: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf
+    quelle: Geoportal Berlin / {{isoMetadata.title}}
+
+- id: 4
+  shortname: Standard ohne Brandenburg
+  active: true
+  description: |
+    Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden.
+    Gilt nicht für Brandenburger Landesteile.
+    Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar.
+    Der Quellenvermerk gemäß (2) der Lizenz lautet 'Geoportal Berlin / {{isoMetadata.title}}'.
+  openData: true
+  json:
+    id: dl-by-de/2.0
+    name: Datenlizenz Deutschland - Namensnennung - Version 2.0
+    url: https://www.govdata.de/dl-de/by-2-0
+    quelle: Geoportal Berlin / {{isoMetadata.title}}
+
+- id: 6
+  shortname: Kontakte
+  active: false
+  description: "Die Nutzungsbedingungen sind bei der unter Kontakte genannten Person zu erfragen."
+  openData: false
+
+- id: 7
+  shortname: Umweltatlas
+  active: true
+  description: |
+    Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden.
+    Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar.
+    Der Quellenvermerk gemäß (2) der Lizenz lautet 'Umweltatlas Berlin / {{isoMetadata.title}}'.
+  openData: true
+  json:
+    id: dl-by-de/2.0
+    name: Datenlizenz Deutschland - Namensnennung - Version 2.0
+    url: https://www.govdata.de/dl-de/by-2-0
+    quelle: Umweltatlas Berlin / {{isoMetadata.title}}
+  note: gültig ab 6.6.2019
+
+- id: 8
+  shortname: Landesarchiv
+  active: false
+  description: |
+    Die Nutzungsrechte liegen beim Landesarchiv Berlin.
+    Jede virtuelle oder analoge Weiterverarbeitung oder Verwertung bedarf einer Genehmigung durch das Landesarchiv Berlin.
+  openData: false
+
+- id: 9
+  shortname: Bodenrichtwerte
+  active: false
+  description: |
+    Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden.
+    Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar.
+    Der Quellenvermerk gemäß (2) der Lizenz lautet 'Geoportal Berlin / {{isoMetadata.title}}' oder 'Gutachterausschuss für Grundstückswerte in Berlin'.
+  openData: true
+  json:
+    id: dl-by-de/2.0
+    name: Datenlizenz Deutschland - Namensnennung - Version 2.0
+    url: https://www.govdata.de/dl-de/by-2-0
+    quelle: Geoportal Berlin / {{isoMetadata.title}} oder Gutachterausschuss für Grundstückswerte in Berlin
+  note: gültig ab 6.6.2019
+
+- id: 10
+  shortname: Amt für Statistik
+  active: true
+  description: |
+    Der Datenbestand wird unter der Lizenz CC-BY-3.0-Namensnennung veröffentlicht (vgl. https://creativecommons.org/licenses/by/3.0/de/).
+    Als Urheber ist dabei zu nennen: Amt für Statistik Berlin-Brandenburg.
+  openData: true
+  json:
+    id: cc-by-de/3.0
+    name: Creative Commons - Namensnennung 3.0 Deutschland
+    url: https://creativecommons.org/licenses/by/3.0/de/
+    quelle: Amt für Statistik Berlin-Brandenburg
+
+- id: 12
+  shortname: Fahrradwege
+  active: false
+  description: |
+    Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/fahrradwege.pdf
+    Der Quellenvermerk gemäß §2 lautet 'Geoportal Berlin / {{isoMetadata.title}}'.
+  openData: false
+
+- id: 13
+  shortname: Standard und Datenschutz
+  active: false
+  description: |
+    Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden.
+    Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar.
+    Der Quellenvermerk gemäß (2) der Lizenz lautet 'Geoportal Berlin / {{isoMetadata.title}}'.
+    Es sind die datenschutzrechtlichen Bestimmungen, insbesondere das Bundesdatenschutzgesetz, zu beachten.
+  openData: true
+  json:
+    id: dl-by-de/2.0
+    name: Datenlizenz Deutschland - Namensnennung - Version 2.0
+    url: https://www.govdata.de/dl-de/by-2-0
+    quelle: Geoportal Berlin / {{isoMetadata.title}}
+  note: gültig ab 6.6.2019
+
+- id: 14
+  shortname: Standard mit Brandenburg
+  active: true
+  description: |
+    Nutzungsbedingungen: Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden.
+    Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar.
+    Der Quellenvermerk gemäß (2) der Lizenz lautet 'Geoportal Berlin / {{isoMetadata.title}}'.
+    Werden auch Daten des Bundeslandes Brandenburg genutzt, ist der Quellenvermerk um den Hinweis '© GeoBasis-DE/LGB (2023), dl-de/by-2-0, Daten geändert' zu ergänzen.
+  openData: true
+  json:
+    id: dl-by-de/2.0
+    name: Datenlizenz Deutschland - Namensnennung - Version 2.0
+    url: https://www.govdata.de/dl-de/by-2-0
+    quelle: Geoportal Berlin / {{isoMetadata.title}}
+  note: ab 10.05.23 (mit Update 2023), Daten aus BB unterliegen ebenfalls Deutschlandlizenz
+
+- id: 15
+  shortname: Baufertigstellungen
+  active: false
+  description: |
+    Nutzungsbedingungen: Der Datenbestand unterliegt den Bestimmungen des HBauStatG (Gesetz über die Statistik der Bautätigkeit im Hochbau und die Fortschreibung des Wohnungsbestandes).
+    Die Nutzung der Geodaten ist nur für dienstliche Zwecke entsprechend den Vorgaben des HBauStatG (§ 9) gestattet.
+    © Amt für Statistik Berlin-Brandenburg, Potsdam.
+  openData: false
+  note: Datenbestand Baufertigstellungen 2012-2016 differenziert (Zugangsbeschränkung, nur im Intranet)
+
+- id: 16
+  shortname: Dienstgebrauch
+  active: true
+  description: "Nur für den Dienstgebrauch gemäß GG0 I §45"
+  openData: false
+  note: nach GG0 I §51 'Schriftstücke' dürfen Außenstehenden (auch Behörden außerhalb der Berliner Verwaltung) nur mit Genehmigung der herausgebenden Stelle zugänglich gemacht werden
+
+- id: 17
+  shortname: Dienstgebrauch Aufgaben
+  active: false
+  description: Nur für den Dienstgebrauch zur Erfüllung der nachzuweisenden gesetzlichen Aufgaben
+  openData: false
+
+- id: 18
+  shortname: Dienstgebrauch und PD
+  active: false
+  description: Nur für den Dienstgebrauch gemäß GG0 I §45; Karte enthält personenbezogene Daten nach EU-DSGVO.
+  openData: false
+
+- id: 19
+  shortname: Straubeplan
+  active: false
+  description: |
+    Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden.
+    Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar.
+    Der Quellenvermerk gemäß (2) der Lizenz lautet 'Geoportal Berlin/Landesarchiv Berlin/ {{isoMetadata.title}}'.
+  openData: true
+  json:
+    id: dl-by-de/2.0
+    name: Datenlizenz Deutschland - Namensnennung - Version 2.0
+    url: https://www.govdata.de/dl-de/by-2-0
+    quelle: Geoportal Berlin/Landesarchiv Berlin / {{isoMetadata.title}}
+  note: Straubeplan
+
+- id: 20
+  shortname: Tegel
+  active: false
+  description: |
+    Der Datenbestand wird unter der Lizenz CC-BY-4.0-Namensnennung International Public License veröffentlicht (vgl. https://creativecommons.org/licenses/by/4.0/legalcode.de).
+    Als Urheber ist dabei zu nennen: Tegel Projekt GmbH.
+  openData: true
+  json:
+    id: cc-by/4.0
+    name: Creative Commons Namensnennung 4.0 International Public License
+    url: https://creativecommons.org/licenses/by/4.0/legalcode.de
+    quelle: Tegel Projekt GmbH
+  note: "Daten der Tegel Projekt GmbH: Berlin TXL"
+
+- id: 21
+  shortname: Anwendung
+  active: false
+  description: "Die Nutzungsbedingungen sind der Anwendung zu entnehmen."
+  openData: false
+
+- id: 22
+  shortname: Wasserbetriebe
+  active: false
+  description: |
+    Der Datenbestand wird unter der Lizenz CC-BY-4.0-Namensnennung International Public License veröffentlicht (vgl. https://creativecommons.org/licenses/by/4.0/legalcode.de).
+    Der Quellenvermerk gemäß Abschnitt 3a der Lizenz lautet 'Berliner Wasserbetriebe / {{isoMetadata.title}}'.
+  openData: true
+  json:
+    id: cc-by/4.0
+    name: Creative Commons Namensnennung 4.0 International Public License
+    url: https://creativecommons.org/licenses/by/4.0/legalcode.de
+    quelle: Berliner Wasserbetriebe
+  note: Badegewässerqualität, Starkregengefahrenkarte
