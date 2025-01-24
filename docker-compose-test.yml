@@ -72,6 +72,7 @@ services:
       - ./mde-backend/lucene:/lucene
       - ./mde-backend/keystore/cacerts:/opt/java/openjdk/lib/security/cacerts:U
       - ./mde-backend/variables.json:/variables.json:U
+      - ./codelists:/data/codelists:U
     privileged: true
   mde-client:
     image: ghcr.io/gdi-be/mde-client:main
