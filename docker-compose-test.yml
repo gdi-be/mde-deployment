@@ -80,4 +80,5 @@ services:
     restart: unless-stopped
     volumes:
       - .client-env:/app/.env:U
+      - ./codelists:/data/codelists:U
     privileged: true
