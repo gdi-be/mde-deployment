@@ -1,0 +1,13 @@
+isoMetadata:
+  title:
+    # Administrator: "isoMetadata/title.admin.md"
+    # QualityAssurance: "isoMetadata/title.qs.md"
+    # DataOwner: "isoMetadata/title.dhs.md"
+    Editor: "isoMetadata/title.redakteur.md"
+    default: "isoMetadata/title.md"
+  description:
+    Editor: "isoMetadata/description.redakteur.md"
+    default: "isoMetadata/description.md"
+  keywords:
+    Editor: "isoMetadata/keywords.redakteur.md"
+    default: "isoMetadata/keywords.md"
