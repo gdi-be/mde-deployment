@@ -68,6 +68,10 @@ services:
       KEYCLOAK_HOST: ${KEYCLOAK_HOST}
       KEYCLOAK_REALM: ${KEYCLOAK_REALM}
       VARIABLE_FILE: ${VARIABLE_FILE}
+      CSW_SERVER: ${CSW_SERVER}
+      CSW_USER: ${CSW_USER}
+      CSW_PASSWORD: ${CSW_PASSWORD}
+      CODELISTS_DIR: ${CODELISTS_DIR}
     volumes:
       - ./mde-backend/lucene:/lucene
       - ./mde-backend/keystore/cacerts:/opt/java/openjdk/lib/security/cacerts:U
