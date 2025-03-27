@@ -1,0 +1,8 @@
+- key: "NONE"
+  label: "Nicht Datenschutz relevant"
+- key: "INTERNAL_USE_ONLY"
+  label: "Schutz von Daten juristischer Personen und deren Interessen - Nutzungsbestimmung 'Nur für den Dienstgebrauch'"
+- key: "PERSONAL_DATA"
+  label: "Schutz von persönlichen Daten bei natürlichen Personen"
+- key: "CRITICAL_INFRASTRUCTURE"
+  label: "Schutz von Daten, die als Kritische Infrastruktur eingestuft werden"
