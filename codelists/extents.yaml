@@ -1,0 +1,12 @@
+- title: "Berlin"
+  value:
+    minx: 13.07900
+    miny: 52.32840
+    maxx: 13.77010
+    maxy: 52.68779
+- title: "Brandenburg"
+  value:
+    minx: 11.13430
+    miny: 51.20750
+    maxx: 15.00000
+    maxy: 53.69870
