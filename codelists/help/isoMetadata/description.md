@@ -21,3 +21,17 @@ Das Feld **"Kurzbeschreibung Datenbestand"** bietet eine kurze, aber prägnante 
 
 #### Zusätzliche Informationen:
 Für detailliertere Beschreibungen und zur Erfüllung von Metadatenstandards siehe auch die <a href="https://www.iso.org/standard/53798.html" target="_blank">ISO 19115 Normen</a> (englisch).
+
+# Kurzbeschreibung des Datenbestandes
+
+## Erläuterung
+Beschreiben Sie Ihren Datenbestand kurz und prägnant in 500 Zeichen. Eine detaillierte Formatierung ist nicht möglich. Zeilenumbrüche werden jedoch erkannt. Für eine noch ausführlichere Beschreibung nutzen Sie bitte die Möglichkeit ein PDF-Dokument unter der inhaltlichen Beschreibung einzufügen.
+
+## Beispiel
+Die Welterbekarte Berlin umfasst die Welterbebereiche und die Pufferzonen, sowie die in den Welterbebereichen liegenden Bau- und Gartendenkmale Berlins. Die Welterbegebiete entsprechen den von der UNESCO bestätigten Kartierungen.
+
+## Sichtbarkeit in Anwendungen
+Die Kurzbeschreibung wird in der [Geodatensuche Berlin angezeigt](https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d).
+
+## Sichtbarkeit in der ISO
+/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString
