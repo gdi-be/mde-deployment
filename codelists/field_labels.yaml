@@ -1,0 +1,7 @@
+- key: 'isoMetadata.title'
+  label: Titel des Datenbestandes
+  explanation: Unter welchem Titel soll Ihr Datenbestand gefunden werden?
+  hint: Es wird eine maximale Titel-Länge von 100 Zeichen empfohlen.
+- key: 'isoMetadata.description'
+  label: Kurzbeschreibung des Datenbestandes
+  explanation: Beschreiben Sie Ihren Datenbestand kurz und prägnant in 500 Zeichen. Für ausführlichere Informationen nutzen Sie die inhaltliche Beschreibung.
