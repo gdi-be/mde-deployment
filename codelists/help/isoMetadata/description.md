@@ -7,11 +7,11 @@ Die **"Kurzbeschreibung"** bietet eine kurze, aber prägnante Zusammenfassung de
 * Nennen sie relevante Informationen, die die Daten charakterisieren
 * Vermeiden sie zu spezifische oder detaillierte Informationen
 
-## Beispiel
+#### Beispiel
 Die Welterbekarte Berlin umfasst die Welterbebereiche und die Pufferzonen, sowie die in den Welterbebereichen liegenden Bau- und Gartendenkmale Berlins. Die Welterbegebiete entsprechen den von der UNESCO bestätigten Kartierungen.
 
-## Sichtbarkeit in Anwendungen
+#### Sichtbarkeit in Anwendungen
 Die Kurzbeschreibung wird in der [Geodatensuche Berlin angezeigt](https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d).
 
-## Sichtbarkeit in der ISO
+#### Sichtbarkeit in der ISO
 /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString
