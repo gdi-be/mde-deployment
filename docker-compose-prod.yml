@@ -56,6 +56,8 @@ services:
       KC_BOOTSTRAP_ADMIN_USERNAME: ${KEYCLOAK_ADMIN}
       KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD}
     command: ["start", "--proxy-headers", "xforwarded", "--http-enabled", "true"]
+    # volumes:
+    #   - ./mde-keycloak/cacerts:/etc/pki/ca-trust/extracted/java/cacerts:rw,U
   mde-backend:
     image: ghcr.io/gdi-be/mde-backend:1.3.0
     container_name: mde-backend
