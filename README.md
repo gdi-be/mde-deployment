@@ -21,3 +21,18 @@ To make sure all mounted volume directories get the correct uid/gid:
 This will automatically `chown` these host directories so they belong to the user running the container's software.
 
 This can also be used to reset all volumes in case of new permission problems.
+
+## Keycloak user federation
+
+To configure the keycloak user federation pointing to a AD instance:
+
+* if the certificate of the AD is self signed, import the certificate into the keycloak cacerts keystore using `keytool -import -file /tmp/cert -alias ad -keystore cacerts`. Make sure the cacerts file is mounted as a volume to the proper location:
+```
+    volumes:
+      - ./mde-keycloak/cacerts:/etc/pki/ca-trust/extracted/java/cacerts:rw,U
+```
+* if the certificate of the AD does not include the name of the hostname where it is running, make sure to add `-Dcom.sun.jndi.ldap.object.disableEndpointIdentification=true` to the keycloak start command in the compose file
+* when adding the user federation make sure you point to the ad using an ldaps:// URL
+* use credentials like `CN=Administrator,CN=Users,DC=dc,DC=internal` (with the proper password) to authenticate
+* make sure to configure the correct user DN (e.g. CN=Users,DC=dc,DC=internal)
+* add the `role-ldap-mapper` and configure the ldap roles DN (e.g. CN=Users,DC=dc,DC=internal)
