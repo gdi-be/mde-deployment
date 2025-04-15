@@ -36,3 +36,4 @@ To configure the keycloak user federation pointing to a AD instance:
 * use credentials like `CN=Administrator,CN=Users,DC=dc,DC=internal` (with the proper password) to authenticate
 * make sure to configure the correct user DN (e.g. CN=Users,DC=dc,DC=internal)
 * add the `role-ldap-mapper` and configure the ldap roles DN (e.g. CN=Users,DC=dc,DC=internal)
+* add a `user-attribute-ldap-mapper` for the fields `streetAddress`, `telephoneNumber`, `givenName`, `sn`, `mail`, `company` and `l` and add these attributes to the keycloak user model (in case they don't exist). Map `givenName` to `firstName`, `sn` to `lastName`, `l` to `city` and `mail` to `email`
