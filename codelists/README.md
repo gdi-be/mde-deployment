@@ -18,6 +18,7 @@ Folgende Codelisten sind vorhanden.
     - `label` - Text, der als Titel des Eingabefeldes angezeigt wird
     - `explanation` - Text, der als Erklärung des Eingabefeldes angezeigt wird (aktuell Placeholder)
     - `hint` - Text, der beim Fokus unterhalb des Eingabefeldes angezeigt wird
+    - `subFields` - Kann eine Liste von Subfeldern enthalten, die in der Form `key.subfield` angegeben werden. Diese Subfelder werden dann als Array interpretiert und können auch wieder Subfelder enthalten.
 - `hvd_categories.yaml` - Liste der HVD-Kategorien
   - Felder
     - `key` - Schlüssel (wird im code verwendet)
