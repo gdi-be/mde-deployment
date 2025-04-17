@@ -5,3 +5,211 @@
 - key: 'isoMetadata.description'
   label: Kurzbeschreibung des Datenbestandes
   explanation: Beschreiben Sie Ihren Datenbestand kurz und prägnant in 500 Zeichen. Für ausführlichere Informationen nutzen Sie die inhaltliche Beschreibung.
+  hint: Hinweise der nur beim Focus angezeigt wird.
+- key: 'isoMetadata.keywords'
+  label: Schlagwörter
+  explanation: Mit welchen Begriffen soll ihr Datenbestand gefunden werden? Geben sie prägnante Schlagwörter an, die ihren Datenbestand charakterisieren.
+- key: 'isoMetadata.preview'
+  label: Vorschaubild
+  explanation: Welcher Kartenausschnitt oder welches Schaubild charakterisiert ihren Datenbestand am besten? Zeigen Sie es uns, indem Sie ein Vorschaubild hochladen oder einen Link zu einem Bild eintragen.
+  hint: Hinweise der nur beim Focus angezeigt wird.
+- key: 'isoMetadata.pointsOfContact'
+  label: Kontaktangaben
+  explanation: Welche kann über den Datenbestand Auskunft geben und soll in den Metadaten genannt werden?
+  subFields:
+    - key: 'name'
+      label: Name
+      explanation: Wer kann Auskunft geben?
+      hint: Hinweise der nur beim Focus angezeigt wird.
+    - key: 'organisation'
+      label: Organisation
+      explanation: Wo arbeitet die Person, die Auskunft geben kann?
+      hint: Hinweise der nur beim Focus angezeigt wird.
+    - key: 'email'
+      label: E-Mail
+      explanation: Unter welcher E-Mail-Adresse kann die Person erreicht werden?
+      hint: Hinweise der nur beim Focus angezeigt wird.
+    - key: 'phone'
+      label: Telefon
+      explanation: Unter welcher Telefonnummer kann die Person erreicht werden?
+      hint: Hinweise der nur beim Focus angezeigt wird.
+- key: 'isoMetadata.metadataProfile'
+  label: INSPIRE Relevanz
+  explanation: Ist Ihr Datenbestand von der INSPIRE Richtlinie betroffen oder liegt bereits harmonisiert vor?
+- key: 'clientMetadata.privacy'
+  label: Datenschutz-Einstellungen
+  explanation: z.B. was wurde geändert oder was soll korrigiert werden.
+- key: 'isoMetadata.termsOfUseId'
+  label: Nutzungsbestimmungen
+  explanation: Soll ihr Datenbestand unter der üblichen Nutzungsbestimmung der Datenlizenz Deutschland Version 2 Zero veröffentlicht werden? Falls nicht, wählen sie eine andere Nutzungsbestimmung für ihren Datenbestand.
+- key: 'isoMetadata.inspireTheme'
+  label: INSPIRE Annex Thema
+  explanation: Welchem INSPIRE Thema lässt sich ihr Datenbestand zuordnen?
+- key: 'isoMetadata.inspireAnnexVersion'
+  label: Schema-Version des INSPIRE Themas
+- key: 'clientMetadata.highValueDataset'
+  label: High Value Datensatz
+  explanation: Ist Ihr Datenbestand ein High Value Datensatz im Sinne der EU-Verordnung?
+- key: 'isoMetadata.highValueDataCategory'
+  label: HVD Kategorien
+  explanation: Welchem High Value Thema lässt sich ihr Datenbestand zuordnen?
+- key: 'isoMetadata.topicCategory'
+  label: Themenkategorie
+- key: 'isoMetadata.created'
+  label: Erstellungsdatum
+  explanation: Wann wurden ihre Daten erzeugt oder abgeleitet?
+- key: 'isoMetadata.published'
+  label: Veröffentlichungsdatum
+  explanation: Wann werden/wurden ihre Daten veröffentlicht?
+- key: 'isoMetadata.maintenanceFrequency'
+  label: Pflegeintervall
+  explanation: Werden ihre Daten regelmäßig aktualisiert oder gepflegt?
+- key: 'isoMetadata.modified'
+  label: letzte Aktualisierung
+  explanation: Wann wurden ihre Daten letztmalig aktualisiert (nach der Erstellung)?
+- key: 'isoMetadata.validFrom'
+  label: gültig ab
+  explanation: Haben ihre Daten eine zeitlich begrenzte Gültigkeit?
+- key: 'isoMetadata.validTo'
+  label: gültig bis
+  explanation: Haben ihre Daten eine zeitlich begrenzte Gültigkeit?
+- key: 'technicalMetadata.deliveredCrs'
+  label: geliefertes Koordinatensystem
+  explanation: In welchem Koordinatensystem liegen die räumlichen Informationen ihres Datenbestandes vor?
+- key: 'technicalMetadata.crs'
+  label: abzugebendes Koordinatensystem
+- key: 'isoMetadata.extent'
+  label: Räumliche Ausdehnung
+- key: 'isoMetadata.resolutions'
+  label: Bodenauflösung
+- key: 'isoMetadata.scale'
+  label: Vergleichsmaßstab
+  explanation: In welchem Maßstab wurden ihre Daten erfasst oder in welcher räumlichen Auflösung liegen ihre Daten vor?
+- key: 'isoMetadata.contentDescription'
+  label: Inhaltliche Beschreibung
+  explanation: Hier können Sie Ihre Daten noch ausführlicher beschreiben, indem Sie hier direkt unformatierten Text eintragen oder eine URL zu einem bestehenden Dokument hinzufügen.
+- key: 'isoMetadata.technicalDescription'
+  label: Technische Beschreibung
+- key: 'isoMetadata.lineage'
+  label: Herkunft der Daten
+  explanation: Auf welchen Daten basiert ihr Datenbestand? Woher stammen ihre Daten?
+  subFields:
+    - key: 'title'
+      label: Titel
+      explanation: Titel des Datenbestandes, auf dem ihr Datenbestand basiert.
+    - key: 'date'
+      label: Erstellungsdatum
+      explanation: Wann wurden die Daten veröffentlicht?
+    - key: 'identifier'
+      label: Identifier
+      explanation: Identifier des Datenbestandes, auf dem ihr Datenbestand basiert.
+- key: 'isoMetadata.lineage'
+  label: Herkunft der Daten
+  explanation: Auf welchen Daten basiert ihr Datenbestand? Woher stammen ihre Daten?
+  subFields:
+    - key: 'title'
+      label: Titel
+      explanation: Titel des Datenbestandes, auf dem ihr Datenbestand basiert.
+    - key: 'date'
+      label: Erstellungsdatum
+      explanation: Wann wurden die Daten veröffentlicht?
+    - key: 'identifier'
+      label: Identifier
+      explanation: Identifier des Datenbestandes, auf dem ihr Datenbestand basiert.
+- key: 'isoMetadata.contentDescriptions'
+  label: Weitere Informationen
+  explanation: Gibt es weitere Informationsquellen zu Ihrem Datenbestand im Internet?
+  subFields:
+    - key: 'title'
+      label: Titel
+      explanation: Wie heißt die Informationsquelle?
+    - key: 'url'
+      label: Url
+      explanation: Wo kann die Informationsquelle gefunden werden?
+- key: 'isoMetadata.services'
+  explanation: Hier sollen Angaben zu bereitzustellenden Karten- und Download-Diensten gemacht werden
+  subFields:
+    - key: 'type'
+      label: Typ
+      explanation: Wie heißt die Informationsquelle?
+    - key: 'title'
+      label: Titel
+      explanation: Soll der Titel des Kartendienstes vom Titel des Datenbestandes abweichen? Wenn ja, tragen Sie hier einen anderen Titel ein.
+    - key: 'shortDescription'
+      label: Kurzbeschreibung des Kartendienstes
+      explanation: Soll die Kurzbeschreibung des Kartendienstes von der Kurzbeschreibung des Datenbestandes abweichen? Wenn ja, tragen Sie eine andere Kurzbeschreibung ein.
+    - key: 'serviceIdentification'
+      label: Identifikator des Kartendienstes
+    - key: 'preview'
+      label: Vorschau des Kartendienstes
+      explanation: Soll die Vorschau des Kartendienstes von der Vorschau des Datenbestandes abweichen? Wenn ja, laden Sie ein neues Vorschaubild hoch oder tragen Sie einen Link zu einem Bild ein
+    - key: 'legendImage'
+      label: Gesamtlegende
+      explanation: Tragen Sie hier einen Link zu der Gesamtlegende Ihres Kartendienstes ein
+      subFields:
+        - key: 'format'
+          label: Format
+          explanation: In welchem Format liegt die Gesamtlegende vor?
+        - key: 'url'
+          label: Url
+          explanation: Wo kann die Gesamtlegende gefunden werden?
+        - key: 'width'
+          label: Breite
+          explanation: In welcher Breite wird die Gesamtlegende bereitgestellt?
+        - key: 'height'
+          label: Höhe
+          explanation: In welcher Höhe wird die Gesamtlegende bereitgestellt?
+    - key: 'layers'
+      label: Kartenebenen
+      explanation: Ihr Kartendienst muss mindestens aus einer Ebene bestehen. Geben Sie hier an, wieviele Ebenen ihr Kartendienst hat
+      subFields:
+        - key: 'title'
+          label: Titel der Kartenebene
+          explanation: Wie heißt die Informationsquelle?
+        - key: 'name'
+          label: Name der Kartenebene
+        - key: 'styleName'
+          label: Name des Style
+        - key: 'styleTitle'
+          label: Titel des Styles
+        - key: 'legendImage'
+          label: Legende
+          explanation: Tragen Sie hier einen Link zu einer Legende Ihrer Kartenebene ein
+        - key: 'shortDescription'
+          label: Kurzbeschreibung
+          explanation: Beschreiben sie den Inhalt der Kartenebene kurz und prägnant in 500 Zeichen
+        - key: 'datasource'
+          label: Ablageort der Daten
+          explanation: Wo liegen die Daten für diese Ebene vor? Beschreiben oder verweisen Sie auf den Ablageort bzw. die Datenbank oder Internetressource.
+        - key: 'secondaryDatasource'
+          label: sekundäre Datenhaltung
+    - key: 'featuretypes'
+      explanation: Welche FeatureTypes sind im Dienst enthalten?
+      subFields:
+        - key: 'name'
+          label: Name des FeatureTypes
+        - key: 'title'
+          label: Titel des FeatureTypes
+          explanation: Soll sich der Titel des FeatureType vom Titel der Kartenebene unterscheiden? Wenn ja, dann geben Sie hier einen abweichenden Titel an
+        - key: 'attributes'
+          explanation: Über welche Attribute verfügt ihr FeatureType?
+          subFields:
+            - key: 'name'
+              label: Attribut-Name
+            - key: 'alias'
+              label: Attribut-Alias
+            - key: 'type'
+              label: Attribut-Datentyp
+            - key: 'filterType'
+              label: Attribut-Filter-Typ
+    - key: 'downloads'
+      explanation: Wieviele Downloaddateien liegen vor?
+      subFields:
+        - key: 'title'
+          label: Download-Titel
+        - key: 'type'
+          label: Download-Dateityp
+        - key: 'href'
+          label: Download-URL
+        - key: 'fileSize'
+          label: Download-Dateigröße
