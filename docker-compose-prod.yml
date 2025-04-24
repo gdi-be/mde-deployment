@@ -59,7 +59,7 @@ services:
     # volumes:
     #   - ./mde-keycloak/cacerts:/etc/pki/ca-trust/extracted/java/cacerts:rw,U
   mde-backend:
-    image: ghcr.io/gdi-be/mde-backend:1.3.0
+    image: ghcr.io/gdi-be/mde-backend:3.0.0
     container_name: mde-backend
     hostname: mde-backend
     restart: unless-stopped
@@ -81,7 +81,7 @@ services:
       - ./codelists:/data/codelists:U
     privileged: true
   mde-client:
-    image: ghcr.io/gdi-be/mde-client:3.0.0
+    image: ghcr.io/gdi-be/mde-client:3.5.0
     container_name: mde-client
     hostname: mde-client
     restart: unless-stopped
