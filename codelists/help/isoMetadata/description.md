@@ -11,7 +11,7 @@ Die **"Kurzbeschreibung"** bietet eine kurze, aber prägnante Zusammenfassung de
 Die Welterbekarte Berlin umfasst die Welterbebereiche und die Pufferzonen, sowie die in den Welterbebereichen liegenden Bau- und Gartendenkmale Berlins. Die Welterbegebiete entsprechen den von der UNESCO bestätigten Kartierungen.
 
 #### Sichtbarkeit in Anwendungen
-Die Kurzbeschreibung wird in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup">Geodatensuche Berlin angezeigt<span><img src="https://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_welterbe.gif"></span></a>.
+Die Kurzbeschreibung wird in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup">Geodatensuche Berlin angezeigt<span><img src="https://github.com/gdi-be/mde-deployment/blob/main/codelists/help/previews/description.png"></span></a>.
 
 #### Sichtbarkeit in der ISO
 /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString
