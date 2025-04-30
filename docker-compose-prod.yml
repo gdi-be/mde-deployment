@@ -59,7 +59,7 @@ services:
     # volumes:
     #   - ./mde-keycloak/cacerts:/etc/pki/ca-trust/extracted/java/cacerts:rw,U
   mde-backend:
-    image: ghcr.io/gdi-be/mde-backend:3.0.0
+    image: ghcr.io/gdi-be/mde-backend:3.1.0
     container_name: mde-backend
     hostname: mde-backend
     restart: unless-stopped
@@ -69,6 +69,8 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       KEYCLOAK_HOST: ${KEYCLOAK_HOST}
       KEYCLOAK_REALM: ${KEYCLOAK_REALM}
+      KEYCLOAK_CLIENT_ID: ${KEYCLOAK_CLIENT_ID}
+      KEYCLOAK_CLIENT_SECRET: ${KEYCLOAK_CLIENT_SECRET}
       VARIABLE_FILE: ${VARIABLE_FILE}
       CSW_SERVER: ${CSW_SERVER}
       CSW_USER: ${CSW_USER}
@@ -81,7 +83,7 @@ services:
       - ./codelists:/data/codelists:U
     privileged: true
   mde-client:
-    image: ghcr.io/gdi-be/mde-client:3.5.0
+    image: ghcr.io/gdi-be/mde-client:3.6.0
     container_name: mde-client
     hostname: mde-client
     restart: unless-stopped
