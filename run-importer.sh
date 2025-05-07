@@ -59,5 +59,6 @@ KEYCLOAK_HOST=$KEYCLOAK_HOST \
 "$JAVA_HOME/bin/java" \
   --add-modules jdk.incubator.vector \
   -Dhibernate.search.backend.directory.root=/tmp/lucene \
+  -Dmde.assign-users-on-import=true \
   -jar "$IMPORTER_FILE" \
   -d "$DATA_FOLDER"
