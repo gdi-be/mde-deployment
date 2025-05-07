@@ -58,6 +58,53 @@ services:
     command: ["start", "--proxy-headers", "xforwarded", "--http-enabled", "true"]
     # volumes:
     #   - ./mde-keycloak/cacerts:/etc/pki/ca-trust/extracted/java/cacerts:rw,U
+  mde-gnos:
+    container_name: mde-gnos
+    hostname: mde-gnos
+    image: geonetwork:4.4.7
+    restart: unless-stopped
+    depends_on:
+      - mde-postgres
+      - mde-elasticsearch
+    environment:
+      GN_CONFIG_PROPERTIES: >-
+        -Des.host=mde-elasticsearch
+        -Des.protocol=http
+        -Des.port=9200
+        -Des.url=http://mde-elasticsearch:9200
+        -Dgeonetwork.dir=/var/lib/geonetwork_data
+        -Dgeonetwork.db.type=postgres
+      GEONETWORK_DB_USERNAME: ${POSTGRES_USER}
+      GEONETWORK_DB_PASSWORD: ${POSTGRES_PASSWORD}
+      GEONETWORK_DB_NAME: gnos
+      GEONETWORK_DB_HOST: mde-postgres
+      GEONETWORK_DB_PORT: 5432
+    volumes:
+      - ./gn-public-data:/var/lib/geonetwork-data:rw,U
+      - ./logs/:/var/lib/jetty/logs/:rw,U
+  mde-elasticsearch:
+    image: elasticsearch:8.18.0
+    container_name: mde-elasticsearch
+    hostname: mde-elasticsearch
+    restart: unless-stopped
+    ulimits:
+      memlock:
+        soft: 512000
+        hard: 512000
+      nofile:
+        soft: 65536
+        hard: 65536
+    group_add:
+      - 0
+    environment:
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - xpack.security.enabled=false
+      - xpack.security.enrollment.enabled=false
+    volumes:
+      - ./esdata-public:/usr/share/elasticsearch/data:rw,U
   mde-backend:
     image: ghcr.io/gdi-be/mde-backend:3.1.1
     container_name: mde-backend
@@ -76,10 +123,12 @@ services:
       CSW_USER: ${CSW_USER}
       CSW_PASSWORD: ${CSW_PASSWORD}
       CODELISTS_DIR: ${CODELISTS_DIR}
+      JAVA_TOOL_OPTIONS: "-Dlog4j2.configurationFile=/config/log4j2.properties"
     volumes:
       - ./mde-backend/lucene:/lucene
       - ./mde-backend/keystore/cacerts:/opt/java/openjdk/lib/security/cacerts:U
       - ./mde-backend/variables.json:/variables.json:U
+      - ./mde-backend/log4j2.properties:/config/log4j2.properties
       - ./codelists:/data/codelists:U
     privileged: true
   mde-client:
