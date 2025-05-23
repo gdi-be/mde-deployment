@@ -37,3 +37,9 @@ To configure the keycloak user federation pointing to a AD instance:
 * make sure to configure the correct user DN (e.g. CN=Users,DC=dc,DC=internal)
 * add the `role-ldap-mapper` and configure the ldap roles DN (e.g. CN=Users,DC=dc,DC=internal)
 * add a `user-attribute-ldap-mapper` for the fields `streetAddress`, `telephoneNumber`, `givenName`, `sn`, `mail`, `company` and `l` and add these attributes to the keycloak user model (in case they don't exist). Map `givenName` to `firstName`, `sn` to `lastName`, `l` to `city` and `mail` to `email`
+
+## Troubleshooting
+
+> Metadata is visible in the overview but can't be found in the MetadataSearchField (e.g. Neuerfassung -> Vorlage):
+
+Probably the search index was not created/updated correctly. You can trigger a manula update of the search index by opening /search/index/initialize as a logged in user. This will trigger a full reindex of all metadata.
