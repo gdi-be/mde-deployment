@@ -130,13 +130,13 @@
   explanation: Hier sollen Angaben zu bereitzustellenden Karten- und Download-Diensten gemacht werden
   subFields:
     - key: 'type'
-      label: Typ
+      label: Art des Dienstes
       explanation: Wie heißt die Informationsquelle?
     - key: 'title'
-      label: Titel
+      label: Titel des Dienstes
       explanation: Soll der Titel des Kartendienstes vom Titel des Datenbestandes abweichen? Wenn ja, tragen Sie hier einen anderen Titel ein.
     - key: 'shortDescription'
-      label: Kurzbeschreibung des Kartendienstes
+      label: Kurzbeschreibung des Dienstes
       explanation: Soll die Kurzbeschreibung des Kartendienstes von der Kurzbeschreibung des Datenbestandes abweichen? Wenn ja, tragen Sie eine andere Kurzbeschreibung ein.
     - key: 'serviceIdentification'
       label: Identifikator des Kartendienstes
@@ -169,7 +169,7 @@
         - key: 'name'
           label: Name der Kartenebene
         - key: 'styleName'
-          label: Name des Style
+          label: Name des Styles
         - key: 'styleTitle'
           label: Titel des Styles
         - key: 'legendImage'
