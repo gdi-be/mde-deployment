@@ -139,9 +139,9 @@
       label: Kurzbeschreibung des Dienstes
       explanation: Soll die Kurzbeschreibung des Kartendienstes von der Kurzbeschreibung des Datenbestandes abweichen? Wenn ja, tragen Sie eine andere Kurzbeschreibung ein.
     - key: 'serviceIdentification'
-      label: Identifikator des Kartendienstes
+      label: Arbeitsbereich des Dienstes
     - key: 'preview'
-      label: Vorschau des Kartendienstes
+      label: Vorschau
       explanation: Soll die Vorschau des Kartendienstes von der Vorschau des Datenbestandes abweichen? Wenn ja, laden Sie ein neues Vorschaubild hoch oder tragen Sie einen Link zu einem Bild ein
     - key: 'legendImage'
       label: Gesamtlegende
