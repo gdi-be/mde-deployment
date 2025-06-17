@@ -106,7 +106,7 @@ services:
     volumes:
       - ./esdata-public:/usr/share/elasticsearch/data:rw,U
   mde-backend:
-    image: ghcr.io/gdi-be/mde-backend:3.2.0
+    image: ghcr.io/gdi-be/mde-backend:3.4.1
     container_name: mde-backend
     hostname: mde-backend
     restart: unless-stopped
@@ -132,7 +132,7 @@ services:
       - ./codelists:/data/codelists:U
     privileged: true
   mde-client:
-    image: ghcr.io/gdi-be/mde-client:3.9.0
+    image: ghcr.io/gdi-be/mde-client:3.12.0
     container_name: mde-client
     hostname: mde-client
     restart: unless-stopped
