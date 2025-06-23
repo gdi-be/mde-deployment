@@ -45,7 +45,7 @@ services:
       KEYCLOAK_USER: ${KEYCLOAK_ADMIN}
       KEYCLOAK_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD}
       KC_DB: postgres
-      KC_DB_URL_HOST: mde-postgres
+      KC_DB_URL_HOST: ${POSTGRES_HOST}
       KC_DB_URL_PORT: 5432
       KC_DB_URL_DATABASE: keycloak
       KC_DB_USERNAME: ${POSTGRES_USER}
