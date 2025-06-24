@@ -7,8 +7,8 @@ services:
     restart: unless-stopped
     volumes:
       - ./mde-nginx/prod/default.conf:/etc/nginx/conf.d/default.conf:rw,U
-      - ./mde-nginx/prod/gdi-con-t-server.selfsign.crt:/etc/nginx/ssl/private/gdi-con-t-server.selfsign.crt:U
-      - ./mde-nginx/prod/gdi-con-t-server.key:/etc/nginx/ssl/private/gdi-con-t-server.key:U
+      - ./mde-nginx/prod/gdi-mde-p-server.selfsign.crt:/etc/nginx/ssl/private/localhost.crt:U
+      - ./mde-nginx/prod/gdi-mde-p-server.key:/etc/nginx/ssl/private/localhost.key:U
     ports:
       - 80:80
       - 443:443
@@ -22,25 +22,11 @@ services:
       - mde-backend
       - mde-client
       - mde-keycloak
-  mde-postgres:
-    container_name: mde-postgres
-    hostname: mde-postgres
-    image: postgres:17
-    privileged: true
-    restart: unless-stopped
-    environment:
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-    volumes:
-      - ./mde-postgres/postgresql_data:/var/lib/postgresql/data:rw,U
-      - ./mde-postgres/init_data:/docker-entrypoint-initdb.d
   mde-keycloak:
     container_name: mde-keycloak
     hostname: mde-keycloak
     image: quay.io/keycloak/keycloak:26.0
     restart: unless-stopped
-    depends_on:
-      - mde-postgres
     environment:
       KEYCLOAK_USER: ${KEYCLOAK_ADMIN}
       KEYCLOAK_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD}
@@ -56,16 +42,14 @@ services:
       KC_BOOTSTRAP_ADMIN_USERNAME: ${KEYCLOAK_ADMIN}
       KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD}
     command: ["start", "--proxy-headers", "xforwarded", "--http-enabled", "true"]
-    # volumes:
-    #   - ./mde-keycloak/cacerts:/etc/pki/ca-trust/extracted/java/cacerts:rw,U
   mde-backend:
-    image: ghcr.io/gdi-be/mde-backend:3.4.2
+    image: ghcr.io/gdi-be/mde-backend:3.4.3
     container_name: mde-backend
     hostname: mde-backend
     restart: unless-stopped
-    depends_on:
-      - mde-postgres
     environment:
+      POSTGRES_HOST: ${POSTGRES_HOST}
+      POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       KEYCLOAK_HOST: ${KEYCLOAK_HOST}
       KEYCLOAK_REALM: ${KEYCLOAK_REALM}
