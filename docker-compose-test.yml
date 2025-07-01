@@ -13,7 +13,7 @@ services:
       - 80:80
       - 443:443
     healthcheck:
-      test: ['CMD', 'curl', '-k', '-f', 'https://localhost']
+      test: ["CMD", "curl", "-k", "-f", "https://localhost"]
       interval: 5m
       timeout: 3s
       start_period: 30s
@@ -55,7 +55,8 @@ services:
       KC_HTTP_RELATIVE_PATH: /auth
       KC_BOOTSTRAP_ADMIN_USERNAME: ${KEYCLOAK_ADMIN}
       KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD}
-    command: ["start", "--proxy-headers", "xforwarded", "--http-enabled", "true"]
+    command:
+      ["start", "--proxy-headers", "xforwarded", "--http-enabled", "true"]
     # volumes:
     #   - ./mde-keycloak/cacerts:/etc/pki/ca-trust/extracted/java/cacerts:rw,U
   mde-gnos:
@@ -132,7 +133,7 @@ services:
       - ./codelists:/data/codelists:U
     privileged: true
   mde-client:
-    image: ghcr.io/gdi-be/mde-client:3.15.0
+    image: ghcr.io/gdi-be/mde-client:3.16.0
     container_name: mde-client
     hostname: mde-client
     restart: unless-stopped
