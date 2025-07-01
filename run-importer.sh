@@ -8,6 +8,8 @@ CODELISTS_DIR="./codelists/"
 VARIABLE_FILE="./mde-backend/variables.json"
 IMPORTER_FILE=""
 DB_URL="jdbc:postgresql://localhost:5432/mde"
+DB_USERNAME="postgres"
+DB_PASSWORD="postgres"
 
 # Default-Values for required parameters
 DATA_FOLDER=""
@@ -26,6 +28,8 @@ show_help() {
   echo "  --keycloak-secret     Secret des Keycloak-Clients (erforderlich, wird abgefragt, wenn nicht angegeben)"
   echo "  --keycloak-host       Hostname des Keycloak-Servers (erforderlich)"
   echo "  --db-url=URL          JDBC-URL für die Datenbank (optional, Default: jdbc:postgresql://localhost:5432/mde)"
+  echo "  --db-username=USERNAME   Benutzername für die Datenbank (optional, Default: postgres)"
+  echo "  --db-password=PASSWORD   Passwort für die Datenbank (optional, Default: postgres)"
   echo "  --help                Zeigt diese Hilfe an"
   echo
   echo "Beispiel:"
@@ -44,6 +48,8 @@ while [[ "$#" -gt 0 ]]; do
     --keycloak-secret=*) KEYCLOAK_CLIENT_SECRET="${1#*=}";;
     --keycloak-host=*) KEYCLOAK_HOST="${1#*=}";;
     --db-url=*) DB_URL="${1#*=}";;
+    --db-username=*) DB_USERNAME="${1#*=}";;
+    --db-password=*) DB_PASSWORD="${1#*=}";;
     --help) show_help; exit 0;;
     *) echo "Unbekannter Parameter: $1" >&2; echo; show_help; exit 1;;
   esac
@@ -96,5 +102,7 @@ DB_URL="$DB_URL" \
   -Dhibernate.search.backend.directory.root=/tmp/lucene \
   -Dmde.assign-users-on-import=true \
   -Dspring.datasource.url="$DB_URL" \
+  -Dspring.datasource.username="$DB_USERNAME" \
+  -Dspring.datasource.password="$DB_PASSWORD" \
   -jar "$IMPORTER_FILE" \
   -d "$DATA_FOLDER"
