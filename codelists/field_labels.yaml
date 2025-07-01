@@ -15,7 +15,7 @@
   explanation: z.B. was wurde geändert oder was soll korrigiert werden.
 
 - profileId: 5
-  label: INSPIRE Relevanz
+  label: Metadaten-Typ
   explanation: Ist Ihr Datenbestand von der INSPIRE Richtlinie betroffen oder liegt bereits harmonisiert vor?
 
 - profileId: 6
@@ -42,12 +42,12 @@
   label: letzte Aktualisierung
   explanation: Wann wurden ihre Daten letztmalig aktualisiert (nach der Erstellung)?
 
-- profileId: 12
+- profileId: 12 # Dopplung mit "isoMetadata.validTo"
   key: "isoMetadata.validFrom"
   label: gültig ab
   explanation: Haben ihre Daten eine zeitlich begrenzte Gültigkeit?
 
-- profileId: 12
+- profileId: 12 # Dopplung mit "isoMetadata.validFrom"
   key: "isoMetadata.validTo"
   label: gültig bis
   explanation: Haben ihre Daten eine zeitlich begrenzte Gültigkeit?
@@ -89,7 +89,6 @@
   key: "isoMetadata.extent.maxy"
   label: Maximaler Y-Wert
 
-# Contact Information
 - profileId: 19
   label: Kontaktangaben
   explanation: Welche kann über den Datenbestand Auskunft geben und soll in den Metadaten genannt werden?
@@ -143,7 +142,6 @@
 - profileId: 31
   label: Technische Beschreibung
 
-# Lineage
 - profileId: 32
   label: Herkunft der Daten
   explanation: Auf welchen Daten basiert ihr Datenbestand? Woher stammen ihre Daten?
@@ -153,7 +151,7 @@
   explanation: Titel des Datenbestandes, auf dem ihr Datenbestand basiert.
 
 - profileId: 34
-  label: Erstellungsdatum
+  label: Datum der Veröffentlichung
   explanation: Wann wurden die Daten veröffentlicht?
 
 - profileId: 35
@@ -188,7 +186,6 @@
   label: Url
   explanation: Wo kann die Informationsquelle gefunden werden?
 
-# Services
 - profileId: 40
   label: Dienste
   explanation: Hier sollen Angaben zu bereitzustellenden Karten- und Download-Diensten gemacht werden
@@ -204,33 +201,30 @@
   label: Vorschau des Kartendienstes
   explanation: Soll die Vorschau des Kartendienstes von der Vorschau des Datenbestandes abweichen? Wenn ja, laden Sie ein neues Vorschaubild hoch oder tragen Sie einen Link zu einem Bild ein
 
-# Legend Image
-- profileId: 47
-  key: "isoMetadata.services.legendImage"
+- profileId: 47 # Gesamtlegende
   label: Gesamtlegende
   explanation: Tragen Sie hier einen Link zu der Gesamtlegende Ihres Kartendienstes ein
 
-- profileId: 47
+- profileId: 47 # Subfelder von Gesamtlegende noch nicht im Metadateprofil
   key: "isoMetadata.services.legendImage.format"
   label: Format
   explanation: In welchem Format liegt die Gesamtlegende vor?
 
-- profileId: 47
+- profileId: 47 # Subfelder von Gesamtlegende noch nicht im Metadateprofil
   key: "isoMetadata.services.legendImage.url"
   label: Url
   explanation: Wo kann die Gesamtlegende gefunden werden?
 
-- profileId: 47
+- profileId: 47 # Subfelder von Gesamtlegende noch nicht im Metadateprofil
   key: "isoMetadata.services.legendImage.width"
   label: Breite
   explanation: In welcher Breite wird die Gesamtlegende bereitgestellt?
 
-- profileId: 47
+- profileId: 47 # Subfelder von Gesamtlegende noch nicht im Metadateprofil
   key: "isoMetadata.services.legendImage.height"
   label: Höhe
   explanation: In welcher Höhe wird die Gesamtlegende bereitgestellt?
 
-# Layers
 - profileId: 48
   label: Kartenebenen
   explanation: Ihr Kartendienst muss mindestens aus einer Ebene bestehen. Geben Sie hier an, wieviele Ebenen ihr Kartendienst hat
@@ -244,7 +238,7 @@
   label: Name der Kartenebene
 
 - profileId: 51
-  label: Name des Styles
+  label: Name des Style
 
 - profileId: 52
   label: Titel des Styles
@@ -266,20 +260,19 @@
 
 # profileId: 57 entfällt (Anzahl der Downloaddienste)
 
-- profileId: 58
+- profileId: 58 # Umfasst alle Typen WMS, WMTS, WFS, ATOM
   label: Typ
   explanation: In welcher Form soll der Dienst angeboten werden?
 
-- profileId: 59
+- profileId: 59 # und 43
   label: Titel
   explanation: Soll der Titel des Kartendienstes vom Titel des Datenbestandes abweichen? Wenn ja, tragen Sie hier einen anderen Titel ein.
 
-- profileId: 60
+- profileId: 60 # und 44
   label: Kurzbeschreibung des Kartendienstes
   explanation: Soll die Kurzbeschreibung des Kartendienstes von der Kurzbeschreibung des Datenbestandes abweichen? Wenn ja, tragen Sie eine andere Kurzbeschreibung ein.
 
-# Feature Types
-- profileId: 61
+- profileId: 61 # Dopplung mit "downloads"
   label: FeatureTypes
   explanation: Welche FeatureTypes sind im Dienst enthalten?
 
@@ -290,7 +283,6 @@
 - profileId: 63
   label: Name des FeatureTypes
 
-# Attributes
 - profileId: 64
   label: Attribute
   explanation: Über welche Attribute verfügt ihr FeatureType?
@@ -307,10 +299,9 @@
 - profileId: 68
   label: Attribut-Filter-Typ
 
-# Downloads
-- profileId: 61
+- profileId: 61 # Dopplung mit "featuretypes"
   label: Downloads
-  explanation: Wieviele Downloaddateien liegen vor?
+  key: isoMetadata.services.downloads
 
 - profileId: 69
   label: Download-Titel
