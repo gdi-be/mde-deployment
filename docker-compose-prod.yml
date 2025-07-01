@@ -43,7 +43,7 @@ services:
       KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD}
     command: ["start", "--proxy-headers", "xforwarded", "--http-enabled", "true"]
   mde-backend:
-    image: ghcr.io/gdi-be/mde-backend:3.4.3
+    image: ghcr.io/gdi-be/mde-backend:3.6.1
     container_name: mde-backend
     hostname: mde-backend
     restart: unless-stopped
@@ -67,7 +67,7 @@ services:
       - ./codelists:/data/codelists:U
     privileged: true
   mde-client:
-    image: ghcr.io/gdi-be/mde-client:3.12.1
+    image: ghcr.io/gdi-be/mde-client:3.15.0
     container_name: mde-client
     hostname: mde-client
     restart: unless-stopped
