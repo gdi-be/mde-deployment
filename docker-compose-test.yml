@@ -107,13 +107,14 @@ services:
     volumes:
       - ./esdata-public:/usr/share/elasticsearch/data:rw,U
   mde-backend:
-    image: ghcr.io/gdi-be/mde-backend:3.6.1
+    image: ghcr.io/gdi-be/mde-backend:3.7.1
     container_name: mde-backend
     hostname: mde-backend
     restart: unless-stopped
     depends_on:
       - mde-postgres
     environment:
+      POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       KEYCLOAK_HOST: ${KEYCLOAK_HOST}
       KEYCLOAK_REALM: ${KEYCLOAK_REALM}
