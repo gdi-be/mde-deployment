@@ -1,4 +1,4 @@
-- id: 1
+- id: 16
   shortname: Dienstgebrauch
   active: true
   description: Nur für den Dienstgebrauch gemäß GG0 I §45
@@ -8,7 +8,7 @@
   openData: false
   note: nach GG0 I §51 "Schriftstücke" dürfen Außenstehenden (auch Behörden außerhalb der Berliner Verwaltung) nur mit Genehmigung der herausgebenden Stelle zugänglich gemacht werden“
 
-- id: 2
+- id: 17
   shortname: Dienstgebrauch Aufgaben
   active: true
   description: Nur für den Dienstgebrauch zur Erfüllung der nachzuweisenden gesetzlichen Aufgaben
@@ -17,7 +17,7 @@
   openData: false
   note: z. B. DOP10, Zugang nur nach Benennung der gesetzlichen Aufgabe und Notwendigkeit, keine Visualisierung im Portal
 
-- id: 3
+- id: 18
   shortname: Dienstgebrauch und PD
   active: true
   description: Nur für den Dienstgebrauch gemäß GG0 I §45; Karte enthält personenbezogene Daten nach EU-DSGVO.
@@ -26,7 +26,7 @@
   openData: false
   note: gewerbliche Potentialflächen (K. Ziesing) mit 17 vereinheitlichen???
 
-- id: 4
+- id: 15
   shortname: Baufertigstellungen
   active: true
   description: "Nutzungsbedingungen: Der Datenbestand unterliegt den Bestimmungen des HBauStatG (Gesetz über die Statistik der Bautätigkeit im Hochbau und die Fortschreibung des Wohnungsbestandes). Die Nutzung der Geodaten ist nur für dienstliche Zwecke entsprechend den Vorgaben des HBauStatG (§ 9) gestattet. © Amt für Statistik Berlin-Brandenburg, Potsdam."
