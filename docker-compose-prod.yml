@@ -61,10 +61,12 @@ services:
       CSW_USER: ${CSW_USER}
       CSW_PASSWORD: ${CSW_PASSWORD}
       CODELISTS_DIR: ${CODELISTS_DIR}
+      JAVA_TOOL_OPTIONS: "-Dlog4j2.configurationFile=/config/log4j2.properties"
     volumes:
       - ./mde-backend/lucene:/lucene
       - ./mde-backend/keystore/cacerts:/opt/java/openjdk/lib/security/cacerts:U
       - ./mde-backend/variables.json:/variables.json:U
+      - ./mde-backend/log4j2.properties:/config/log4j2.properties
       - ./codelists:/data/codelists:U
     privileged: true
   mde-client:
