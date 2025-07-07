@@ -195,7 +195,7 @@
 # profileId: 43 und 44 werden von 59 und 60 abgedeckt
 
 - profileId: 45
-  label: Identifikator des Kartendienstes
+  label: Identifikator des Dienstes
 
 - profileId: 46
   label: Vorschau des Kartendienstes
