@@ -45,8 +45,6 @@
     Der Datenbestand wird unter der Lizenz CC-BY-3.0-Namensnennung veröffentlicht (vgl. https://creativecommons.org/licenses/by/3.0/de/). Der Quellenvermerk gemäß Abschnitt 3a der Lizenz lautet "[Quelle] / [Titel des Datensatzes]".
   matchStrings:
     - Der Datenbestand wird unter der Lizenz CC-BY-3.0-Namensnennung veröffentlicht (vgl. https://creativecommons.org/licenses/by/3.0/de/). Der Quellenvermerk gemäß Abschnitt 3a der Lizenz lautet "[Quelle] / [Titel des Datensatzes]".
-    - "Der Datenbestand wird unter der Lizenz CC-BY-3.0-Namensnennung veröffentlicht (vgl. https://creativecommons.org/licenses/by/3.0/de/). Als Urheber ist dabei zu nennen: Amt für Statistik Berlin-Brandenburg 2025"
-    - "{\"id\": \"CC BY 3.0 DE\" , \"name\": \"Creative Commons - Namensnennung 3.0 Deutschland\", \"url\": \"https://creativecommons.org/licenses/by/3.0/de/\", \"quelle\": \"Amt für Statistik Berlin-Brandenburg\" }"
   openData: true
   json:
     id: cc-by-de/3.0
@@ -153,6 +151,7 @@
     - "Der Datenbestand wird unter der Lizenz CC-BY-3.0-Namensnennung veröffentlicht (vgl. https://creativecommons.org/licenses/by/3.0/de/). Als Urheber ist dabei zu nennen: Amt für Statistik Berlin-Brandenburg"
     - "Der Datenbestand wird unter der Lizenz CC-BY-3.0-Namensnennung veröffentlicht (vgl. https://creativecommons.org/licenses/by/3.0/de/). Als Urheber ist dabei zu nennen: Amt für Statistik Berlin-Brandenburg 2024"
     - "Der Datenbestand wird unter der Lizenz CC-BY-3.0-Namensnennung veröffentlicht (vgl. https://creativecommons.org/licenses/by/3.0/de/). Als Urheber ist dabei zu nennen: Amt für Statistik Berlin-Brandenburg 2023"
+    - "Der Datenbestand wird unter der Lizenz CC-BY-3.0-Namensnennung veröffentlicht (vgl. https://creativecommons.org/licenses/by/3.0/de/). Als Urheber ist dabei zu nennen: Amt für Statistik Berlin-Brandenburg 2025"
     - "{\"id\": \"CC BY 3.0 DE\" , \"name\": \"Creative Commons - Namensnennung 3.0 Deutschland\", \"url\": \"https://creativecommons.org/licenses/by/3.0/de/\", \"quelle\": \"Amt für Statistik Berlin-Brandenburg 2025\" }"
     - "{\"id\": \"CC BY 3.0 DE\" , \"name\": \"Creative Commons - Namensnennung 3.0 Deutschland\", \"url\": \"https://creativecommons.org/licenses/by/3.0/de/\", \"quelle\": \"Amt für Statistik Berlin-Brandenburg 2024\" }"
     - "{\"id\": \"CC BY 3.0 DE\" , \"name\": \"Creative Commons - Namensnennung 3.0 Deutschland\", \"url\": \"https://creativecommons.org/licenses/by/3.0/de/\", \"quelle\": \"Amt für Statistik Berlin-Brandenburg 2023\" }"
