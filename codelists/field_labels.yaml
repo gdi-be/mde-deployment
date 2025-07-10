@@ -269,7 +269,7 @@
   explanation: Soll der Titel des Kartendienstes vom Titel des Datenbestandes abweichen? Wenn ja, tragen Sie hier einen anderen Titel ein.
 
 - profileId: 60 # und 44
-  label: Kurzbeschreibung des Kartendienstes
+  label: Kurzbeschreibung des Dienstes
   explanation: Soll die Kurzbeschreibung des Kartendienstes von der Kurzbeschreibung des Datenbestandes abweichen? Wenn ja, tragen Sie eine andere Kurzbeschreibung ein.
 
 - profileId: 61 # Dopplung mit "downloads"
