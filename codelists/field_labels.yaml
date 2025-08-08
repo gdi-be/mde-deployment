@@ -124,11 +124,11 @@
   explanation: Bitte ändern sie die Quellenangabe der Nutzungsbestimmungen, wenn das für ihren Datenbestandnotwendig ist.
 
 - profileId: 27
-  label: Vergleichsmaßstab
+  label: Vergleichsmaßstab 1:
   explanation: In welchem Maßstab wurden ihre Daten erfasst oder in welcher räumlichen Auflösung liegen ihre Daten vor?
 
 - profileId: 28
-  label: Bodenauflösung
+  label: Bodenauflösung in Metern
 
 - profileId: 29
   label: Vorschaubild
