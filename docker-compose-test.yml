@@ -31,6 +31,8 @@ services:
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - 5432:5432
     volumes:
       - ./mde-postgres/postgresql_data:/var/lib/postgresql/data:rw,U
       - ./mde-postgres/init_data:/docker-entrypoint-initdb.d
@@ -81,13 +83,15 @@ services:
       GEONETWORK_DB_HOST: mde-postgres
       GEONETWORK_DB_PORT: 5432
     volumes:
-      - ./gn-public-data:/var/lib/geonetwork-data:rw,U
-      - ./logs/:/var/lib/jetty/logs/:rw,U
+      - ./gn-public-data:/var/lib/geonetwork-data:z
+      - ./logs/:/var/lib/jetty/logs/:z
   mde-elasticsearch:
     image: elasticsearch:8.18.0
     container_name: mde-elasticsearch
     hostname: mde-elasticsearch
     restart: unless-stopped
+    ports:
+      - 9200:9200
     ulimits:
       memlock:
         soft: 512000
@@ -105,7 +109,7 @@ services:
       - xpack.security.enabled=false
       - xpack.security.enrollment.enabled=false
     volumes:
-      - ./esdata-public:/usr/share/elasticsearch/data:rw,U
+      - ./esdata-public:/usr/share/elasticsearch/data:z
   mde-backend:
     image: ghcr.io/gdi-be/mde-backend:3.8.6
     container_name: mde-backend
