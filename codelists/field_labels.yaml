@@ -124,7 +124,7 @@
   explanation: Bitte ändern sie die Quellenangabe der Nutzungsbestimmungen, wenn das für ihren Datenbestandnotwendig ist.
 
 - profileId: 27
-  label: Vergleichsmaßstab 1:
+  label: Vergleichsmaßstab
   explanation: In welchem Maßstab wurden ihre Daten erfasst oder in welcher räumlichen Auflösung liegen ihre Daten vor?
 
 - profileId: 28
