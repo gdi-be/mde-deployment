@@ -6,8 +6,10 @@ isoMetadata:
     Editor: "isoMetadata/title.redakteur.md"
     default: "isoMetadata/title.md"
   description:
-    Editor: "isoMetadata/description.redakteur.md"
     default: "isoMetadata/description.md"
   keywords:
-    Editor: "isoMetadata/keywords.redakteur.md"
     default: "isoMetadata/keywords.md"
+  preview:
+    default: "isoMetadata/preview.md"
+  pointsOfContact:
+    default: "isoMetadata/pointsOfContact.md"
