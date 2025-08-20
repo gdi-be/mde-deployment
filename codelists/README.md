@@ -81,6 +81,8 @@ Die folgende Tabelle zeigt die Zuordnung der Felder zu den Metadaten-Elementen. 
 Über die ID werden sowohl die codeseitige fixe FieldConfig (Validierung, Kopierfunktion, ...), als auch die Labels aus
 der `field_labels.yaml` zugeordnet.
 
+Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppelt vor.
+
 | ID   | Bezeichnung                         | Key                                                  |
 | ---- | ----------------------------------- | ---------------------------------------------------- |
 | 1    | Titel                               | isoMetadata.title                                    |
