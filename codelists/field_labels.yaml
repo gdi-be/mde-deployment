@@ -91,7 +91,7 @@
 
 - profileId: 19
   label: Kontaktangaben
-  explanation: Welche kann über den Datenbestand Auskunft geben und soll in den Metadaten genannt werden?
+  explanation: Welche Person kann über den Datenbestand Auskunft geben und soll in den Metadaten genannt werden?
 
 - profileId: 20
   label: Name
