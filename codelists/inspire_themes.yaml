@@ -1,68 +1,160 @@
 - key: "AD"
   label: "Adressen"
+  schemaNames:
+    - "Addresses GML Application Schema"
 - key: "AC"
   label: "Atmosphärische Bedingungen"
+  schemaNames:
+    - "AtmosphericConditions GML Application Schema"
 - key: "AM"
   label: "Bewirtschaftungsgebiete/Schutzgebiete/geregelte Gebiete und Berichterstattungseinheiten"
+  schemaNames:
+    - "AreaManagementRestrictionAndRegulationZones GML Application Schema"
 - key: "BR"
   label: "Biogeografische Regionen"
+  schemaNames:
+    - "BioGeographicalRegions GML Application Schema"
 - key: "SO"
   label: "Boden"
+  schemaNames:
+    - "Soil GML Application Schema"
 - key: "LC"
   label: "Bodenbedeckung"
+  schemaNames:
+    - "LandCoverDataset GML Application Schema"
+    - "LandCoverClassification GML Application Schema"
 - key: "LU"
   label: "Bodennutzung"
+  schemaNames:
+    - "LandUse GML Application Schema"
+    - "ExistingLandUse GML Application Schema"
+    - "GriddedLandUse GML Application Schema"
+    - "SampledLandUse GML Application Schema"
+    - "PlannedLandUse GML Application Schema"
 - key: "ER"
   label: "Energiequellen"
+  schemaNames:
+    - "EnergyResourcesVector GML Application Schema"
+    - "EnergyResourcesCoverage GML Application Schema"
+    - "EnergyResourcesBase GML Application Schema"
 - key: "CP"
   label: "Flurstücke/Grundstücke (Katasterparzellen)"
+  schemaNames:
+    - "CadastralParcels GML Application Schema"
 - key: "BU"
   label: "Gebäude"
+  schemaNames:
+    - "Buildings GML Application Schema"
 - key: "NZ"
   label: "Gebiete mit naturbedingten Risiken"
+  schemaNames:
+    - "NaturalRiskZones GML Application Schema"
 - key: "GN"
   label: "Geografische Bezeichnungen"
+  schemaNames:
+    - "GeographicalNames GML Application Schema"
 - key: "GG"
   label: "Geografische Gittersysteme"
+  schemaNames:
+    - "GeographicalGridSystems GML Application Schema"
 - key: "GE"
   label: "Geologie"
+  schemaNames:
+    - "GeologicUnit GML Application Schema"
+    - "GeomorphologicFeature GML Application Schema"
+    - "GeologicStructure GML Application Schema"
+    - "Borehole GML Application Schema"
 - key: "HH"
   label: "Gesundheit und Sicherheit"
+  schemaNames:
+    - "HumanHealth GML Application Schema"
 - key: "HY"
   label: "Gewässernetz"
+  schemaNames:
+    - "HydroBase GML Application Schema"
+    - "HydroNetwork GML Application Schema"
+    - "HydroPhysicalWaters GML Application Schema"
 - key: "EL"
   label: "Höhe"
+  schemaNames:
+    - "Elevation GML Application Schema"
 - key: "RS"
   label: "Koordinatenreferenzsysteme"
+  schemaNames:
+    - "ReferenceSystems GML Application Schema"
 - key: "AF"
   label: "Landwirtschaftliche Anlagen und Aquakulturanlagen"
+  schemaNames:
+    - "AgriculturalAndAquacultureFacilities GML Application Schema"
 - key: "HB"
   label: "Lebensräume und Biotope"
+  schemaNames:
+    - "HabitatsAndBiotopes GML Application Schema"
 - key: "SR"
   label: "Meeresregionen"
+  schemaNames:
+    - "SeaRegions GML Application Schema"
 - key: "MF"
   label: "Meteorologisch-geografische Kennwerte"
+  schemaNames:
+    - "MeteorologicalFeatures GML Application Schema"
 - key: "MR"
   label: "Mineralische Bodenschätze"
+  schemaNames:
+    - "MineralResources GML Application Schema"
 - key: "OI"
   label: "Orthofotografie"
+  schemaNames:
+    - "Orthoimagery GML Application Schema"
 - key: "OF"
   label: "Ozeanografisch-geografische Kennwerte"
+  schemaNames:
+    - "OceanGeographicalFeatures GML Application Schema"
 - key: "PF"
   label: "Produktions- und Industrieanlagen"
+  schemaNames:
+    - "ProductionAndIndustrialFacilities GML Application Schema"
 - key: "PS"
   label: "Schutzgebiete"
+  schemaNames:
+    - "ProtectedSites GML Application Schema"
 - key: "SU"
   label: "Statistische Einheiten"
+  schemaNames:
+    - "StatisticalUnits GML Application Schema"
 - key: "EF"
   label: "Umweltüberwachung"
+  schemaNames:
+    - "EnvironmentalMonitoringFacilities GML Application Schema"
 - key: "TN"
   label: "Verkehrsnetze"
+  schemaNames:
+    - "RoadTransport GML Application Schema"
+    - "RailTransport GML Application Schema"
+    - "AirTransport GML Application Schema"
+    - "WaterTransport GML Application Schema"
+    - "CommonTransportElements GML Application Schema"
 - key: "US"
   label: "Versorgungswirtschaft und staatliche Dienste"
+  schemaNames:
+    - "CommonUtilityElements GML Application Schema"
+    - "ElectricityNetwork GML Application Schema"
+    - "OilGasChemicalNetwork GML Application Schema"
+    - "SewerNetwork GML Application Schema"
+    - "ThermalNetwork GML Application Schema"
+    - "WaterNetwork GML Application Schema"
+    - "AdministrativeSocialGovernmentServices GML Application Schema"
+    - "EnvironmentalManagementFacilities GML Application Schema"
 - key: "SD"
   label: "Verteilung der Arten"
+  schemaNames:
+    - "SpeciesDistribution GML Application Schema"
 - key: "PD"
   label: "Verteilung der Bevölkerung — Demografie"
+  schemaNames:
+    - "PopulationDistribution GML Application Schema"
 - key: "AU"
   label: "Verwaltungseinheiten"
+  schemaNames:
+    - "AdministrativeUnits GML Application Schema"
+    - "MaritimeUnits GML Application Schema"
