@@ -304,7 +304,7 @@
   key: isoMetadata.services.downloads
 
 - profileId: 69
-  label: Download-Titel
+  label: Kurzbeschreibung des FeatureTypes
 
 - profileId: 70
   label: Download-Dateityp
