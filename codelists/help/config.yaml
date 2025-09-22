@@ -13,6 +13,8 @@ isoMetadata:
     default: "isoMetadata/preview.md"
   pointsOfContact:
     default: "isoMetadata/pointsOfContact.md"
+  metadataProfile:
+    default: "isoMetadata/metadataProfile.md"
 clientMetadata:
   comments:
     default: "clientMetadata/comments.md"
