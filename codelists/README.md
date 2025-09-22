@@ -96,24 +96,23 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 9    | Erstellung                             | isoMetadata.created                                  |
 | 10   | Veröffentlichung                       | isoMetadata.published                                |
 | 11   | Aktualisierung                         | isoMetadata.modified                                 |
-| 12\* | gültig ab                              | isoMetadata.validFrom                                |
-| 12\* | gültig bis                             | isoMetadata.validTo                                  |
+| 12   | gültig ab                              | isoMetadata.validFrom                                |
+| 24   | gültig bis                             | isoMetadata.validTo                                  |
 | 13   | Kategorie                              | isoMetadata.topicCategory                            |
 | 14   | Pflege                                 | isoMetadata.maintenanceFrequency                     |
 | 15   | Schlagwörter                           | isoMetadata.keywords                                 |
 | 16   | CRS-IN                                 | technicalMetadata.deliveredCrs                       |
 | 17   | CRS-OUT                                | isoMetadata.crs                                      |
-| 18\* | Ausdehnung                             | isoMetadata.extent                                   |
-| 18\* | \_ Minimaler X-Wert                    | isoMetadata.extent.minx                              |
-| 18\* | \_ Maximaler X-Wert                    | isoMetadata.extent.maxx                              |
-| 18\* | \_ Minimaler Y-Wert                    | isoMetadata.extent.miny                              |
-| 18\* | \_ Maximaler Y-Wert                    | isoMetadata.extent.maxy                              |
+| 18   | Ausdehnung                             | isoMetadata.extent                                   |
+| 71   | \_ Minimaler X-Wert                    | isoMetadata.extent.minx                              |
+| 72   | \_ Maximaler X-Wert                    | isoMetadata.extent.maxx                              |
+| 73   | \_ Minimaler Y-Wert                    | isoMetadata.extent.miny                              |
+| 74   | \_ Maximaler Y-Wert                    | isoMetadata.extent.maxy                              |
 | 19   | Kontaktangaben                         | isoMetadata.pointsOfContact                          |
 | 20   | \_ Name                                | isoMetadata.pointsOfContact.name                     |
 | 21   | \_ Organisation                        | isoMetadata.pointsOfContact.organisation             |
 | 22   | \_ E-Mailadresse                       | isoMetadata.pointsOfContact.email                    |
 | 23   | \_ Telefonnummer                       | isoMetadata.pointsOfContact.phone                    |
-| 24   | NB                                     | _ENTFÄLLT_                                           |
 | 25   | Auswahl-NB                             | isoMetadata.termsOfUseId                             |
 | 26   | Quelle-NB                              | isoMetadata.termsOfUseSource                         |
 | 27   | Maßstab                                | isoMetadata.scale                                    |
@@ -128,22 +127,19 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 36   | Verwandte Themen (MTK)                 | clientMetadata.relatedTopics                         |
 | 37   | Überprüfung                            | isoMetadata.valid                                    |
 | 38   | Schema-Version                         | isoMetadata.inspireAnnexVersion                      |
-| 39\* | Weitere Informationen                  | isoMetadata.contentDescriptions                      |
-| 39\* | \_ Titel                               | isoMetadata.contentDescriptions.title                |
-| 39\* | \_ Code                                | isoMetadata.contentDescriptions.code                 |
-| 39\* | \_ URL                                 | isoMetadata.contentDescriptions.url                  |
+| 70   | Schema-Name                            |                                                      |
+| 41   | Weitere Informationen                  | isoMetadata.contentDescriptions                      |
+| 42   | \_ Titel                               | isoMetadata.contentDescriptions.title                |
+| 43   | \_ Code                                | isoMetadata.contentDescriptions.code                 |
+| 44   | \_ URL                                 | isoMetadata.contentDescriptions.url                  |
 | 40   | Dienste                                | isoMetadata.services                                 |
-| 41   | \_ WMTS                                | _ENTFÄLLT (enthalten in 58)_                         |
-| 42   | \_ DienstID WMTS                       | _ENTFÄLLT_                                           |
-| 43   | \_ Titel des Dienstes                  | _ENTFÄLLT (zusammengeführt mit 59)_                  |
-| 44   | \_ Kurzbeschreibung des Dienst         | _ENTFÄLLT (zusammengeführt mit 60)_                  |
 | 45   | \_ Identifikator des Kartendienstes    | isoMetadata.services.workspace                       |
 | 46   | \_ Vorschau des Kartendienstes         | isoMetadata.services.preview                         |
-| 47\* | \_ Gesamtlegende                       | isoMetadata.services.legendImage                     |
-| 47\* | \_ Gesamtlegende URL                   | isoMetadata.services.legendImage.url                 |
-| 47\* | \_ Gesamtlegende Format                | isoMetadata.services.legendImage.format              |
-| 47\* | \_ Gesamtlegende Width                 | isoMetadata.services.legendImage.width               |
-| 47\* | \_ Gesamtlegende Height                | isoMetadata.services.legendImage.height              |
+| 47   | \_ Gesamtlegende                       | isoMetadata.services.legendImage                     |
+| 75   | \_ Gesamtlegende URL                   | isoMetadata.services.legendImage.url                 |
+| 76   | \_ Gesamtlegende Format                | isoMetadata.services.legendImage.format              |
+| 77   | \_ Gesamtlegende Width                 | isoMetadata.services.legendImage.width               |
+| 78   | \_ Gesamtlegende Height                | isoMetadata.services.legendImage.height              |
 | 48   | \_ Kartenebenen                        | clientMetadata.layers                                |
 | 49   | \_ Titel der Kartenebene               | clientMetadata.layers.title                          |
 | 50   | \_ Name der Kartenebene                | clientMetadata.layers.name                           |
@@ -153,7 +149,6 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 54   | \_ Kurzbeschreibung                    | clientMetadata.layers.shortDescription               |
 | 55   | \_ Ablageort der Daten                 | clientMetadata.layers.datasource                     |
 | 56   | \_ sekundäre Datenhaltung              | clientMetadata.layers.secondaryDatasource            |
-| 57   | Anzahl der Downloaddienste             | _ENTFÄLLT_                                           |
 | 58   | \_ Typ                                 | isoMetadata.services.serviceType                     |
 | 59   | \_ Titel                               | isoMetadata.services.title                           |
 | 60   | \_ Kurzbeschreibung                    | isoMetadata.services.shortDescription                |
@@ -166,6 +161,3 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 66   | \_\_\_ Attribut-Alias                  | isoMetadata.services.featureTypes.columns.alias      |
 | 67   | \_\_\_ Attribut-Datentyp               | isoMetadata.services.featureTypes.columns.type       |
 | 68   | \_\_\_ Attribut-Filter-Typ             | isoMetadata.services.featureTypes.columns.filterType |
-| 70   | \_\_ Download-Dateityp                 | _ENTFÄLLT_                                           |
-| 71   | \_\_ Download-URL                      | _ENTFÄLLT_                                           |
-| 72   | \_\_ Download-Dateigröße               | _ENTFÄLLT_                                           |
