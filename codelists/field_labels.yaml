@@ -307,7 +307,7 @@
   label: Kurzbeschreibung des FeatureTypes
 
 - profileId: 70
-  label: Download-Dateityp
+  label: Schema Name des INSPIRE Themas
 
 - profileId: 71
   label: Download-URL
