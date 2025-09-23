@@ -12,4 +12,5 @@ Welterbestätten: https://www.berlin.de/landesdenkmalamt/welterbe/welterbestaett
 #### Sichtbarkeit in Anwendungen
 Die weiteren Informationen werden in der Geodatensuche Berlin angezeigt.
 
+#### Sichtbarkeit in der ISO
 /gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL
