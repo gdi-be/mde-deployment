@@ -25,6 +25,8 @@ isoMetadata:
     default: "isoMetadata/termsOfUseId.md"
   termsOfUseSource:
     default: "isoMetadata/termsOfUseSource.md"
+  topicCategory:
+    default: "isoMetadata/topicCategory.md"
   created:
     default: "isoMetadata/created.md"
   published:
