@@ -12,4 +12,5 @@ Die Welterbekarte Berlin umfasst die Welterbebereiche und die Pufferzonen sowie 
 #### Sichtbarkeit in Anwendungen
 Die Kurzbeschreibung des Dienstes wird in der Geodatensuche Berlin angezeigt und ist mit der Suchfunktion durchsuchbar.
 
+#### Sichtbarkeit in der ISO
 /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString
