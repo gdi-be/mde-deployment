@@ -32,7 +32,7 @@ Schlösser und Parks von Potsdam und Berlin
 Museumsinsel Berlin
 
 #### Sichtbarkeit in Anwendungen
-Die Schlagworte werden in der [Geodatensuche Berlin angezeigt](https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d).
+Die Schlagworte werden in der [Geodatensuche Berlin angezeigt](https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d) und sind mit der Suchfunktion durchsuchbar.
 
 #### Sichtbarkeit in der ISO
 /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString
