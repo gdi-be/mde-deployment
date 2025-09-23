@@ -1,16 +1,16 @@
-## Pflegeintervall
+## Gültigkeitszeitraum
 
 #### Erläuterung
-In welchen Zeitabständen wird der Datenbestand überarbeitet bzw. aktualisiert (z.B. täglich, alle 14 Tage, jährlich, bei Bedarf)?
+Die Angabe ist nur einzutragen, falls eine zeitliche Gültigkeitsdauer existiert.
 
 #### Hinweise
-* Das Aktualisierungsdatum im Formular aktualisiert sich in dem hier gewählten Intervall automatisch mit.
+* Das Datumsformat ist durch den ISO-Metadatenstandard vorgegeben: TT.MM.JJJJ
 
 #### Beispiel
-bei Bedarf
+gültig ab 14.08.2024, gültig bis heute
 
 #### Sichtbarkeit in Anwendungen
-Der Pflegeintervall wird im Geoportal Berlin und der Geodatensuche Berlin angezeigt. Es ist mit der Suchfunktion suchbar.
+Der Gültigkeitszeitraum wird in der Geodatensuche Berlin angezeigt. Er ist mit der Suchfunktion suchbar.
 
 #### Sichtbarkeit in der ISO
-/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency/gmd:MD_MaintenanceFrequencyCode/@codeListValue
+/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/
