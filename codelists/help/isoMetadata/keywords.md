@@ -1,5 +1,6 @@
 ## Schlagwörter
 
+#### Erläuterung
 Im Feld "Schlagwörter" sollen thematische Begriffe angegeben werden, die den Inhalt des Datenbestands präzise beschreiben. Diese Schlagwörter erleichtern das Auffinden des Datensatzes über Suchfunktionen und tragen zur besseren Kategorisierung bei.
 
 #### Hinweise
