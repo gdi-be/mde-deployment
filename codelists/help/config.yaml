@@ -15,6 +15,49 @@ isoMetadata:
     default: "isoMetadata/pointsOfContact.md"
   metadataProfile:
     default: "isoMetadata/metadataProfile.md"
+  inspireTheme:
+    default: "isoMetadata/inspireTheme.md"
+  inspireAnnexName:
+    default: "isoMetadata/inspireAnnexName.md"
+  inspireAnnexVersion:
+    default: "isoMetadata/inspireAnnexVersion.md"
+  termsOfUseId:
+    default: "isoMetadata/termsOfUseId.md"
+  termsOfUseSource:
+    default: "isoMetadata/termsOfUseSource.md"
+  created:
+    default: "isoMetadata/created.md"
+  published:
+    default: "isoMetadata/published.md"
+  maintenanceFrequency:
+    default: "isoMetadata/maintenanceFrequency.md"
+  modified:
+    default: "isoMetadata/modified.md"
+  validFrom:
+    default: "isoMetadata/validFrom.md"
+  crs:
+    default: "isoMetadata/crs.md"
+  extent:
+    default: "isoMetadata/extent.md"
+  resolutions:
+    default: "isoMetadata/resolutions.md"
+  contentDescription:
+    default: "isoMetadata/contentDescription.md"
+  technicalDescription:
+    default: "isoMetadata/technicalDescription.md"
+  lineage:
+    default: "isoMetadata/lineage.md"
+  contentDescriptions:
+    default: "isoMetadata/contentDescriptions.md"
+    
 clientMetadata:
+  privacy:
+    default: "clientMetadata/privacy.md"
+  highValueDataset:
+    default: "isoMetadata/highValueDataset.md"
   comments:
     default: "clientMetadata/comments.md"
+
+technicalMetadata:
+  deliveredCrs:
+    default: "technicalMetadata/deliveredCrs.md"
