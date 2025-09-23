@@ -13,4 +13,5 @@ welterbe
 #### Sichtbarkeit in Anwendungen
 Der Arbeitsbereich ist nicht im Geoportal Berlin und der Geodatensuche Berlin sichtbar.
 
+#### Sichtbarkeit in der ISO
 /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL
