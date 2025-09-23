@@ -1,11 +1,17 @@
-### Kommentare
+## Kommentare
 
-Die Kommentarfunktion ermöglicht es Benutzern, Anmerkungen oder Rückmeldungen zu den Metadaten hinzuzufügen. Diese Funktion ist besonders nützlich für die Zusammenarbeit in Teams, da sie eine einfache Möglichkeit bietet, Diskussionen zu spezifischen Metadateneinträgen zu führen.
+#### Erläuterung
+Die Kommentarfunktion bietet die Möglichkeit, Informationen über die Metadaten hinaus zwischen DHS und den Redakteur:innen zu kommunizieren. Kommentare bleiben transparent sichtbar.
 
-#### Verwendung
+#### Hinweise
+* Kommentare können Hinweise zu GIS-Daten, Farbgebung etc. enthalten.
+* Sie bleiben am Thema und verschwinden nicht in E-Mails.
 
-1. **Kommentar hinzufügen**: Um einen neuen Kommentar hinzuzufügen, geben Sie Ihren Text in das Kommentarfeld ein und klicken Sie auf die Schaltfläche "Kommentar senden". Der Kommentar wird dann oberhalb des Eingabefelds angezeigt.
+#### Beispiel
+S. Tüngerthal, 19.08.2025: Beim Datentyp der ID-Spalte bin ich mir unsicher. Bitte prüfen Sie die Korrektheit nochmals. Danke!
 
-2. **Kommentare anzeigen**: Alle vorhandenen Kommentare werden in chronologischer Reihenfolge angezeigt, wobei der neueste Kommentar unten steht. Jeder Kommentar zeigt den Autor und das Datum der Erstellung an.
+#### Sichtbarkeit in Anwendungen
+Die Kommentare sind nicht im Geoportal Berlin und der Geodatensuche Berlin sichtbar.
 
-3. **Kommentare löschen**: Benutzer mit den entsprechenden Berechtigungen können ihren letzten eigenen Kommentar löschen, indem sie auf das Papierkorbsymbol neben dem Kommentar klicken.
+#### Sichtbarkeit in der ISO
+–
