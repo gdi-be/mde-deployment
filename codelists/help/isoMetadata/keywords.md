@@ -6,7 +6,7 @@ Im Feld "Schlagwörter" sollen thematische Begriffe angegeben werden, die den In
 #### Hinweise
 * Beginnen Sie mit der Eingabe eines Begriffs, um Vorschläge aus dem UMTHES-Thesaurus zu erhalten.
 * Wählen Sie charakterisierende aber auch übergreifende und synonyme Begriffe.
-* Wählen Sie "Eigene Schlagwörter hinzufügen" um ein oder mehrere Schlagwörter ohne Thesaurus-Hilfe hinzuzufügen.
+* Wählen Sie "Eigene Schlagwörter hinzufügen" um ein oder mehrere Schlagwörter kommasepariert und ohne Thesaurus-Hilfe hinzuzufügen.
 
 #### Beispiel
 Welterbe  
