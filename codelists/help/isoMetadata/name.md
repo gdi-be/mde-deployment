@@ -7,7 +7,7 @@ Bitte tragen Sie Fr./Hr. und den Nachnamen der Person ein.
 keine zusätzlichen Hinweise
 
 #### Beispiel
-Frau Ambrosius
+Fr. Ambrosius
 
 #### Sichtbarkeit in Anwendungen
 Der Kontakt-Name wird in der Geodatensuche Berlin angezeigt und ist mit der Suchfunktion durchsuchbar.
