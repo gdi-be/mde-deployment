@@ -9,7 +9,7 @@ Bitte geben Sie hier einen oder mehrere Kontakte an, die als Ansprechpersonen in
 * Verwenden Sie unter "Organisation" stets den vollständig ausgeschriebenen Titel Ihrer Organisation.
 
 #### Beispiel
-Frau Ambrosius  
+Fr. Ambrosius  
 Landesdenkmalamt Berlin  
 +4930902593620  
 sabine.ambrosius@lda.berlin.de
