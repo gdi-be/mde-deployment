@@ -1,7 +1,7 @@
 ## Kontaktangaben
 
 #### Erläuterung
-Bitte geben Sie hier einen oder mehrer Kontakte an, die als Ansprechpersonen in den Metadaten genannt werden sollen und Auskunft über den Datenbestand geben können.
+Bitte geben Sie hier einen oder mehrere Kontakte an, die als Ansprechpersonen in den Metadaten genannt werden sollen und Auskunft über den Datenbestand geben können.
 
 #### Hinweise
 * Achten Sie auf die Vollständigkeit der Angaben, z.B. einer vollständigen Telefonnummer oder die richtige Schreibweise Ihrer Email.
