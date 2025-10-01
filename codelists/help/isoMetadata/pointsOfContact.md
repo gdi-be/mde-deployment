@@ -4,7 +4,7 @@
 Bitte geben Sie hier einen oder mehrere Kontakte an, die als Ansprechpersonen in den Metadaten genannt werden sollen und Auskunft über den Datenbestand geben können.
 
 #### Hinweise
-* Achten Sie auf die Vollständigkeit der Angaben, z.B. einer vollständigen Telefonnummer oder die richtige Schreibweise Ihrer Email.
+* Achten Sie auf die Vollständigkeit der Angaben, z.B. einer vollständigen Telefonnummer oder die richtige Schreibweise Ihrer E-Mail.
 * Verwenden Sie "Eigene Kontaktangaben übernehmen", wenn Sie sich selbst als Kontakt angeben wollen.
 * Verwenden Sie unter "Organisation" stets den vollständig ausgeschriebenen Titel Ihrer Organisation.
 
