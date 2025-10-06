@@ -1,7 +1,7 @@
 - profileId: 1
   label: Titel des Datenbestandes
-  explanation: Unter welchem Titel soll Ihr Datenbestand gefunden werden?
-  hint: Es wird eine maximale Titel-Länge von 100 Zeichen empfohlen.
+  explanation: Explanation - Unter welchem Titel soll Ihr Datenbestand gefunden werden?
+  hint: Hint - Es wird eine maximale Titel-Länge von 100 Zeichen empfohlen.
 
 - profileId: 2
   label: Kurzbeschreibung des Datenbestandes
