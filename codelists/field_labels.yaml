@@ -12,60 +12,60 @@
 
 - profileId: 4
   label: Datenschutz-Einstellungen
-  explanation: z.B. was wurde geändert oder was soll korrigiert werden.
+  explanation: Explanation - z.B. was wurde geändert oder was soll korrigiert werden.
 
 - profileId: 5
   label: Metadaten-Typ
-  explanation: Ist Ihr Datenbestand von der INSPIRE Richtlinie betroffen oder liegt bereits harmonisiert vor?
+  explanation: Explanation - Ist Ihr Datenbestand von der INSPIRE Richtlinie betroffen oder liegt bereits harmonisiert vor?
 
 - profileId: 6
   label: High Value Datensatz
-  explanation: Ist Ihr Datenbestand ein High Value Datensatz im Sinne der EU-Verordnung?
+  explanation: Explanation - Ist Ihr Datenbestand ein High Value Datensatz im Sinne der EU-Verordnung?
 
 - profileId: 7
   label: INSPIRE Annex Thema
-  explanation: Welchem INSPIRE Thema lässt sich ihr Datenbestand zuordnen?
+  explanation: Explanation - Welchem INSPIRE Thema lässt sich ihr Datenbestand zuordnen?
 
 - profileId: 8
   label: HVD Kategorien
-  explanation: Welchem High Value Thema lässt sich ihr Datenbestand zuordnen?
+  explanation: Explanation - Welchem High Value Thema lässt sich ihr Datenbestand zuordnen?
 
 - profileId: 9
   label: Erstellungsdatum
-  explanation: Wann wurden ihre Daten erzeugt oder abgeleitet?
+  explanation: Explanation - Wann wurden ihre Daten erzeugt oder abgeleitet?
 
 - profileId: 10
   label: Veröffentlichungsdatum
-  explanation: Wann werden/wurden ihre Daten veröffentlicht?
+  explanation: Explanation - Wann werden/wurden ihre Daten veröffentlicht?
 
 - profileId: 11
   label: letzte Aktualisierung
-  explanation: Wann wurden ihre Daten letztmalig aktualisiert (nach der Erstellung)?
+  explanation: Explanation - Wann wurden ihre Daten letztmalig aktualisiert (nach der Erstellung)?
 
 - profileId: 12 # Dopplung mit "isoMetadata.validTo"
   key: "isoMetadata.validFrom"
   label: gültig ab
-  explanation: Haben ihre Daten eine zeitlich begrenzte Gültigkeit?
+  explanation: Explanation - Haben ihre Daten eine zeitlich begrenzte Gültigkeit?
 
 - profileId: 12 # Dopplung mit "isoMetadata.validFrom"
   key: "isoMetadata.validTo"
   label: gültig bis
-  explanation: Haben ihre Daten eine zeitlich begrenzte Gültigkeit?
+  explanation: Explanation - Haben ihre Daten eine zeitlich begrenzte Gültigkeit?
 
 - profileId: 13
   label: Themenkategorie
 
 - profileId: 14
   label: Pflegeintervall
-  explanation: Werden ihre Daten regelmäßig aktualisiert oder gepflegt?
+  explanation: Explanation - Werden ihre Daten regelmäßig aktualisiert oder gepflegt?
 
 - profileId: 15
   label: Schlagwörter
-  explanation: Mit welchen Begriffen soll ihr Datenbestand gefunden werden? Geben sie prägnante Schlagwörter an, die ihren Datenbestand charakterisieren.
+  explanation: Explanation - Mit welchen Begriffen soll ihr Datenbestand gefunden werden? Geben sie prägnante Schlagwörter an, die ihren Datenbestand charakterisieren.
 
 - profileId: 16
   label: geliefertes Koordinatensystem
-  explanation: In welchem Koordinatensystem liegen die räumlichen Informationen ihres Datenbestandes vor?
+  explanation: Explanation - In welchem Koordinatensystem liegen die räumlichen Informationen ihres Datenbestandes vor?
 
 - profileId: 17
   label: abzugebendes Koordinatensystem
@@ -117,22 +117,22 @@
 
 - profileId: 25
   label: Nutzungsbestimmungen
-  explanation: Soll ihr Datenbestand unter der üblichen Nutzungsbestimmung der Datenlizenz Deutschland Version 2 Zero veröffentlicht werden? Falls nicht, wählen sie eine andere Nutzungsbestimmung für ihren Datenbestand.
+  explanation: Explanation - Soll ihr Datenbestand unter der üblichen Nutzungsbestimmung der Datenlizenz Deutschland Version 2 Zero veröffentlicht werden? Falls nicht, wählen sie eine andere Nutzungsbestimmung für ihren Datenbestand.
 
 - profileId: 26
   label: Nutzungsbestimmungen Quellenangabe
-  explanation: Bitte ändern sie die Quellenangabe der Nutzungsbestimmungen, wenn das für ihren Datenbestandnotwendig ist.
+  explanation: Explanation - Bitte ändern sie die Quellenangabe der Nutzungsbestimmungen, wenn das für ihren Datenbestandnotwendig ist.
 
 - profileId: 27
   label: Vergleichsmaßstab
-  explanation: In welchem Maßstab wurden ihre Daten erfasst oder in welcher räumlichen Auflösung liegen ihre Daten vor?
+  explanation: Explanation - In welchem Maßstab wurden ihre Daten erfasst oder in welcher räumlichen Auflösung liegen ihre Daten vor?
 
 - profileId: 28
   label: Bodenauflösung in Metern
 
 - profileId: 29
   label: Vorschaubild
-  explanation: Welcher Kartenausschnitt oder welches Schaubild charakterisiert ihren Datenbestand am besten? Zeigen Sie es uns, indem Sie ein Vorschaubild hochladen oder einen Link zu einem Bild eintragen.
+  explanation: Explanation - Welcher Kartenausschnitt oder welches Schaubild charakterisiert ihren Datenbestand am besten? Zeigen Sie es uns, indem Sie ein Vorschaubild hochladen oder einen Link zu einem Bild eintragen.
   hint: Hinweise der nur beim Focus angezeigt wird.
 
 - profileId: 30
@@ -144,19 +144,19 @@
 
 - profileId: 32
   label: Herkunft der Daten
-  explanation: Auf welchen Daten basiert ihr Datenbestand? Woher stammen ihre Daten?
+  explanation: Explanation - Auf welchen Daten basiert ihr Datenbestand? Woher stammen ihre Daten?
 
 - profileId: 33
   label: Titel
-  explanation: Titel des Datenbestandes, auf dem ihr Datenbestand basiert.
+  explanation: Explanation - Titel des Datenbestandes, auf dem ihr Datenbestand basiert.
 
 - profileId: 34
   label: Datum der Veröffentlichung
-  explanation: Wann wurden die Daten veröffentlicht?
+  explanation: Explanation - Wann wurden die Daten veröffentlicht?
 
 - profileId: 35
   label: Identifier
-  explanation: Identifier des Datenbestandes, auf dem ihr Datenbestand basiert.
+  explanation: Explanation - Identifier des Datenbestandes, auf dem ihr Datenbestand basiert.
 
 - profileId: 36
   label: Verwandte Themen (MTK)
@@ -170,12 +170,12 @@
 - profileId: 39
   key: "isoMetadata.contentDescriptions"
   label: Weitere Informationen
-  explanation: Gibt es weitere Informationsquellen zu Ihrem Datenbestand im Internet?
+  explanation: Explanation - Gibt es weitere Informationsquellen zu Ihrem Datenbestand im Internet?
 
 - profileId: 39 # Subfelder von "Weitere Informationen" noch nicht im Metadateprofil
   key: "isoMetadata.contentDescriptions.title"
   label: Titel
-  explanation: Wie heißt die Informationsquelle?
+  explanation: Explanation - Wie heißt die Informationsquelle?
 
 - profileId: 39 # Subfelder von "Weitere Informationen" noch nicht im Metadateprofil
   key: "isoMetadata.contentDescriptions.code"
@@ -188,7 +188,7 @@
 
 - profileId: 40
   label: Dienste
-  explanation: Hier sollen Angaben zu bereitzustellenden Karten- und Download-Diensten gemacht werden
+  explanation: Explanation - Hier sollen Angaben zu bereitzustellenden Karten- und Download-Diensten gemacht werden
 
 # profileId: 41 und 42 entfallen WMTS Spezialfelder
 
@@ -199,40 +199,40 @@
 
 - profileId: 46
   label: Vorschau des Kartendienstes
-  explanation: Soll die Vorschau des Kartendienstes von der Vorschau des Datenbestandes abweichen? Wenn ja, laden Sie ein neues Vorschaubild hoch oder tragen Sie einen Link zu einem Bild ein
+  explanation: Explanation - Soll die Vorschau des Kartendienstes von der Vorschau des Datenbestandes abweichen? Wenn ja, laden Sie ein neues Vorschaubild hoch oder tragen Sie einen Link zu einem Bild ein
 
 - profileId: 47 # Gesamtlegende
   label: Gesamtlegende
-  explanation: Tragen Sie hier einen Link zu der Gesamtlegende Ihres Kartendienstes ein
+  explanation: Explanation - Tragen Sie hier einen Link zu der Gesamtlegende Ihres Kartendienstes ein
 
 - profileId: 47 # Subfelder von Gesamtlegende noch nicht im Metadateprofil
   key: "isoMetadata.services.legendImage.format"
   label: Format
-  explanation: In welchem Format liegt die Gesamtlegende vor?
+  explanation: Explanation - In welchem Format liegt die Gesamtlegende vor?
 
 - profileId: 47 # Subfelder von Gesamtlegende noch nicht im Metadateprofil
   key: "isoMetadata.services.legendImage.url"
   label: Url
-  explanation: Wo kann die Gesamtlegende gefunden werden?
+  explanation: Explanation - Wo kann die Gesamtlegende gefunden werden?
 
 - profileId: 47 # Subfelder von Gesamtlegende noch nicht im Metadateprofil
   key: "isoMetadata.services.legendImage.width"
   label: Breite
-  explanation: In welcher Breite wird die Gesamtlegende bereitgestellt?
+  explanation: Explanation - In welcher Breite wird die Gesamtlegende bereitgestellt?
 
 - profileId: 47 # Subfelder von Gesamtlegende noch nicht im Metadateprofil
   key: "isoMetadata.services.legendImage.height"
   label: Höhe
-  explanation: In welcher Höhe wird die Gesamtlegende bereitgestellt?
+  explanation: Explanation - In welcher Höhe wird die Gesamtlegende bereitgestellt?
 
 - profileId: 48
   label: Kartenebenen
-  explanation: Ihr Kartendienst muss mindestens aus einer Ebene bestehen. Geben Sie hier an, wieviele Ebenen ihr Kartendienst hat
+  explanation: Explanation - Ihr Kartendienst muss mindestens aus einer Ebene bestehen. Geben Sie hier an, wieviele Ebenen ihr Kartendienst hat
 
 - profileId: 49
   label: Titel der Kartenebene
-  explanation: Wie heißt die Informationsquelle?
-  hint: Es wird eine maximale Titel-Länge von 100 Zeichen empfohlen.
+  explanation: Explanation - Wie heißt die Informationsquelle?
+  hint: Hint - Es wird eine maximale Titel-Länge von 100 Zeichen empfohlen.
 
 - profileId: 50
   label: Name der Kartenebene
@@ -245,15 +245,15 @@
 
 - profileId: 53
   label: Legende
-  explanation: Tragen Sie hier einen Link zu einer Legende Ihrer Kartenebene ein
+  explanation: Explanation - Tragen Sie hier einen Link zu einer Legende Ihrer Kartenebene ein
 
 - profileId: 54
   label: Kurzbeschreibung
-  explanation: Beschreiben sie den Inhalt der Kartenebene kurz und prägnant in 500 Zeichen
+  explanation: Explanation - Beschreiben sie den Inhalt der Kartenebene kurz und prägnant in 500 Zeichen
 
 - profileId: 55
   label: Ablageort der Daten
-  explanation: Wo liegen die Daten für diese Ebene vor? Beschreiben oder verweisen Sie auf den Ablageort bzw. die Datenbank oder Internetressource.
+  explanation: Explanation - Wo liegen die Daten für diese Ebene vor? Beschreiben oder verweisen Sie auf den Ablageort bzw. die Datenbank oder Internetressource.
 
 - profileId: 56
   label: sekundäre Datenhaltung
@@ -262,30 +262,30 @@
 
 - profileId: 58 # Umfasst alle Typen WMS, WMTS, WFS, ATOM
   label: Typ
-  explanation: In welcher Form soll der Dienst angeboten werden?
+  explanation: Explanation - In welcher Form soll der Dienst angeboten werden?
 
 - profileId: 59 # und 43
   label: Titel
-  explanation: Soll der Titel des Kartendienstes vom Titel des Datenbestandes abweichen? Wenn ja, tragen Sie hier einen anderen Titel ein.
+  explanation: Explanation - Soll der Titel des Kartendienstes vom Titel des Datenbestandes abweichen? Wenn ja, tragen Sie hier einen anderen Titel ein.
 
 - profileId: 60 # und 44
   label: Kurzbeschreibung des Dienstes
-  explanation: Soll die Kurzbeschreibung des Kartendienstes von der Kurzbeschreibung des Datenbestandes abweichen? Wenn ja, tragen Sie eine andere Kurzbeschreibung ein.
+  explanation: Explanation - Soll die Kurzbeschreibung des Kartendienstes von der Kurzbeschreibung des Datenbestandes abweichen? Wenn ja, tragen Sie eine andere Kurzbeschreibung ein.
 
 - profileId: 61 # Dopplung mit "downloads"
   label: FeatureTypes
-  explanation: Welche FeatureTypes sind im Dienst enthalten?
+  explanation: Explanation - Welche FeatureTypes sind im Dienst enthalten?
 
 - profileId: 62
   label: Titel des FeatureTypes
-  explanation: Soll sich der Titel des FeatureType vom Titel der Kartenebene unterscheiden? Wenn ja, dann geben Sie hier einen abweichenden Titel an
+  explanation: Explanation - Soll sich der Titel des FeatureType vom Titel der Kartenebene unterscheiden? Wenn ja, dann geben Sie hier einen abweichenden Titel an
 
 - profileId: 63
   label: Name des FeatureTypes
 
 - profileId: 64
   label: Attribute
-  explanation: Über welche Attribute verfügt ihr FeatureType?
+  explanation: Explanation - Über welche Attribute verfügt ihr FeatureType?
 
 - profileId: 65
   label: Attribut-Name
