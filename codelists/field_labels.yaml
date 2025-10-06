@@ -5,8 +5,8 @@
 
 - profileId: 2
   label: Kurzbeschreibung des Datenbestandes
-  explanation: Beschreiben Sie Ihren Datenbestand kurz und prägnant in 500 Zeichen. Für ausführlichere Informationen nutzen Sie die inhaltliche Beschreibung.
-  hint: Hinweise der nur beim Focus angezeigt wird.
+  explanation: Explanation - Beschreiben Sie Ihren Datenbestand kurz und prägnant in 500 Zeichen. Für ausführlichere Informationen nutzen Sie die inhaltliche Beschreibung.
+  hint: Hint - Hinweise der nur beim Focus angezeigt wird.
 
 # ProfileId 3 entfällt (Kommentare werden gesondert behandelt)
 
@@ -91,27 +91,27 @@
 
 - profileId: 19
   label: Kontaktangaben
-  explanation: Welche Person kann über den Datenbestand Auskunft geben und soll in den Metadaten genannt werden?
+  explanation: Explanation - Welche Person kann über den Datenbestand Auskunft geben und soll in den Metadaten genannt werden?
 
 - profileId: 20
   label: Name
-  explanation: Wer kann Auskunft geben?
-  hint: Hinweise der nur beim Focus angezeigt wird.
+  explanation: Explanation - Wer kann Auskunft geben?
+  hint: Hint - Hinweise der nur beim Focus angezeigt wird.
 
 - profileId: 21
   label: Organisation
-  explanation: Wo arbeitet die Person, die Auskunft geben kann?
-  hint: Hinweise der nur beim Focus angezeigt wird.
+  explanation: Explanation - Wo arbeitet die Person, die Auskunft geben kann?
+  hint: Hint - Hinweise der nur beim Focus angezeigt wird.
 
 - profileId: 22
   label: E-Mail
-  explanation: Unter welcher E-Mail-Adresse kann die Person erreicht werden?
-  hint: Hinweise der nur beim Focus angezeigt wird.
+  explanation: Explanation - Unter welcher E-Mail-Adresse kann die Person erreicht werden?
+  hint: Hint - Hinweise der nur beim Focus angezeigt wird.
 
 - profileId: 23
   label: Telefon
-  explanation: Unter welcher Telefonnummer kann die Person erreicht werden?
-  hint: Hinweise der nur beim Focus angezeigt wird.
+  explanation: Explanation - Unter welcher Telefonnummer kann die Person erreicht werden?
+  hint: Hint - Hinweise der nur beim Focus angezeigt wird.
 
 # profileId: 24 entfällt, da es nicht mehr benötigt wird
 
