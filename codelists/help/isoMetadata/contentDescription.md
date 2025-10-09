@@ -1,11 +1,10 @@
 ## Inhaltliche Beschreibung
 
 #### Erläuterung
-Sie haben die Möglichkeit, eine ausführliche inhaltliche Beschreibung des Datenbestands anzugeben. Dieser Text wird in der Geodatensuche Berlin unter dem Punkt „inhaltliche Beschreibung“ verlinkt und dann auf einer separaten Seite präsentiert. Tragen Sie nachfolgend eine URL auf Ihre inhaltliche Beschreibung oder einen unformatierten Text in das Formularfeld ein.
+Sie haben die Möglichkeit eine ausführliche inhaltliche Beschreibung des Datenbestands anzugeben. Dieser Text wird in der Geodatensuche Berlin unter dem Punkt „inhaltliche Beschreibung“ verlinkt und dann auf einer separaten Seite präsentiert. Tragen Sie nachfolgend eine URL auf Ihre inhaltliche Beschreibung ein.
 
 #### Hinweise
-* Die URL soll auf ein PDF Dokument verweisen.
-* Eingetragene unformatierte Texte werden durch die Redaktion als entsprechendes PDF abgelegt.
+* Tragen Sie bitte eine URL auf ein PDF-Dokument ein oder übermitteln sie dieses der Redaktion.
 
 #### Beispiel
 [https://gdi.berlin.de/data/denkmale/docs/denkmal.pdf](https://gdi.berlin.de/data/denkmale/docs/denkmal.pdf)
