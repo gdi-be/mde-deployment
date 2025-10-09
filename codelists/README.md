@@ -117,6 +117,7 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 26  | Quelle-NB                              | isoMetadata.termsOfUseSource                         |
 | 27  | Maßstab                                | isoMetadata.scale                                    |
 | 28  | Auflösung                              | isoMetadata.resolutions                              |
+| 39  | Darstellungsart                        |                                                      |
 | 29  | Vorschau                               | isoMetadata.preview                                  |
 | 30  | Inhaltliche Beschreibung               | isoMetadata.contentDescription                       |
 | 31  | Technische Beschreibung                | isoMetadata.technicalDescription                     |
