@@ -117,7 +117,7 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 26  | Quelle-NB                              | isoMetadata.termsOfUseSource                         |
 | 27  | Maßstab                                | isoMetadata.scale                                    |
 | 28  | Auflösung                              | isoMetadata.resolutions                              |
-| 39  | Darstellungsart                        |                                                      |
+| 39  | Darstellungsart                        | isoMetadata.spatialRepresentationType                |
 | 29  | Vorschau                               | isoMetadata.preview                                  |
 | 30  | Inhaltliche Beschreibung               | isoMetadata.contentDescription                       |
 | 31  | Technische Beschreibung                | isoMetadata.technicalDescription                     |
@@ -128,7 +128,7 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 36  | Verwandte Themen (MTK)                 | clientMetadata.relatedTopics                         |
 | 37  | Überprüfung                            | isoMetadata.valid                                    |
 | 38  | Schema-Version                         | isoMetadata.inspireAnnexVersion                      |
-| 70  | Schema-Name                            |                                                      |
+| 70  | Schema-Name                            | isoMetadata.inspireAnnexName                         |
 | 41  | Weitere Informationen                  | isoMetadata.contentDescriptions                      |
 | 42  | \_ Titel                               | isoMetadata.contentDescriptions.title                |
 | 43  | \_ Code                                | isoMetadata.contentDescriptions.code                 |
