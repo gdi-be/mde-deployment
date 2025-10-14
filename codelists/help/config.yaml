@@ -59,6 +59,8 @@ clientMetadata:
     default: "clientMetadata/privacy.md"
   comments:
     default: "clientMetadata/comments.md"
+  layers.title:
+    default: "clientMetadata/layerTitle.md"
 
 technicalMetadata:
   deliveredCrs:
