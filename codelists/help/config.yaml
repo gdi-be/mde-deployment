@@ -45,6 +45,8 @@ isoMetadata:
     default: "isoMetadata/extent.md"
   resolutions:
     default: "isoMetadata/resolutions.md"
+  scale:
+    default: "isoMetadata/resolutions.md"  
   contentDescription:
     default: "isoMetadata/contentDescription.md"
   technicalDescription:
