@@ -8,7 +8,7 @@ Stellen Sie eine Grafik im PNG-Format bereit. Als Bildgröße ist eine Breite vo
   http://intranetstadtwohn.senstadt.verwalt-berlin.de/themen/geodaten/gis/Seiten/Arbeitshilfe%20zur%20Bereitstellung.aspx#acht
 
 #### Beispiel
-[https://gdi.berlin.de/data/welterbe/legends/leg_welterbe.png](https://gdi.berlin.de/data/welterbe/legends/leg_welterbe.png)
+<a href="https://gdi.berlin.de/data/welterbe/legends/leg_welterbe.png" class="popup" target="_blank">https://gdi.berlin.de/data/welterbe/legends/leg_welterbe.png</a>
 
 #### Sichtbarkeit in Anwendungen
 Die Gesamtlegende wird in der Geodatensuche Berlin angezeigt.
