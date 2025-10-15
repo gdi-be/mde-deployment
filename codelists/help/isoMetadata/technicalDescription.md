@@ -7,7 +7,7 @@ Die technische Beschreibung des Datenbestands enthält eine Erläuterung des Auf
 * Ist bereits eine technische Beschreibung vorhanden, so tragen Sie bitte eine URL auf ein PDF-Dokument ein oder übermitteln sie dieses der Redaktion.
 
 #### Beispiel
-[https://gdi.berlin.de/data/adressen_berlin/docs/Datenformatbeschreibung_Adressen_Berlin.pdf](https://gdi.berlin.de/data/adressen_berlin/docs/Datenformatbeschreibung_Adressen_Berlin.pdf)
+<a href="https://gdi.berlin.de/data/adressen_berlin/docs/Datenformatbeschreibung_Adressen_Berlin.pdf" class="popup" target="_blank">https://gdi.berlin.de/data/adressen_berlin/docs/Datenformatbeschreibung_Adressen_Berlin.pdf</a>
 
 #### Sichtbarkeit in Anwendungen
 Die technische Beschreibung wird in der Geodatensuche Berlin angezeigt.
