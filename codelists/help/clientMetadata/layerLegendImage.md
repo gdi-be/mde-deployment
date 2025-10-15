@@ -6,8 +6,7 @@ Bei Karten mit mehreren thematischen Ebenen spezifische Legende für jede Facheb
 #### Hinweise
 * PNG-Format, 500 Pixel breit, ≥ 96 dpi.
 * Dateiname muss Bezug zur Fachebene herstellen.
-* Hilfe zur Legenden-Erstellung: [http://intranetstadtwohn.senstadt.verwalt-berlin.de/themen/geodaten/gis/Seiten/Arbeitshilfe%20zur%20Bereitstellung.aspx#acht](https://intranetstadtwohn.senstadt.verwalt-berlin.de/themen/geodaten/gis/Seiten/Arbeitshilfe%20zur%20Bereitstellung.aspx#acht)
-* <a href="http://intranetstadtwohn.senstadt.verwalt-berlin.de/themen/geodaten/gis/Seiten/Arbeitshilfe%20zur%20Bereitstellung.aspx#acht" class="popup" target="_blank">http://intranetstadtwohn.senstadt.verwalt-berlin.de/themen/geodaten/gis/Seiten/Arbeitshilfe%20zur%20Bereitstellung.aspx#acht</a>
+* Hilfe zur Legenden-Erstellung: <a href="http://intranetstadtwohn.senstadt.verwalt-berlin.de/themen/geodaten/gis/Seiten/Arbeitshilfe%20zur%20Bereitstellung.aspx#acht" class="popup" target="_blank">http://intranetstadtwohn.senstadt.verwalt-berlin.de/themen/geodaten/gis/Seiten/Arbeitshilfe%20zur%20Bereitstellung.aspx#acht</a>
 
 #### Beispiel
 [https://gdi.berlin.de/data/welterbe/legends/leg_welterbe.png](https://gdi.berlin.de/data/welterbe/legends/leg_welterbe.png)
