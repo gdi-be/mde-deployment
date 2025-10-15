@@ -9,7 +9,7 @@ Bitte tragen Sie einen Link auf ein Vorschaubild ein. Das Vorschaubild soll Ihre
 * Verzichten Sie beim Erstellen von Schaubildern auf Text im Bild.
 
 #### Beispiel
-[https://gdi.berlin.de/data/welterbe/preview/kvor_welterbe.gif](https://gdi.berlin.de/data/welterbe/preview/kvor_welterbe.gif)
+<a href="https://gdi.berlin.de/data/welterbe/preview/kvor_welterbe.gif" class="popup" target="_blank">https://gdi.berlin.de/data/welterbe/preview/kvor_welterbe.gif</a>
 
 #### Sichtbarkeit in Anwendungen
 Das Vorschaubild des Dienstes wird in der Geodatensuche Berlin angezeigt.
