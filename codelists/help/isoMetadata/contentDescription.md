@@ -7,7 +7,7 @@ Sie haben die Möglichkeit eine ausführliche inhaltliche Beschreibung des Daten
 * Tragen Sie bitte eine URL auf ein PDF-Dokument ein oder übermitteln sie dieses der Redaktion.
 
 #### Beispiel
-[https://gdi.berlin.de/data/denkmale/docs/denkmal.pdf](https://gdi.berlin.de/data/denkmale/docs/denkmal.pdf)
+<a href="https://gdi.berlin.de/data/denkmale/docs/denkmal.pdf" class="popup" target="_blank">https://gdi.berlin.de/data/denkmale/docs/denkmal.pdf</a>
 
 #### Sichtbarkeit in Anwendungen
 Die inhaltliche Beschreibung wird in der Geodatensuche Berlin angezeigt.
