@@ -12,7 +12,8 @@ Folgende Themenkategorien stehen zur Auswahl. Für ein INSPIRE-Thema erfolgt die
 Umwelt
 
 #### Sichtbarkeit in Anwendungen
-Die Themenkategorie wird in der [Geodatensuche Berlin angezeigt](https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d).
+Die Themenkategorie wird in der
+<a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt<span><br /><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/topicCategory.png"></span></a><br />
 
 #### Sichtbarkeit in der ISO
 /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:topicCategory/gmd:MD_TopicCategoryCode
