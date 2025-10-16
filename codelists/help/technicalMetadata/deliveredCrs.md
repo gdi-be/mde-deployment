@@ -8,7 +8,7 @@ Bitte tragen Sie das Koordinatensystem mit EPSG-Nummer ein, falls der Datenbesta
 * Die Koordinatensysteme werden der Einfachheit halber über den EPSG-Code angegeben.
 
 #### Beispiel
-EPSG:25833
+25833
 
 #### Sichtbarkeit in Anwendungen
 Das gelieferte Koordinatensystem ist nicht im Geoportal Berlin und der Geodatensuche Berlin sichtbar.
