@@ -12,9 +12,9 @@ Für welchen Maßstab wurde die Kartendarstellung optimiert oder in welchem Maß
 Bodenauflösung in Metern: 0.2/ Vergleichsmaßstab: 5000
 
 #### Sichtbarkeit in Anwendungen
-Die räumliche Auflösung wird in der Geodatensuche Berlin angezeigt und ist mit der Suchfunktion suchbar.
+Die räumliche Auflösung wird in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/f0e8ff09-2887-3446-9c53-81dbc45af03c" class="popup" target="_blank">Geodatensuche Berlin</a> angezeigt und ist mit der Suchfunktion suchbar.
 
-<img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/resolutions.png">
+<a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/f0e8ff09-2887-3446-9c53-81dbc45af03c"><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/resolutions.png"></a>
 
 
 #### Sichtbarkeit in der ISO
