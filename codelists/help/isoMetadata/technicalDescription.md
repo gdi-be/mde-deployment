@@ -10,7 +10,7 @@ Die technische Beschreibung des Datenbestands enthält eine Erläuterung des Auf
 <a href="https://gdi.berlin.de/data/adressen_berlin/docs/Datenformatbeschreibung_Adressen_Berlin.pdf" class="popup" target="_blank">https://gdi.berlin.de/data/adressen_berlin/docs/Datenformatbeschreibung_Adressen_Berlin.pdf</a>
 
 #### Sichtbarkeit in Anwendungen
-Die technische Beschreibung wird in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt<span>
+Die technische Beschreibung wird in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/728b368a-64d4-30ff-9482-a647917d0dab" class="popup" target="_blank">Geodatensuche Berlin angezeigt<span>
 <img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/technicalDescription.png"></span></a>
 
 #### Sichtbarkeit in der ISO
