@@ -10,7 +10,7 @@ Das Erstellungsdatum gibt an, wann der Datensatz erstmalig erzeugt wurde.
 16.04.2018
 
 #### Sichtbarkeit in Anwendungen
-Das Erstellungsdatum wird im Geoportal Berlin und der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt<span><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/created.png"></span></a>
+Das Erstellungsdatum wird im Geoportal Berlin und der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt<span><br /><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/created.png"></span></a>
 
 Es ist mit der Suchfunktion suchbar.
 
