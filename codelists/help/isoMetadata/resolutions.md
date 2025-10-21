@@ -5,7 +5,7 @@ Für welchen Maßstab wurde die Kartendarstellung optimiert oder in welchem Maß
 
 #### Hinweise
 * Geben Sie beim Vergleichsmaßstab nur die Maßstabszahl, also z. B. 5000, an.
-* Bei der Bodenauflösung sind ganze als auch Gleitkommazahlen zulässig, z. B. 0.2.
+* Bei der Bodenauflösung sind sowohl ganze als auch Gleitkommazahlen zulässig, z. B. 0.2.
 * Die Angabe von Einheiten ist nicht zulässig.
 
 #### Beispiel
