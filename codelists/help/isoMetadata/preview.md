@@ -9,7 +9,8 @@ Das Vorschaubild soll einen Kartenausschnitt oder ein Schaubild zeigen, welches 
 * Verzichten Sie beim Erstellen von Schaubildern auf Text im Bild.
 
 #### Beispiel
-https://gdi.berlin.de/data/welterbe/preview/kvor_welterbe.gif
+
+<a href="https://gdi.berlin.de/data/welterbe/preview/kvor_welterbe.gif" class="popup" target="_blank">https://gdi.berlin.de/data/welterbe/preview/kvor_welterbe.gif</a>
 
 #### Sichtbarkeit in Anwendungen
 Die Vorschau wird in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt<br /><span><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/preview.png"></span></a>.
