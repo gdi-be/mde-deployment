@@ -15,7 +15,7 @@ Landesdenkmalamt Berlin
 sabine.ambrosius@lda.berlin.de
 
 #### Sichtbarkeit in Anwendungen
-Die Kontaktangaben werden in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt<span><img src="https://github.com/gdi-be/mde-deployment/blob/main/codelists/help/previews/pointsOfContact.png"></span></a>
+Die Kontaktangaben werden in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt<span><img src="https://github.com/gdi-be/mde-deployment/raw/main/codelists/help/previews/pointsOfContact.png"></span></a>
 
 und sind mit der Suchfunktion durchsuchbar.
 
