@@ -109,10 +109,10 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 73  | \_ Minimaler Y-Wert                    | isoMetadata.extent.miny                              |
 | 74  | \_ Maximaler Y-Wert                    | isoMetadata.extent.maxy                              |
 | 19  | Kontaktangaben                         | isoMetadata.pointsOfContact                          |
-| 20  | \_ Name                                | isoMetadata.pointsOfContact.name                     |
-| 21  | \_ Organisation                        | isoMetadata.pointsOfContact.organisation             |
-| 22  | \_ E-Mailadresse                       | isoMetadata.pointsOfContact.email                    |
-| 23  | \_ Telefonnummer                       | isoMetadata.pointsOfContact.phone                    |
+| 20  | \_ Name                                | ---                                                  |
+| 21  | \_ Organisation                        | ---                                                  |
+| 22  | \_ E-Mailadresse                       | ---                                                  |
+| 23  | \_ Telefonnummer                       | ---                                                  |
 | 25  | Auswahl-NB                             | isoMetadata.termsOfUseId                             |
 | 26  | Quelle-NB                              | isoMetadata.termsOfUseSource                         |
 | 27  | Maßstab                                | isoMetadata.scale                                    |
@@ -137,10 +137,10 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 45  | \_ Identifikator des Kartendienstes    | isoMetadata.services.workspace                       |
 | 46  | \_ Vorschau des Kartendienstes         | isoMetadata.services.preview                         |
 | 47  | \_ Gesamtlegende                       | isoMetadata.services.legendImage                     |
-| 75  | \_ Gesamtlegende URL                   | isoMetadata.services.legendImage.url                 |
-| 76  | \_ Gesamtlegende Format                | isoMetadata.services.legendImage.format              |
-| 77  | \_ Gesamtlegende Width                 | isoMetadata.services.legendImage.width               |
-| 78  | \_ Gesamtlegende Height                | isoMetadata.services.legendImage.height              |
+| 75  | \_ Gesamtlegende URL                   | ---                                                  |
+| 76  | \_ Gesamtlegende Format                | ---                                                  |
+| 77  | \_ Gesamtlegende Width                 | ---                                                  |
+| 78  | \_ Gesamtlegende Height                | ---                                                  |
 | 48  | \_ Kartenebenen                        | clientMetadata.layers                                |
 | 49  | \_ Titel der Kartenebene               | clientMetadata.layers.title                          |
 | 50  | \_ Name der Kartenebene                | clientMetadata.layers.name                           |
