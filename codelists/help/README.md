@@ -17,7 +17,7 @@ isoMetadata:
     default: "isoMetadata/title.md"
   services:
     legendImage:
-      default: "isoMetadata/services/legendImage/url.md"
+      default: "isoMetadata/services/legendImage.md"
 ```
 
 Standardmäßig wir die Hilfedatei mit dem Schlüssel `default` verwendet. Wenn ein Benutzer mit einer bestimmten Rolle angemeldet ist, wird die entsprechende Hilfedatei verwendet. Die Rollenzuordnung stellt sich wie folgt dar:
