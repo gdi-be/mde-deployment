@@ -40,7 +40,7 @@
   explanation: Wann werden/wurden ihre Daten veröffentlicht?
 
 - profileId: 11 # Aktualisierung
-  label: letzte Aktualisierung
+  label: Änderungsdatum
   explanation: Wann wurden ihre Daten letztmalig aktualisiert (nach der Erstellung)?
 
 - profileId: 12 # Gültigkeit -> Gültig ab
