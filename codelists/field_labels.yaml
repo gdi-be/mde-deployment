@@ -160,6 +160,9 @@
 - profileId: 38 # INSPIRE Schema Version
   label: Schema-Version des INSPIRE Themas
 
+- profileId: 39 # Darstellungsart
+  label: Räumliche Darstellungsart
+
 - profileId: 40 # Dienste (Anzahl)
   label: Dienste
   explanation: Hier sollen Angaben zu bereitzustellenden Karten- und Download-Diensten gemacht werden
