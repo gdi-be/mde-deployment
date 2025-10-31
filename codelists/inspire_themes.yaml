@@ -77,7 +77,7 @@
 - key: "EL"
   label: "Höhe"
   schemaNames:
-    - "Elevation GML Application Schema"
+    - "ElevationGridCoverage GML Application Schema"
 - key: "RS"
   label: "Koordinatenreferenzsysteme"
   schemaNames:
