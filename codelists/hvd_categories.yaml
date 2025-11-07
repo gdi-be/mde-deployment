@@ -1,12 +1,12 @@
-- key: 'geospatial'
-  label: 'Geodaten (Geospatial)'
-- key: 'earth_observation_and_environment'
-  label: 'Erdbeobachtung und Umwelt (Earth Observation and Environment)'
-- key: 'meteorological'
-  label: 'Meteorologische Daten (Meteorological)'
-- key: 'statistics'
-  label: 'Statistische Daten (Statistics)'
-- key: 'companies_and_company_ownership'
-  label: 'Unternehmens- und Eigentümerdaten (Companies and Company Ownership)'
-- key: 'mobility'
-  label: 'Mobilitätsdaten (Mobility)'
+- key: "Georaum"
+  label: Georaum
+- key: "Erdbeobachtung und Umwelt"
+  label: "Erdbeobachtung und Umwelt"
+- key: "Meteorologie"
+  label: "Meteorologie"
+- key: "Statistik"
+  label: "Statistik"
+- key: "Unternehmen und Eigentümerschaft von Unternehmen"
+  label: "Unternehmen und Eigentümerschaft von Unternehmen"
+- key: "Mobilität"
+  label: "Mobilität"
