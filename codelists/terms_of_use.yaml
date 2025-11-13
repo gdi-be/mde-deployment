@@ -2,7 +2,7 @@
   shortname: Datenlizenz Deutschland - Zero - Version 2.0
   active: true
   description: |
-    Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.
+    Für die Nutzung der Daten ist die Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.
   matchStrings:
     - Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Zero - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/zero-2-0 abrufbar.
     - Nutzungsbedingungen noch nicht abschließend formuliert
