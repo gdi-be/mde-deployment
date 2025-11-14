@@ -55,14 +55,16 @@ isoMetadata:
     default: "isoMetadata/lineage.md"
   contentDescriptions:
     default: "isoMetadata/contentDescriptions.md"
+  ServiceType:
+    default: "isoMetadata/serviceType.md"
 
 clientMetadata:
   privacy:
     default: "clientMetadata/privacy.md"
   comments:
     default: "clientMetadata/comments.md"
-  layersTitle:
-    default: "clientMetadata/layersTitle.md"
+  title:
+    default: "clientMetadata/layerTitle.md"
 
 technicalMetadata:
   deliveredCrs:
