@@ -62,7 +62,7 @@ clientMetadata:
   comments:
     default: "clientMetadata/comments.md"
   layersTitle:
-    default: "clientMetadata/layerTitle.md"
+    default: "clientMetadata/layersTitle.md"
 
 technicalMetadata:
   deliveredCrs:
