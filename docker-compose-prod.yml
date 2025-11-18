@@ -44,7 +44,7 @@ services:
     command:
       ["start", "--proxy-headers", "xforwarded", "--http-enabled", "true"]
   mde-backend:
-    image: ghcr.io/gdi-be/mde-backend:4.2.2
+    image: ghcr.io/gdi-be/mde-backend:4.3.1
     container_name: mde-backend
     hostname: mde-backend
     restart: unless-stopped
@@ -70,7 +70,7 @@ services:
       - ./codelists:/data/codelists:U
     privileged: true
   mde-client:
-    image: ghcr.io/gdi-be/mde-client:4.4.1
+    image: ghcr.io/gdi-be/mde-client:4.4.2
     container_name: mde-client
     hostname: mde-client
     restart: unless-stopped
