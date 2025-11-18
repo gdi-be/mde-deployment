@@ -185,8 +185,8 @@
 - profileId: 45 # Dienst-ID (workspace)
   label: Identifikator des Dienstes
 
-- profileId: 46 # Vorschau des Kartendienstes
-  label: Vorschau des Kartendienstes
+- profileId: 46 # Vorschau des Dienstes
+  label: Vorschau des Dienstes
   explanation: Soll die Vorschau des Kartendienstes von der Vorschau des Datenbestandes abweichen? Wenn ja, laden Sie ein neues Vorschaubild hoch oder tragen Sie einen Link zu einem Bild ein
 
 - profileId: 47 # Gesamtlegende
