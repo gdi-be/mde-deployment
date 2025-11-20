@@ -1,7 +1,7 @@
 - id: 16
   shortname: Dienstgebrauch
   active: true
-  description: Nur für den Dienstgebrauch gemäß GG0 I §45
+  description: Nur für den Dienstgebrauch gemäß GGO I §45
   matchStrings:
     - Nur für den Dienstgebrauch gemäß GG0 I §51
     - Nur für den Dienstgebrauch gemäß GG0 I §45
@@ -20,7 +20,7 @@
 - id: 18
   shortname: Dienstgebrauch und PD
   active: true
-  description: Nur für den Dienstgebrauch gemäß GG0 I §45; Karte enthält personenbezogene Daten nach EU-DSGVO.
+  description: Nur für den Dienstgebrauch gemäß GGO I §45; Karte enthält personenbezogene Daten nach EU-DSGVO.
   matchStrings:
     - Nur für den Dienstgebrauch gemäß GG0 I §45; Karte enthält personenbezogene Daten nach EU-DSGVO.
   openData: false
@@ -34,3 +34,4 @@
     - "Nutzungsbedingungen: Der Datenbestand unterliegt den Bestimmungen des HBauStatG (Gesetz über die Statistik der Bautätigkeit im Hochbau und die Fortschreibung des Wohnungsbestandes). Die Nutzung der Geodaten ist nur für dienstliche Zwecke entsprechend den Vorgaben des HBauStatG (§ 9) gestattet. © Amt für Statistik Berlin-Brandenburg, Potsdam."
   openData: false
   note: Datenbestand Baufertigstellungen 2012-2016 differenziert (Zugangsbeschränkung, nur im Intranet)
+
