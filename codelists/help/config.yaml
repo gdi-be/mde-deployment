@@ -46,7 +46,7 @@ isoMetadata:
   resolutions:
     default: "isoMetadata/resolutions.md"
   scale:
-    default: "isoMetadata/resolutions.md"  
+    default: "isoMetadata/resolutions.md"
   contentDescription:
     default: "isoMetadata/contentDescription.md"
   technicalDescription:
@@ -55,16 +55,55 @@ isoMetadata:
     default: "isoMetadata/lineage.md"
   contentDescriptions:
     default: "isoMetadata/contentDescriptions.md"
-  serviceType:
-    default: "isoMetadata/serviceType.md"
-
+  services:
+    type:
+      default: "isoMetadata/serviceType.md"
+    title:
+      default: "isoMetadata/serviceTitle.md"
+    shortDescription:
+      default: "isoMetadata/serviceShortDescription.md"
+    workspace:
+      default: "isoMetadata/serviceWorkspace.md"
+    preview:
+      default: "isoMetadata/servicePreview.md"
+    legendImage:
+      default: "isoMetadata/serviceLegendImage.md"
+    featureTypes:
+      title:
+        default: "isoMetadata/featureTypeTitle.md"
+      name:
+        default: "isoMetadata/featureTypeName.md"
+      shortDescription:
+        default: "isoMetadata/featureTypeShortDescription.md"
+      columns:
+        name:
+          default: "isoMetadata/featureTypeColumnName.md"
+        alias:
+          default: "isoMetadata/featureTypeColumnAlias.md"
+        type:
+          default: "isoMetadata/featureTypeColumnType.md"
 clientMetadata:
   privacy:
     default: "clientMetadata/privacy.md"
   comments:
     default: "clientMetadata/comments.md"
-  layersTitle:
-    default: "clientMetadata/layerTitle.md"
+  layers:
+    title:
+      default: "clientMetadata/layerTitle.md"
+    name:
+      default: "clientMetadata/layerName.md"
+    styleTitle:
+      default: "clientMetadata/layerStyleTitle.md"
+    styleName:
+      default: "clientMetadata/layerStyleName.md"
+    legendImage:
+      default: "clientMetadata/layerLegendImage.md"
+    shortDescription:
+      default: "clientMetadata/layerShortDescription.md"
+    datasource:
+      default: "clientMetadata/layerDatasource.md"
+    secondaryDatasource:
+      default: "clientMetadata/layerSecondaryDatasource.md"
 
 technicalMetadata:
   deliveredCrs:
