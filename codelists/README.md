@@ -150,7 +150,7 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 54  | \_ Kurzbeschreibung                    | clientMetadata.layers.shortDescription               |
 | 55  | \_ Ablageort der Daten                 | clientMetadata.layers.datasource                     |
 | 56  | \_ sekundäre Datenhaltung              | clientMetadata.layers.secondaryDatasource            |
-| 58  | \_ Typ                                 | isoMetadata.services.serviceType                     |
+| 58  | \_ Typ                                 | isoMetadata.services.type                            |
 | 59  | \_ Titel                               | isoMetadata.services.title                           |
 | 60  | \_ Kurzbeschreibung                    | isoMetadata.services.shortDescription                |
 | 61  | \_ Featuretypes                        | isoMetadata.services.featureTypes                    |
