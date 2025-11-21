@@ -298,7 +298,7 @@
 
 - id: 23
   shortname: geschützte Dienste
-  active: true
+  active: false
   description: Daten für den Dienstgebrauch zur Wahrnehmung von gesetzlichen Aufgaben
   matchStrings:
     - Daten für den Dienstgebrauch zur Wahrnehmung von gesetzlichen Aufgaben
