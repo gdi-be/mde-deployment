@@ -47,7 +47,7 @@ isoMetadata:
     default: "isoMetadata/resolutions.md"
   scale:
     default: "isoMetadata/resolutions.md"
-  spatialRepresentationType:
+  spatialRepresentationTypes:
     default: "isoMetadata/spatialRepresentationType.md"
   contentDescription:
     default: "isoMetadata/contentDescription.md"
