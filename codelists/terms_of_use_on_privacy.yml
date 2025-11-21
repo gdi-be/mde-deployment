@@ -1,3 +1,12 @@
+- id: 23
+  shortname: geschützte Dienste
+  active: true
+  description: Daten für den Dienstgebrauch zur Wahrnehmung von gesetzlichen Aufgaben
+  matchStrings:
+    - Daten für den Dienstgebrauch zur Wahrnehmung von gesetzlichen Aufgaben
+  openData: false
+  note: geschützte Daten im Geoportal Intranet
+
 - id: 16
   shortname: Dienstgebrauch
   active: true
@@ -34,4 +43,5 @@
     - "Nutzungsbedingungen: Der Datenbestand unterliegt den Bestimmungen des HBauStatG (Gesetz über die Statistik der Bautätigkeit im Hochbau und die Fortschreibung des Wohnungsbestandes). Die Nutzung der Geodaten ist nur für dienstliche Zwecke entsprechend den Vorgaben des HBauStatG (§ 9) gestattet. © Amt für Statistik Berlin-Brandenburg, Potsdam."
   openData: false
   note: Datenbestand Baufertigstellungen 2012-2016 differenziert (Zugangsbeschränkung, nur im Intranet)
+
 
