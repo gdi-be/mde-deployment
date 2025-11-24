@@ -1,112 +1,123 @@
 isoMetadata:
+#01_basisangaben
   title:
     # Administrator: "isoMetadata/title.admin.md"
     # QualityAssurance: "isoMetadata/title.qs.md"
     # DataOwner: "isoMetadata/title.dhs.md"
-    Editor: "isoMetadata/title.redakteur.md"
-    default: "isoMetadata/title.md"
+    #Editor: "01_basisangaben/title.redakteur.md"
+    default: "01_basisangaben/title.md"
   description:
-    default: "isoMetadata/description.md"
+    default: "01_basisangaben/description.md"
   keywords:
-    default: "isoMetadata/keywords.md"
+    default: "01_basisangaben/keywords.md"
   preview:
-    default: "isoMetadata/preview.md"
+    default: "01_basisangaben/preview.md"
   pointsOfContact:
-    default: "isoMetadata/pointsOfContact.md"
+    default: "01_basisangaben/pointsOfContact.md"
+#02_einordnung
   metadataProfile:
-    default: "isoMetadata/metadataProfile.md"
+    default: "02_einordnung/metadataType.md"
   highValueDataCategory:
-    default: "isoMetadata/highValueDataset.md"
+    default: "02_einordnung/highValueDataset.md"
   inspireTheme:
-    default: "isoMetadata/inspireTheme.md"
-  inspireAnnexName:
-    default: "isoMetadata/inspireAnnexName.md"
+    default: "02_einordnung/inspireAnnexTheme.md"
+  inspireFormatName:
+    default: "02_einordnung/inspireSchemaName.md"
   inspireAnnexVersion:
-    default: "isoMetadata/inspireAnnexVersion.md"
+    default: "02_einordnung/inspireSchemaVersion.md"
+  valid:
+    default: "02_einordnung/inspireValid.md"
   termsOfUseId:
-    default: "isoMetadata/termsOfUseId.md"
+    default: "02_einordnung/termsOfUseId.md"
   termsOfUseSource:
-    default: "isoMetadata/termsOfUseSource.md"
+    default: "02_einordnung/termsOfUseSource.md"
   topicCategory:
-    default: "isoMetadata/topicCategory.md"
+    default: "02_einordnung/topicCategory.md"
+#03_zeitlicheUndRaeumlicheAngaben
   created:
-    default: "isoMetadata/created.md"
+    default: "03_zeitlicheUndRaeumlicheAngaben/created.md"
   published:
-    default: "isoMetadata/published.md"
+    default: "03_zeitlicheUndRaeumlicheAngaben/published.md"
   maintenanceFrequency:
-    default: "isoMetadata/maintenanceFrequency.md"
+    default: "03_zeitlicheUndRaeumlicheAngaben/maintenanceFrequency.md"
   modified:
-    default: "isoMetadata/modified.md"
+    default: "03_zeitlicheUndRaeumlicheAngaben/modified.md"
   validFrom:
-    default: "isoMetadata/validFrom.md"
+    default: "03_zeitlicheUndRaeumlicheAngaben/validFrom.md"
   crs:
-    default: "isoMetadata/crs.md"
+    default: "03_zeitlicheUndRaeumlicheAngaben/crs.md"
   extent:
-    default: "isoMetadata/extent.md"
+    default: "03_zeitlicheUndRaeumlicheAngaben/extent.md"
   resolutions:
-    default: "isoMetadata/resolutions.md"
+    default: "03_zeitlicheUndRaeumlicheAngaben/resolutions.md"
   scale:
-    default: "isoMetadata/resolutions.md"
+    default: "03_zeitlicheUndRaeumlicheAngaben/resolutions.md"
   spatialRepresentationTypes:
-    default: "isoMetadata/spatialRepresentationType.md"
+    default: "03_zeitlicheUndRaeumlicheAngaben/spatialRepresentationType.md"
+#04_weitereAngaben
   contentDescription:
-    default: "isoMetadata/contentDescription.md"
+    default: "04_weitereAngaben/contentDescription.md"
   technicalDescription:
-    default: "isoMetadata/technicalDescription.md"
+    default: "04_weitereAngaben/technicalDescription.md"
   lineage:
-    default: "isoMetadata/lineage.md"
+    default: "04_weitereAngaben/lineage.md"
   contentDescriptions:
-    default: "isoMetadata/contentDescriptions.md"
+    default: "04_weitereAngaben/furtherInformation.md"
+#05_dienste
   services:
     type:
-      default: "isoMetadata/serviceType.md"
+      default: "05_dienste/serviceType.md"
     title:
-      default: "isoMetadata/serviceTitle.md"
+      default: "05_dienste/serviceTitle.md"
     shortDescription:
-      default: "isoMetadata/serviceShortDescription.md"
+      default: "05_dienste/serviceShortDescription.md"
     workspace:
-      default: "isoMetadata/serviceWorkspace.md"
+      default: "05_dienste/serviceIdentificator.md"
     preview:
-      default: "isoMetadata/servicePreview.md"
+      default: "05_dienste/servicePreview.md"
     legendImage:
-      default: "isoMetadata/serviceLegendImage.md"
+      default: "05_dienste/serviceLegendImage.md"
     featureTypes:
       title:
-        default: "isoMetadata/featureTypeTitle.md"
+        default: "05_dienste/featureTypeTitle.md"
       name:
-        default: "isoMetadata/featureTypeName.md"
+        default: "05_dienste/featureTypeName.md"
       shortDescription:
-        default: "isoMetadata/featureTypeShortDescription.md"
+        default: "05_dienste/featureTypeShortDescription.md"
       columns:
         name:
-          default: "isoMetadata/featureTypeColumnName.md"
+          default: "05_dienste/featureTypeColumnName.md"
         alias:
-          default: "isoMetadata/featureTypeColumnAlias.md"
+          default: "05_dienste/featureTypeColumnAlias.md"
         type:
-          default: "isoMetadata/featureTypeColumnType.md"
+          default: "05_dienste/featureTypeColumnType.md"
 clientMetadata:
+#02_einordnung
   privacy:
-    default: "clientMetadata/privacy.md"
+    default: "02_einordnung/privacy.md"
+#01_basisangaben
   comments:
-    default: "clientMetadata/comments.md"
+    default: "01_basisangaben/comments.md"
+#05_dienste
   layers:
     title:
-      default: "clientMetadata/layerTitle.md"
+      default: "05_dienste/layerTitle.md"
     name:
-      default: "clientMetadata/layerName.md"
+      default: "05_dienste/layerName.md"
     styleTitle:
-      default: "clientMetadata/layerStyleTitle.md"
+      default: "05_dienste/layerStyleTitle.md"
     styleName:
-      default: "clientMetadata/layerStyleName.md"
+      default: "05_dienste/layerStyleName.md"
     legendImage:
-      default: "clientMetadata/layerLegendImage.md"
+      default: "05_dienste/layerLegendImage.md"
     shortDescription:
-      default: "clientMetadata/layerShortDescription.md"
+      default: "05_dienste/layerShortDescription.md"
     datasource:
-      default: "clientMetadata/layerDatasource.md"
+      default: "05_dienste/layerDatasource.md"
     secondaryDatasource:
-      default: "clientMetadata/layerSecondaryDatasource.md"
+      default: "05_dienste/layerSecondaryDatasource.md"
 
 technicalMetadata:
+#03_zeitlicheUndRaeumlicheAngaben
   deliveredCrs:
-    default: "technicalMetadata/deliveredCrs.md"
+    default: "03_zeitlicheUndRaeumlicheAngaben/deliveredCrs.md"
