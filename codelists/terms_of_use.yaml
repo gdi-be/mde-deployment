@@ -296,11 +296,11 @@
     quelle: Berliner Wasserbetriebe
   note: Badegewässerqualität Starkregengefahrenkarte
 
-- id: 23
-  shortname: geschützte Dienste
-  active: false
-  description: Daten für den Dienstgebrauch zur Wahrnehmung von gesetzlichen Aufgaben
-  matchStrings:
-    - Daten für den Dienstgebrauch zur Wahrnehmung von gesetzlichen Aufgaben
-  openData: false
-  note: geschützte Daten im Geoportal Intranet
+#- id: 23
+#  shortname: geschützte Dienste
+#  active: false
+#  description: Daten für den Dienstgebrauch zur Wahrnehmung von gesetzlichen Aufgaben
+#  matchStrings:
+#    - Daten für den Dienstgebrauch zur Wahrnehmung von gesetzlichen Aufgaben
+#  openData: false
+#  note: geschützte Daten im Geoportal Intranet
