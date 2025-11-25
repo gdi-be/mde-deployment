@@ -211,7 +211,7 @@
 - id: 16
   shortname: Dienstgebrauch
   active: false
-  description: Nur für den Dienstgebrauch gemäß GG0 I §45
+  description: Nur für den Dienstgebrauch gemäß GGO I §45
   matchStrings:
     - Nur für den Dienstgebrauch gemäß GG0 I §51
     - Nur für den Dienstgebrauch gemäß GG0 I §45
@@ -230,7 +230,7 @@
 - id: 18
   shortname: Dienstgebrauch und PD
   active: false
-  description: Nur für den Dienstgebrauch gemäß GG0 I §45; Karte enthält personenbezogene Daten nach EU-DSGVO.
+  description: Nur für den Dienstgebrauch gemäß GGO I §45; Karte enthält personenbezogene Daten nach EU-DSGVO.
   matchStrings:
     - Nur für den Dienstgebrauch gemäß GG0 I §45; Karte enthält personenbezogene Daten nach EU-DSGVO.
   openData: false
