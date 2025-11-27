@@ -2,7 +2,7 @@
 
 #### Erläuterung
 
-Seit dem 01.06.2024 sind alle Öffentliche Stellen und Unternehmen der Daseinsvorsorge in der Europäischen Union verpflichtet, sogenannte "High Value Datasets" (HVD), also hochwertige Datensätze des öffentlichen Sektors, die von der EU-Kommission als besonders wertvoll für Gesellschaft, Wirtschaft und Umwelt eingestuft werden, kostenfrei zur Weiterverwendung bereitzustellen. Ist Ihr Datensatz ein "High Value" Datensatz, dann bestätigen Sie die Abfrage und wählen anschließend eines oder mehrere der sechs Themenfelder aus, denen Ihr Datensatz zugehörig ist.
+Seit dem 01.06.2024 sind alle Öffentliche Stellen und Unternehmen der Daseinsvorsorge in der Europäischen Union verpflichtet, sogenannte "High Value Datasets" (HVD), also hochwertige Datensätze des öffentlichen Sektors, die von der EU-Kommission als besonders wertvoll für Gesellschaft, Wirtschaft und Umwelt eingestuft werden, kostenfrei zur Weiterverwendung bereitzustellen. Ist Ihr Datensatz ein "High Value" Datensatz, dann bestätigen Sie die Abfrage und wählen anschließend eines oder mehrere der sechs Kategorien aus, denen Ihr Datensatz zugehörig ist.
 
 #### Hinweise
 
@@ -10,7 +10,7 @@ Seit dem 01.06.2024 sind alle Öffentliche Stellen und Unternehmen der Daseinsvo
 
 #### Beispiel
 
-Geodaten (Geospatial)
+Georaum
 
 #### Sichtbarkeit in Anwendungen
 
