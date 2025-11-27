@@ -1,10 +1,10 @@
-## Schema-Name des INSPIRE Themas
+## INSPIRE Schema Name 
 
 #### Erläuterung
-Für die INSPIRE-harmonisierten Daten muss an dieser Stelle das zutreffende Datenschema des entsprechenden Annex Themas angegeben werden, in dem die Daten bereitgestellt werden.
+Für die INSPIRE harmonisierten Daten muss an dieser Stelle das zutreffende Datenschema des entsprechenden INSPIRE Annex Themas angegeben werden, in dem die Daten bereitgestellt werden.
 
 #### Hinweise
-* Die vorhandenen Daten-Schemata können den entsprechenden Applikationsschemata der Annex Themen entnommen werden.
+* Die vorhandenen Daten-Schemata können den entsprechenden Applikationsschemata der INSPIRE Annex Themen entnommen werden.
 
 #### Beispiel
 AdministrativeUnits GML Application Schema
