@@ -1,7 +1,7 @@
-## geliefertes Koordinatensystem
+## Geliefertes Koordinatensystem
 
 #### Erläuterung
-Bitte tragen Sie das Koordinatensystem mit EPSG-Nummer ein, falls der Datenbestand in einem anderen Koordinatensystem vorliegt als in der Landesprojektion (ETRS 89 UTM Zone 33N – bereits vorbelegt).
+Falls der Datenbestand in einem anderen Koordinatensystem als der Landesprojektion ETRS 89 UTM Zone 33N (EPSG:25833) vorliegt, tragen Sie bitte die EPSG-Nummer des Koordinatensystems ein.
 
 #### Hinweise
 * Die Übergabe der Daten in der Landesprojektion erleichtert die Bearbeitung.
