@@ -19,7 +19,7 @@ Die räumliche Darstellungsart wird in der
 <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin</a>
 angezeigt und ist mit der Suchfunktion suchbar.
  
-<a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank"><span><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/spatialrepresentationType.png"></span></a>
+<a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank"><span><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/spatialRepresentationType.png"></span></a>
 
 
 #### Sichtbarkeit in der ISO
