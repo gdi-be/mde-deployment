@@ -12,10 +12,8 @@ Der "Titel" beschreibt den Namen ihres Datenbestandes. Es ist ein Pflichtfeld un
 Welterbestätten Berlin
 
 #### Sichtbarkeit in Anwendungen
-Der Titel wird in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt<span>
+Der Titel wird in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt und ist mit der Suchfunktion durchsuchbar.<span>
 <img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/title.png"></span></a>
-
-und ist mit der Suchfunktion durchsuchbar.
 
 #### Sichtbarkeit in der ISO
 /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString
