@@ -6,7 +6,7 @@ Der Typ des Dienstes gibt an, welche Schnittstelle verwendet werden soll, um Ihr
 #### Hinweise
 * Nur vektorielle Daten sind für die Abgabe über WFS geeignet.
 * Rasterbasierte Daten können aktuell nur über das Atom für den Download angeboten werden.
-* Wenn Sie sich bei der Auswahl unsicher sind, wenden Sie sich bitte an die Redakteure der GDI Berlin.
+* Wenn Sie sich bei der Auswahl unsicher sind, wenden Sie sich bitte an die Redaktion der GDI Berlin.
 
 #### Beispiel
 WMS
