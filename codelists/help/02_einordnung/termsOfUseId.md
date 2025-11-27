@@ -10,9 +10,9 @@ Die Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen wendet für die fre
 Datenlizenz Deutschland - Zero - Version 2.0
 
 #### Sichtbarkeit in Anwendungen
-Die Nutzungsbestimmungen werden in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt<span><br /><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/termsOfUseId.png"></span></a>
+Die Nutzungsbestimmungen werden in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin</a>
+angezeigt und sind mit der Suchfunktion suchbar.
 
-und sind mit der Suchfunktion suchbar.
-
+<a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank"><span><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/termsOfUseId.png"></span></a>
 #### Sichtbarkeit in der ISO
 /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints/gco:CharacterString
