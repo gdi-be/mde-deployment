@@ -1,6 +1,6 @@
 ## Metadaten-Typ
 
-Laut der Verordnung der europäischen Union zu INSPIRE sollen alle Mitgliedstaaten Daten zu den folgenden Themenbereichen erheben bzw. vorhalten und diese nach den Regeln einer europäischen Geodateninfrastruktur zugänglich machen. Wenn Ihr Datenbestand von einem oder mehreren dieser Themenbereiche berührt wird, wählen Sie bitte "INSPIRE betroffen" aus. Führen Sie bereits einen Datenbestand, der harmonisch zu den von der EU vorgebenenen Datenmodellen ist, dann wählen Sie bitte "INSPIRE harmonisiert" aus. Trifft beides nicht zu, so bleibt die Standardeinstellung "ISO" bestehen.
+Laut der Verordnung der europäischen Union zu INSPIRE sollen alle Mitgliedstaaten Daten zu den 34 vorgegebenen Themenbereichen erheben bzw. vorhalten und diese nach den Regeln einer europäischen Geodateninfrastruktur zugänglich machen. Wenn Ihr Datenbestand von einem oder mehreren Themenbereichen berührt wird, wählen Sie bitte "INSPIRE betroffen" aus. Führen Sie bereits einen Datenbestand, der harmonisch zu den von der EU vorgebenenen Datenmodellen ist, dann wählen Sie bitte "INSPIRE harmonisiert" aus. Trifft beides nicht zu, so bleibt die Standardeinstellung "ISO" bestehen.
 
 #### Hinweise
 * Überprüfen Sie eine Betroffenheit anhand der von INSPIRE relevanten Themen.
@@ -10,9 +10,9 @@ Laut der Verordnung der europäischen Union zu INSPIRE sollen alle Mitgliedstaat
 INSPIRE identifiziert
 
 #### Sichtbarkeit in Anwendungen
-Die INSPIRE Relevanz wird durch das Schlagwort "inspireidentifiziert" gekennzeichnet und entsprechend in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt<span><br /><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/metadataProfile.png"></span></a>
-
-Über die Suchfunktion ist sie ebenfalls suchbar.
+Die INSPIRE Relevanz wird durch das Schlagwort "inspireidentifiziert" gekennzeichnet, in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin</a>
+ angezeigt und ist über die Suchfunktion durchsuchbar.
+ <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank"><span><br /><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/metadataType.png"></span></a>
 
 #### Sichtbarkeit in der ISO
 /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString
