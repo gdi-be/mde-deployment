@@ -12,10 +12,13 @@ Nennen Sie die Quellen, die genutzt wurden, um den Datenbestand zu erstellen. Si
 Landeskartenwerk K5 – Stand: 2018
 
 #### Sichtbarkeit in Anwendungen
-Die Herkunft der Daten wird in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin angezeigt<span>
-<img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/lineage.png"></span></a> 
+Die Herkunft der Daten wird in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin</a> 
+ angezeigt und ist mit der Suchfunktion durchsuchbar.
+ 
+<a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank"><span>
+<img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/lineage.png"></span></a>
 
-und ist mit der Suchfunktion durchsuchbar.
+
 
 #### Sichtbarkeit in der ISO
 /MD_Metadata/dataQualityInfo/DQ_DataQuality/lineage/LI_Lineage/
