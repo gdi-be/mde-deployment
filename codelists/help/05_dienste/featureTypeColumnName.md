@@ -4,7 +4,7 @@
 Bitte geben Sie den Namen des Attributes ein, wie er in der sekundären Datenhaltung angelegt und über die Schnittstellen abgegeben werden soll.
 
 #### Hinweise
-* Nur Kleinbuchstaben, Zahlen und Unterstriche.
+* Der Attributname darf nur aus Kleinbuchstaben, Zahlen und Unterstrichen bestehen.
 
 #### Beispiel
 referenznr_welterbe
