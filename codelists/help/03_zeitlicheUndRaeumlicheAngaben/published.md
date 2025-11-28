@@ -13,7 +13,7 @@ Das Veröffentlichungsdatum gibt an, wann der beschriebene Datensatz (erstmalig 
 #### Sichtbarkeit in Anwendungen
 Das Veröffentlichungsdatum wird im Geoportal Berlin und der 
 <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/65b2f04e-2e8c-393f-a848-b7d696508f1a" class="popup" target="_blank">Geodatensuche Berlin</a>
-angezeigt und ist mit der Suchfunktion suchbar.
+angezeigt und ist mit der Suchfunktion durchsuchbar.
 
 <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/65b2f04e-2e8c-393f-a848-b7d696508f1a" class="popup" target="_blank"><span>
 <img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/published.png"></span></a>
