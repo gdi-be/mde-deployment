@@ -1,6 +1,6 @@
 ## Metadaten-Typ
 #### Erläuterung
-Laut der Verordnung der europäischen Union zu INSPIRE sollen alle Mitgliedstaaten Daten zu den 34 vorgegebenen Themenbereichen erheben bzw. vorhalten und diese nach den Regeln einer europäischen Geodateninfrastruktur zugänglich machen. Wenn Ihr Datenbestand von einem oder mehreren Themenbereichen berührt wird, wählen Sie bitte "INSPIRE betroffen" aus. Führen Sie bereits einen Datenbestand, der harmonisch zu den von der EU vorgebenenen Datenmodellen ist, dann wählen Sie bitte "INSPIRE harmonisiert" aus. Trifft beides nicht zu, so bleibt die Standardeinstellung "ISO" bestehen.
+Laut der Verordnung der europäischen Union zu INSPIRE sollen alle Mitgliedstaaten Daten zu den 34 vorgegebenen Themenbereichen erheben bzw. vorhalten und diese nach den Regeln einer europäischen Geodateninfrastruktur zugänglich machen. Wenn Ihr Datenbestand von einem oder mehreren Themenbereichen berührt wird, wählen Sie bitte "INSPIRE identifiziert" aus. Führen Sie bereits einen Datenbestand, der harmonisch zu den von der EU vorgebenenen Datenmodellen ist, dann wählen Sie bitte "INSPIRE harmonisiert" aus. Trifft beides nicht zu, so bleibt die Standardeinstellung "ISO" bestehen.
 
 #### Hinweise
 * Überprüfen Sie eine Betroffenheit anhand der von INSPIRE relevanten Themen.
