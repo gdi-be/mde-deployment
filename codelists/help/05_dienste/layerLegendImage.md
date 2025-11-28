@@ -1,7 +1,7 @@
 ## Legende
 
 #### Erläuterung
-Bei Karten mit mehreren thematischen Ebenen spezifische Legende für jede Fachebene angeben.
+Falls Karten aus mehreren thematischen Ebenen bestehen, soll hier eine spezifische Legende für die einzelne Fachebene angegeben werden, in der alle im Kartenbild dargestellten Geoobjekte mittels Legendenbild und Legendentext erläutert werden.
 
 #### Hinweise
 * PNG-Format, 500 Pixel breit, ≥ 96 dpi.
