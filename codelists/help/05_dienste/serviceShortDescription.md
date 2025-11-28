@@ -7,7 +7,7 @@ Bitte formulieren Sie eine Kurzbeschreibung, die den Inhalt und den Zweck des Di
 * Mit dem A-Button kann die Kurzbeschreibung des Datenbestands übernommen und ggf. angepasst werden.
 
 #### Beispiel
-Die Welterbekarte Berlin umfasst die Welterbebereiche und die Pufferzonen sowie die in den Welterbebereichen liegenden Bau- und Gartendenkmale Berlins. Die Welterbegebiete entsprechen den von der UNESCO bestätigten Kartierungen.
+Die Welterbekarte Berlin umfasst die Welterbebereiche und die Pufferzonen, sowie die in den Welterbebereichen liegenden Bau- und Gartendenkmale Berlins. Die Welterbegebiete entsprechen den von der UNESCO bestätigten Kartierungen.
 
 #### Sichtbarkeit in Anwendungen
 Die Kurzbeschreibung des Dienstes wird in der
