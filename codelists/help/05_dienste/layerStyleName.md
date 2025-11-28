@@ -1,11 +1,12 @@
-## Name des Style
+## Name des Styles
 
 #### Erläuterung
-Der Name des Styles wird automatisch ausgefüllt. Falls notwendig (z. B. im Fall eines INSPIRE harmonisierten Datenbestandes), kann der Name hier angepasst werden.
+Textänderung: Der Name des Styles wird automatisch vorausgefüllt. Sie können den Namen hier ändern. Für INSPIRE harmonisierte Darstellungsdienste entnehmen Sie bitte die genauen Default-Style-Namen der jeweiligen Datenspezifikation (Kapitel Portrayal) des entsprechenden INSPIRE Annex Themas.
 
 #### Hinweise
-* Der Name des Styles darf nur aus Kleinbuchstaben, Zahlen und Unter-/ und Strichen bestehen.
+* Der Name des Styles darf nur aus Kleinbuchstaben, Zahlen und Unterstrichen bestehen.
 * Sonderzeichen und Umlaute sind nicht erlaubt.
+* Ausnahme: bei INSPIRE harmonisierten WMS Diensten dürfen die Namen auch aus Großbuchstaben und Punkten bestehen.
 
 #### Beispiel
 welterbebereich
