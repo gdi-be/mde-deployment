@@ -11,7 +11,7 @@ Datenlizenz Deutschland - Zero - Version 2.0
 
 #### Sichtbarkeit in Anwendungen
 Die Nutzungsbestimmungen werden in der <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin</a>
-angezeigt und sind mit der Suchfunktion suchbar.
+angezeigt und sind mit der Suchfunktion durchsuchbar.
 
 <a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank"><span><img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/termsOfUseId.png"></span></a>
 #### Sichtbarkeit in der ISO
