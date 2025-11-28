@@ -1,10 +1,10 @@
 ## sekundäre Datenhaltung
 
 #### Erläuterung
-Ort der sekundären Datenhaltung der GDI Berlin, z. B. Tabellenname oder Link auf Rasterdatei/Mosaik.
+Hier ist der Ort der sekundären Datenhaltung der GDI Berlin einzutragen. Das kann ein Tabellenname in einem Datenbankschema oder auch der Link auf eine Rasterdatei/Mosaik auf dem Fileserver sein.
 
 #### Hinweise
-* Möglichst nur URLs auf Dateien oder direkte Verweise auf Datenbanktabellen eintragen.
+* Zur besseren Nachnutzbarkeit sollen möglichst nur URLs auf Dateien oder direkte Verweise auf Datenbanktabellen eingetragen werden.
 
 #### Beispiel
 /gdi-db/gdibe/bauen/welterbe
