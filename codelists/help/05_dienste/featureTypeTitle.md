@@ -1,7 +1,9 @@
 ## Titel des FeatureTypes
 
 #### Erläuterung
-Bitte passen Sie den Titel an. Er soll sich von anderen FeatureTypes abgrenzen.
+Entsprechend der Kartenebenen der Darstellungsdienste sollen auch die FeatureTypes der WFS-Dienste beschrieben werden (Fachebenen). Bitte beschreiben Sie jeden FeatureType einzeln. 
+Bitte geben Sie hier den Titel für den FeatureType an. Der Titel soll sich gut von denen der anderen FeatureTypes abgrenzen.
+
 
 #### Hinweise
 * Bei mehreren Zeitschnitten Jahreszahl ergänzen.
