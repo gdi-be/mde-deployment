@@ -12,7 +12,12 @@ Bitte passen Sie den Titel für die Kartenebene an. Der Titel soll sich gut von 
 Welterbebereich
 
 #### Sichtbarkeit in Anwendungen
-Die Titel der Kartenebenen sind im Geoportal Berlin zur jeweiligen Karte sichtbar und mit der Suchfunktion durchsuchbar.
+Die Titel der Kartenebenen sind im 
+<a href="https://gdi.berlin.de/view/welterbe" class="popup" target="_blank">Geoportal Berlin</a>
+zur jeweiligen Karte sichtbar und mit der Suchfunktion durchsuchbar.
+
+<a href="https://gdi.berlin.de/view/welterbe" class="popup" target="_blank"><span>
+<img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/layerTitle.png"></span></a>
 
 #### Sichtbarkeit in der ISO
 –
