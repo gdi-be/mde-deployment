@@ -1,4 +1,4 @@
-## Dienst-Typ
+## Typ des Dienstes
 
 #### Erläuterung
 Der Typ des Dienstes gibt an, welche Schnittstelle verwendet werden soll, um Ihre Daten im Internet zugreifbar zu machen.
@@ -12,7 +12,12 @@ Der Typ des Dienstes gibt an, welche Schnittstelle verwendet werden soll, um Ihr
 WMS
 
 #### Sichtbarkeit in Anwendungen
-Der Dienst-Typ wird in der Geodatensuche Berlin angezeigt und ist mit der Suchfunktion suchbar.
+Der Dienst-Typ wird in der 
+<a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank">Geodatensuche Berlin</a>
+ angezeigt und ist mit der Suchfunktion durchsuchbar.
+ 
+<a href="https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4949391f-a7a9-4b24-b855-5e8dbf5e3f6d" class="popup" target="_blank"><span>
+<img src="https://raw.githubusercontent.com/gdi-be/mde-deployment/refs/heads/main/codelists/help/previews/serviceType.png"></span></a>
 
 #### Sichtbarkeit in der ISO
 /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceTypeVersion/gco:CharacterString
