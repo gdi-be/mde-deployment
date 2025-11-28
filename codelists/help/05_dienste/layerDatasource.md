@@ -1,11 +1,11 @@
 ## Ablageort der Daten
 
 #### Erläuterung
-Bitte geben oder beschreiben Sie den Ablageort Ihrer Daten, damit die Redakteure auf die Dateien zugreifen können.
+Bitte geben oder beschreiben Sie hier den Ablageort oder die Quelle ihrer Daten möglichst präzise, damit die Redakteure der GDI-Berlin auf ihre Daten zugreifen und sie weiter verarbeiten können.
 
 #### Hinweise
-* Gültige Links oder Fließtext erlaubt.
-* Weitere Hinweise können über Kommentare mitgeteilt werden.
+* Es sind gültige Links als auch Fließtext erlaubt, um den Ablageort der Daten zu beschreiben.
+* Weitere Hinweise zu den Daten können den Redakteure auch über die Kommentarfunktion mitgeteilt werden.
 
 #### Beispiel
 file://senstadtfp12/alle/Daten_Welterbe/
