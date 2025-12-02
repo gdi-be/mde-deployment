@@ -7,8 +7,8 @@ services:
     restart: unless-stopped
     volumes:
       - ./mde-nginx/prod/default.conf:/etc/nginx/conf.d/default.conf:rw,U
-      - ./mde-nginx/prod/gdi-mde-p-server.selfsign.crt:/etc/nginx/ssl/private/localhost.crt:U
-      - ./mde-nginx/prod/gdi-mde-p-server.key:/etc/nginx/ssl/private/localhost.key:U
+      - ./mde-nginx/prod/1757_webportal_202511.crt:/etc/nginx/ssl/private/localhost.crt:U
+      - ./mde-nginx/prod/webportal.key:/etc/nginx/ssl/private/localhost.key:U
     ports:
       - 80:80
       - 443:443
