@@ -44,7 +44,7 @@ services:
     command:
       ["start", "--proxy-headers", "xforwarded", "--http-enabled", "true"]
   mde-backend:
-    image: ghcr.io/gdi-be/mde-backend:4.3.1
+    image: ghcr.io/gdi-be/mde-backend:4.3.3
     container_name: mde-backend
     hostname: mde-backend
     restart: unless-stopped
