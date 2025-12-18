@@ -4,7 +4,7 @@
 Sie haben die Möglichkeit eine ausführliche inhaltliche Beschreibung des Datenbestands anzugeben. Dieser Text wird in der Geodatensuche Berlin unter dem Punkt „inhaltliche Beschreibung“ verlinkt und dann auf einer separaten Seite präsentiert.
 
 #### Hinweise
-* Tragen Sie bitte eine URL ein, die auf ein PDF-Dokument verweist oder übermitteln Sie das Dokument der Redaktion.
+* Ist bereits eine inhaltliche Beschreibung vorhanden, so tragen Sie bitte eine URL, die auf das PDF-Dokument verweist ein oder übermitteln Sie das Dokument der Redaktion.
 * Sollte Ihnen noch kein fertiges Dokument vorliegen, können Sie die Vorlage hier herunterladen und ausgefüllt an die Redaktion senden: https://github.com/gdi-be/mde-deployment/blob/main/codelists/help/04_weitereAngaben/Beschreibung_Beispiel.docx
 
 #### Beispiel
