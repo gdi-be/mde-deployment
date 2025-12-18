@@ -4,7 +4,8 @@
 Die technische Beschreibung des Datenbestands enthält eine Erläuterung des Aufbaus der Sachdaten und eine Entschlüsselung der Attribute und Attributbezeichnungen. Daher ist sie für Nutzende des WFS-Dienstes zur Entschlüsselung der Sachdatenstruktur wichtig. Die technische Beschreibung wird von der Redaktion mithilfe der Attribut-Beschreibungen erzeugt.
 
 #### Hinweise
-* Ist bereits eine technische Beschreibung vorhanden, so tragen Sie bitte eine URL, die auf ein PDF-Dokument verweist ein oder übermitteln Sie das Dokument der Redaktion.
+* Ist bereits eine technische Beschreibung vorhanden, so tragen Sie bitte eine URL, die auf das PDF-Dokument verweist ein oder übermitteln Sie das Dokument der Redaktion.
+* Sollte Ihnen noch kein fertiges Dokument vorliegen, können Sie die Vorlage hier herunterladen und ausgefüllt an die Redaktion senden: https://github.com/gdi-be/mde-deployment/blob/main/codelists/help/04_weitereAngaben/Datenformatbeschreibung_Beispiel.docx
 
 #### Beispiel
 <a href="https://gdi.berlin.de/data/adressen_berlin/docs/Datenformatbeschreibung_Adressen_Berlin.pdf" class="popup" target="_blank">https://gdi.berlin.de/data/adressen_berlin/docs/Datenformatbeschreibung_Adressen_Berlin.pdf</a>
