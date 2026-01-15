@@ -5,7 +5,7 @@ Die technische Beschreibung des Datenbestands enthält eine Erläuterung des Auf
 
 #### Hinweise
 * Ist bereits eine technische Beschreibung vorhanden, so tragen Sie bitte eine URL, die auf das PDF-Dokument verweist ein oder übermitteln Sie das Dokument der Redaktion.
-* Sollte Ihnen noch kein fertiges Dokument vorliegen, können Sie die Vorlage hier herunterladen und ausgefüllt an die Redaktion senden: https://github.com/gdi-be/mde-deployment/blob/main/codelists/help/04_weitereAngaben/Datenformatbeschreibung_Beispiel.docx
+* Sollte Ihnen noch kein fertiges Dokument vorliegen, können Sie die Vorlage hier herunterladen und ausgefüllt an die Redaktion senden: https://github.com/gdi-be/mde-deployment/raw/main/codelists/help/04_weitereAngaben/Datenformatbeschreibung_Beispiel.docx
 
 #### Beispiel
 <a href="https://gdi.berlin.de/data/adressen_berlin/docs/Datenformatbeschreibung_Adressen_Berlin.pdf" class="popup" target="_blank">https://gdi.berlin.de/data/adressen_berlin/docs/Datenformatbeschreibung_Adressen_Berlin.pdf</a>
