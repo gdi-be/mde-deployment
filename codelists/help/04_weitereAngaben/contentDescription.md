@@ -5,7 +5,7 @@ Sie haben die Möglichkeit eine ausführliche inhaltliche Beschreibung des Daten
 
 #### Hinweise
 * Ist bereits eine inhaltliche Beschreibung vorhanden, so tragen Sie bitte eine URL, die auf das PDF-Dokument verweist ein oder übermitteln Sie das Dokument der Redaktion.
-* Sollte Ihnen noch kein fertiges Dokument vorliegen, können Sie die Vorlage hier herunterladen und ausgefüllt an die Redaktion senden: https://github.com/gdi-be/mde-deployment/blob/main/codelists/help/04_weitereAngaben/Beschreibung_Beispiel.docx
+* Sollte Ihnen noch kein fertiges Dokument vorliegen, können Sie die Vorlage hier herunterladen und ausgefüllt an die Redaktion senden: https://github.com/gdi-be/mde-deployment/raw/main/codelists/help/04_weitereAngaben/Beschreibung_Beispiel.docx
 
 #### Beispiel
 <a href="https://gdi.berlin.de/data/denkmale/docs/denkmal.pdf" class="popup" target="_blank">https://gdi.berlin.de/data/denkmale/docs/denkmal.pdf</a>
