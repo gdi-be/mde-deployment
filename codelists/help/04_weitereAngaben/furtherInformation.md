@@ -5,6 +5,7 @@ URLs zu weiterführenden Informationen, z. B. zum Fachauftritt bei SenStadt oder
 
 #### Hinweise
 * Bitte tragen Sie die URL und den anzuzeigenden Text (Titel) ein, z. B. Wasserportal: https://wasserportal.berlin.de/start.php
+* Ohne Angabe einer URL wird die Information nicht in Geonetwork angezeigt.
 * URLs aller zum Datenbestand gehörenden Dienste werden automatisch vom System hinzugefügt und müssen an dieser Stelle nicht eingetragen werden. 
 
 #### Beispiel
