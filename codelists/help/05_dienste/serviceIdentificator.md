@@ -4,7 +4,7 @@
 Der Identifikator (auch Arbeitsbereich) des Dienstes definiert in der Dienstkomponente, im Webserver, im Dateisystem und beim Aufruf des Geoportals den eindeutigen Bezeichner bzw. die Klammer für den Datenbestand bzw. die dazugehörigen Dienste.
 
 #### Hinweise
-* Der Identifikator darf nur aus Kleinbuchstaben, Zahlen und Unter-/ und Strichen bestehen.
+* Der Identifikator darf nur aus Kleinbuchstaben, Zahlen oder Unterstrichen bestehen.
 * Sonderzeichen und Umlaute sind nicht erlaubt.
 
 #### Beispiel
