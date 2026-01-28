@@ -1,5 +1,5 @@
 isoMetadata:
-#01_basisangaben
+  #01_basisangaben
   title:
     # Administrator: "isoMetadata/title.admin.md"
     # QualityAssurance: "isoMetadata/title.qs.md"
@@ -14,7 +14,7 @@ isoMetadata:
     default: "01_basisangaben/preview.md"
   pointsOfContact:
     default: "01_basisangaben/pointsOfContact.md"
-#02_einordnung
+  #02_einordnung
   metadataProfile:
     default: "02_einordnung/metadataType.md"
   highValueDataCategory:
@@ -33,7 +33,7 @@ isoMetadata:
     default: "02_einordnung/termsOfUseSource.md"
   topicCategory:
     default: "02_einordnung/topicCategory.md"
-#03_zeitlicheUndRaeumlicheAngaben
+  #03_zeitlicheUndRaeumlicheAngaben
   created:
     default: "03_zeitlicheUndRaeumlicheAngaben/created.md"
   published:
@@ -54,7 +54,7 @@ isoMetadata:
     default: "03_zeitlicheUndRaeumlicheAngaben/resolutions.md"
   spatialRepresentationTypes:
     default: "03_zeitlicheUndRaeumlicheAngaben/spatialRepresentationType.md"
-#04_weitereAngaben
+  #04_weitereAngaben
   contentDescription:
     default: "04_weitereAngaben/contentDescription.md"
   technicalDescription:
@@ -63,7 +63,7 @@ isoMetadata:
     default: "04_weitereAngaben/lineage.md"
   contentDescriptions:
     default: "04_weitereAngaben/furtherInformation.md"
-#05_dienste
+  #05_dienste
   services:
     type:
       default: "05_dienste/serviceType.md"
@@ -78,6 +78,7 @@ isoMetadata:
     legendImage:
       default: "05_dienste/serviceLegendImage.md"
     featureTypes:
+      default: "05_dienste/featureType.md"
       title:
         default: "05_dienste/featureTypeTitle.md"
       name:
@@ -85,6 +86,7 @@ isoMetadata:
       shortDescription:
         default: "05_dienste/featureTypeShortDescription.md"
       columns:
+        default: "05_dienste/featureTypeColumn.md"
         name:
           default: "05_dienste/featureTypeColumnName.md"
         alias:
@@ -92,14 +94,15 @@ isoMetadata:
         type:
           default: "05_dienste/featureTypeColumnType.md"
 clientMetadata:
-#02_einordnung
+  #02_einordnung
   privacy:
     default: "02_einordnung/privacy.md"
-#01_basisangaben
+  #01_basisangaben
   comments:
     default: "01_basisangaben/comments.md"
-#05_dienste
+  #05_dienste
   layers:
+    default: "05_dienste/layers.md"
     title:
       default: "05_dienste/layerTitle.md"
     name:
@@ -118,6 +121,6 @@ clientMetadata:
       default: "05_dienste/layerSecondaryDatasource.md"
 
 technicalMetadata:
-#03_zeitlicheUndRaeumlicheAngaben
+  #03_zeitlicheUndRaeumlicheAngaben
   deliveredCrs:
     default: "03_zeitlicheUndRaeumlicheAngaben/deliveredCrs.md"
