@@ -88,7 +88,7 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 1   | Titel                                  | isoMetadata.title                                    |
 | 2   | Kurzbeschreibung                       | isoMetadata.description                              |
 | 3   | Kommentare                             | clientMetadata.comments                              |
-| 4   | Datenschutz                            | clientMetadata.privacy                               |
+| 4   | Datenschutz                            | isoMetadata.privacy                                  |
 | 5   | INSPIRE-Typ                            | isoMetadata.metadataProfile                          |
 | 6   | HVD                                    | isoMetadata.highValueDataset                         |
 | 7   | Annex                                  | isoMetadata.inspireTheme                             |
