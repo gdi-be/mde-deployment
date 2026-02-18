@@ -10,14 +10,14 @@ Ein EingabeFeld kann zum Beispiel wie folgt konfiguriert werden:
 ```yaml
 isoMetadata:
   title:
-    Administrator: "isoMetadata/title.admin.md"
-    QualityAssurance: "isoMetadata/title.qs.md"
-    DataOwner: "isoMetadata/title.dhs.md"
-    Editor: "isoMetadata/title.redakteur.md"
-    default: "isoMetadata/title.md"
+    Administrator: "01_basisangaben/title.admin.md"
+    QualityAssurance: "01_basisangaben/title.qs.md"
+    DataOwner: "01_basisangaben/title.dhs.md"
+    # Editor: "01_basisangaben/title.redakteur.md"
+    default: "01_basisangaben/title.md"
   services:
     legendImage:
-      default: "isoMetadata/services/legendImage.md"
+      default: "05_dienste/serviceLegendImage.md"
 ```
 
 Standardmäßig wir die Hilfedatei mit dem Schlüssel `default` verwendet. Wenn ein Benutzer mit einer bestimmten Rolle angemeldet ist, wird die entsprechende Hilfedatei verwendet. Die Rollenzuordnung stellt sich wie folgt dar:
