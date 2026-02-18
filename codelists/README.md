@@ -5,14 +5,14 @@ Die Codelisten sind in Form von YAML-Dateien im Verzeichnis `codelists` abgelegt
 Folgende Codelisten sind vorhanden.
 
 - `contact.yaml` - Werte für den Standard Kontakt für ISO Export
-  - `name`: TODO
-  - `organisation`: TODO
-  - `contact`: TODO
-  - `phone`: TODO
-  - `email`: TODO
-  - `code`: TODO
-  - `url`: TODO
-  - `roleCode`: TODO
+  - `name`: Name des Kontakts
+  - `organisation`: Name der Organisation
+  - `contact`: wird aktuell nicht verwendet
+  - `phone`: Telefonnummer
+  - `email`: Mailadresse
+  - `code`: wird aktuell nicht verwendet
+  - `url`: wird als URL exportiert
+  - `roleCode`: Wert aus der Kontaktrollen-Codeliste
 - `cry.yaml` - Liste der Koordinatensysteme
   - Felder
     - `key` - Schlüssel (wird im code verwendet)
@@ -37,15 +37,15 @@ Folgende Codelisten sind vorhanden.
     - `key` - Schlüssel (wird im code verwendet)
     - `label` - Text (wird zur Anzeige verwendet)
 - `metadatavariables.yaml` - Enthält verschiedene Variablen für den ISO Export
-  - `profileName`: TODO
-  - `profileVersion`: TODO
-  - `registry`: TODO
-  - `regionalKey`: TODO
-  - `serviceUrl`: TODO
-  - `lineage`: TODO
-  - `standardFormat`: TODO
-  - `standardVersion`: TODO
-  - `portalUrl`: TODO
+  - `profileName`: wird als metadataStandardName exportiert
+  - `profileVersion`: wird als metadataStandardVersion exportiert
+  - `registry`: Basisurl für die Registry
+  - `regionalKey`: Regionalschlüssel
+  - `serviceUrl`: Basis-Dienstadresse
+  - `lineage`: Herkunft der Daten
+  - `standardFormat`: Standardformat
+  - `standardVersion`: Standardformat - Version
+  - `portalUrl`: Link zum Geoportal
 - `inspire_themes.yaml` - Liste der INSPIRE-Themen
   - Felder
     - `key` - Schlüssel (wird im code verwendet)
