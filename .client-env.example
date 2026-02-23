@@ -11,8 +11,9 @@ PUBLIC_GNOS_URL=https://localhost/geonetwork
 # The Backend URL as accesible from the docker network
 BACKEND_URL=http://mde-backend:8080
 
-# The log level for the client
+# The log level for the client and server
 CLIENT_LOG_LEVEL=debug
+PUBLIC_BROWSER_LOG_LEVEL=debug
 
 # Allows self-signed certificates
 NODE_TLS_REJECT_UNAUTHORIZED=0
