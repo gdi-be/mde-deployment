@@ -1,10 +1,9 @@
 isoMetadata:
-  #01_basisangaben
   title:
-    # Administrator: "isoMetadata/title.admin.md"
-    # QualityAssurance: "isoMetadata/title.qs.md"
-    # DataOwner: "isoMetadata/title.dhs.md"
-    #Editor: "01_basisangaben/title.redakteur.md"
+    # Administrator: "01_basisangaben/title.admin.md"
+    # QualityAssurance: "01_basisangaben/title.qs.md"
+    # DataOwner: "01_basisangaben/title.dhs.md"
+    # Editor: "01_basisangaben/title.redakteur.md"
     default: "01_basisangaben/title.md"
   description:
     default: "01_basisangaben/description.md"
@@ -15,6 +14,8 @@ isoMetadata:
   pointsOfContact:
     default: "01_basisangaben/pointsOfContact.md"
   #02_einordnung
+  privacy:
+    default: "02_einordnung/privacy.md"
   metadataProfile:
     default: "02_einordnung/metadataType.md"
   highValueDataCategory:
@@ -23,10 +24,10 @@ isoMetadata:
     default: "02_einordnung/inspireAnnexTheme.md"
   inspireFormatName:
     default: "02_einordnung/inspireSchemaName.md"
-  inspireAnnexVersion:
-    default: "02_einordnung/inspireSchemaVersion.md"
   valid:
     default: "02_einordnung/inspireValid.md"
+  inspireAnnexVersion:
+    default: "02_einordnung/inspireSchemaVersion.md"
   termsOfUseId:
     default: "02_einordnung/termsOfUseId.md"
   termsOfUseSource:
@@ -54,7 +55,6 @@ isoMetadata:
     default: "03_zeitlicheUndRaeumlicheAngaben/resolutions.md"
   spatialRepresentationTypes:
     default: "03_zeitlicheUndRaeumlicheAngaben/spatialRepresentationType.md"
-  #04_weitereAngaben
   contentDescription:
     default: "04_weitereAngaben/contentDescription.md"
   technicalDescription:
@@ -62,7 +62,7 @@ isoMetadata:
   lineage:
     default: "04_weitereAngaben/lineage.md"
   contentDescriptions:
-    default: "04_weitereAngaben/furtherInformation.md"
+    default: "04_weitereAngaben/contentDescription.md"
   #05_dienste
   services:
     type:
@@ -94,9 +94,6 @@ isoMetadata:
         type:
           default: "05_dienste/featureTypeColumnType.md"
 clientMetadata:
-  #02_einordnung
-  privacy:
-    default: "02_einordnung/privacy.md"
   #01_basisangaben
   comments:
     default: "01_basisangaben/comments.md"
@@ -116,7 +113,7 @@ clientMetadata:
     shortDescription:
       default: "05_dienste/layerShortDescription.md"
     datasource:
-      default: "05_dienste/layerDatasource.md"
+      default: "05_dienste/layersDatasource.md"
     secondaryDatasource:
       default: "05_dienste/layerSecondaryDatasource.md"
 

@@ -128,7 +128,7 @@ Einige IDs sind mit `*` markiert. Diese liegen im Metadatenprofil aktuell doppel
 | 36  | Verwandte Themen (MTK)                 | clientMetadata.relatedTopics                         |
 | 37  | Überprüfung                            | isoMetadata.valid                                    |
 | 38  | Schema-Version                         | isoMetadata.inspireAnnexVersion                      |
-| 70  | Schema-Name                            | isoMetadata.inspireAnnexName                         |
+| 70  | Schema-Name                            | isoMetadata.inspireFormatName                        |
 | 41  | Weitere Informationen                  | isoMetadata.contentDescriptions                      |
 | 42  | \_ Titel                               | isoMetadata.contentDescriptions.title                |
 | 43  | \_ Code                                | isoMetadata.contentDescriptions.code                 |
