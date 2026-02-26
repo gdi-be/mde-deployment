@@ -24,8 +24,6 @@ isoMetadata:
     default: "02_einordnung/inspireAnnexTheme.md"
   inspireFormatName:
     default: "02_einordnung/inspireSchemaName.md"
-  inspireAnnexName:
-    default: "02_einordnung/inspireAnnexTheme.md"
   valid:
     default: "02_einordnung/inspireValid.md"
   inspireAnnexVersion:
