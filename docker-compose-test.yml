@@ -86,7 +86,7 @@ services:
       - ./gn-public-data:/var/lib/geonetwork-data:z
       - ./logs/:/var/lib/jetty/logs/:z
   mde-elasticsearch:
-    image: elasticsearch:8.18.0
+    image: elasticsearch:9.3.1
     container_name: mde-elasticsearch
     hostname: mde-elasticsearch
     restart: always
