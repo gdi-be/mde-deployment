@@ -1,7 +1,7 @@
 ## Herkunft der Daten
 
 #### Erläuterung
-Nennen Sie die Quellen, die genutzt wurden, um den Datenbestand zu erstellen. Sie können über die Eingabe im Titelfeld den bestehenden Metadatenkatalog durchsuchen und so Datensätze als Datengrundlagen auswählen. Andere Quellen können ebenso im Titelfeld angegeben werden.
+Nennen Sie die Quellen, die genutzt wurden, um den Datenbestand zu erstellen. Sie können über die Eingabe im Titelfeld den bestehenden Metadatenkatalog durchsuchen und so Datensätze als Datengrundlagen auswählen. Dabei wird keine bleibende Verknüpfung hergestellt, sondern nur einzelne Angaben von dem Datenbestand übernommen vom jetzigen Zeitpunkt übernommen. Andere Quellen können ebenso im Titelfeld angegeben werden.
 
 #### Hinweise
 * Die Angabe des Titels Ihrer Quelle ist verpflichtend, das Veröffentlichungsdatum und der Identifier sind optionale Angaben.
