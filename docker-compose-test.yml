@@ -145,5 +145,5 @@ services:
     volumes:
       - .client-env:/app/.env:U
       - ./codelists:/data/codelists:U
-      - ./mde-backend/variables.json/:/data/variables.json:U
+      - ./mde-backend/variables.json:/data/variables.json:U
     privileged: true
