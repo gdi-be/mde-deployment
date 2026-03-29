@@ -39,7 +39,7 @@ services:
   mde-keycloak:
     container_name: mde-keycloak
     hostname: mde-keycloak
-    image: quay.io/keycloak/keycloak:26.0
+    image: quay.io/keycloak/keycloak:26.5
     restart: always
     depends_on:
       - mde-postgres
