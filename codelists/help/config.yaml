@@ -62,7 +62,7 @@ isoMetadata:
   lineage:
     default: "04_weitereAngaben/lineage.md"
   contentDescriptions:
-    default: "04_weitereAngaben/contentDescription.md"
+    default: "04_weitereAngaben/furtherInformation.md"
   #05_dienste
   services:
     type:
