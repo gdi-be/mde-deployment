@@ -25,7 +25,7 @@ services:
   mde-postgres:
     container_name: mde-postgres
     hostname: mde-postgres
-    image: postgres:17
+    image: postgres:18
     privileged: true
     restart: always
     environment:
