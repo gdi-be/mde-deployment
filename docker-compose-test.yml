@@ -64,7 +64,7 @@ services:
   mde-gnos:
     container_name: mde-gnos
     hostname: mde-gnos
-    image: geonetwork:4.4.7
+    image: geonetwork:4.4.9
     restart: always
     depends_on:
       - mde-postgres
