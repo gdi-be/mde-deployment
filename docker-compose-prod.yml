@@ -70,7 +70,7 @@ services:
       - ./codelists:/data/codelists:U
     privileged: true
   mde-client:
-    image: ghcr.io/gdi-be/mde-client:4.4.10
+    image: ghcr.io/gdi-be/mde-client:6.2.0
     container_name: mde-client
     hostname: mde-client
     restart: unless-stopped
