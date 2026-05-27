@@ -1,7 +1,7 @@
 ## Nutzungsbestimmungen
 
 #### Erläuterung
-Die Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen wendet für die freie Nutzung von Geodaten die "Datenlizenz Deutschland - Zero - Version 2.0“ an. Diese ist bereits vorausgewählt. Sofern diese nicht auf Ihre Daten zutrifft, wählen Sie bitte eine andere Nutzungsbestimmung aus. Falls keine der Nutzungsbestimmungen zutrifft, wenden Sie sich bitte an die Redakteure der Geodateninfrastruktur Berlin.
+Die Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen wendet für die freie Nutzung von Geodaten die "Datenlizenz Deutschland - Zero - Version 2.0“ an. Diese ist bereits vorausgewählt. Sofern diese nicht auf Ihre Daten zutrifft, wählen Sie bitte eine andere Nutzungsbestimmung aus. Falls keine der Nutzungsbestimmungen zutrifft, wenden Sie sich bitte an die Redakteur_innen der Geodateninfrastruktur Berlin.
 
 #### Hinweise
 * Die "Datenlizenz Deutschland - Zero - Version 2.0“ ist über <a href="https://www.govdata.de/dl-de/zero-2-0" class="popup" target="_blank">https://www.govdata.de/dl-de/zero-2-0</a> abrufbar.
