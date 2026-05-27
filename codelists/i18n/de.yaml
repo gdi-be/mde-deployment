@@ -115,7 +115,7 @@
 
 25_TermsOfUseField:
   label: "Nutzungsbestimmungen"
-  explanation: "Soll ihr Datenbestand unter der üblichen Nutzungsbestimmung der Datenlizenz Deutschland Version 2 Zero veröffentlicht werden? Falls nicht, wählen sie eine andere Nutzungsbestimmung für ihren Datenbestand."
+  explanation: "Unter welcher freien Nutzungsbestimmung soll Ihr Datenbestand veröffentlicht werden? Falls eine Datenschutzrelevanz vorliegt, kann keine freie Nutzungsbestimmung ausgewählt werden."
 
 26_TermsOfUseSourceField:
   label: "Nutzungsbestimmungen Quellenangabe"
