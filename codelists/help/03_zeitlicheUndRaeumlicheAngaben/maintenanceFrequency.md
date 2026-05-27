@@ -4,7 +4,8 @@
 In welchen Zeitabständen wird der Datenbestand überarbeitet bzw. aktualisiert (z.B. täglich, alle 14 Tage, jährlich, bei Bedarf)?
 
 #### Hinweise
-* Das Aktualisierungsdatum im Formular aktualisiert sich in dem hier gewählten Intervall automatisch mit.
+* Die Standardvorlage ist 'bei Bedarf'
+* Wenn eine präzisere Angabe möglich und in der Auswahlliste vorhanden ist, soll diese angegeben werden
 
 #### Beispiel
 bei Bedarf
