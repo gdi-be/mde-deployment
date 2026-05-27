@@ -1,7 +1,7 @@
 ## Erstellungsdatum
 
 #### Erläuterung
-Das Erstellungsdatum gibt an, wann der Datensatz erstmalig erzeugt wurde.
+Das Erstellungsdatum gibt an, wann ein Datenbestand erstmalig erzeugt wurde.
 
 #### Hinweise
 * Das Datumsformat ist durch den ISO-Metadatenstandard vorgegeben: TT.MM.JJJJ
