@@ -1,7 +1,7 @@
 ## Titel des Datenbestandes
 
 #### Erläuterung
-Der "Titel" beschreibt den Namen ihres Datenbestandes. Es ist ein Pflichtfeld und sollte prägnant und eindeutig sein. Der Titel hilft Nutzenden dabei, den Inhalt der Daten schnell zu verstehen.
+Der "Titel" beschreibt den Namen ihres Datenbestandes. Es ist ein Pflichtfeld und soll prägnant und eindeutig sein. Der Titel hilft Nutzenden dabei, den Inhalt der Daten schnell zu verstehen.
 
 #### Hinweise
 * Der Titel soll nicht länger als 100 Zeichen sein.
