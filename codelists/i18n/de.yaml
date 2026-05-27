@@ -129,7 +129,7 @@
 
 29_PreviewField:
   label: "Vorschaubild"
-  explanation: "Welcher Kartenausschnitt oder welches Schaubild charakterisiert ihren Datenbestand am besten? Zeigen Sie es uns, indem Sie ein Vorschaubild hochladen oder einen Link zu einem Bild eintragen."
+  explanation: "Welcher Kartenausschnitt oder welches Schaubild charakterisiert ihren Datenbestand am besten? Zeigen Sie es uns, indem Sie einen Link zu einem Bild eintragen."
 
 30_ContentDescription:
   label: "Inhaltliche Beschreibung"
