@@ -1,7 +1,7 @@
 ## Veröffentlichungsdatum
 
 #### Erläuterung
-Das Veröffentlichungsdatum gibt an, wann der beschriebene Datensatz (erstmalig bzw. als Aktualisierung) im Geoportal Berlin veröffentlicht wurde.
+Das Veröffentlichungsdatum gibt an, wann der beschriebene Datenbestand (erstmalig bzw. als Aktualisierung) im Geoportal Berlin veröffentlicht wurde.
 
 #### Hinweise
 * Dieses Feld wird von der/dem Redakteur/in am Tag der Veröffentlichung ausgefüllt.
