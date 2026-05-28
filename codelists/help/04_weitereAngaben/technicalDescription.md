@@ -1,7 +1,7 @@
 ## Technische Beschreibung
 
 #### Erläuterung
-Die technische Beschreibung des Datenbestands enthält eine Erläuterung des Aufbaus der Sachdaten und eine Entschlüsselung der Attribute und Attributbezeichnungen. Daher ist sie für Nutzende des WFS-Dienstes zur Entschlüsselung der Sachdatenstruktur wichtig. Die technische Beschreibung wird von der Redaktion mithilfe der Attribut-Beschreibungen erzeugt.
+Die technische Beschreibung des Datenbestands enthält eine Erläuterung des Aufbaus Ihrer Daten und eine Entschlüsselung einzelner Attribute und Attributbezeichnungen. Daher ist sie für Nutzende unserer Schnittstellen zur Entschlüsselung der Datenstruktur wichtig. Die technische Beschreibung kann von der Redaktion auch mithilfe der Attribut-Beschreibungen aus dem Metadateneditor erzeugt werden.
 
 #### Hinweise
 * Ist bereits eine technische Beschreibung vorhanden, so tragen Sie bitte eine URL, die auf das PDF-Dokument verweist ein oder übermitteln Sie das Dokument der Redaktion.
