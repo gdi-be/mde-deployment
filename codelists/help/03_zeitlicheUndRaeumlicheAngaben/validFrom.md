@@ -7,7 +7,7 @@ Die Angabe ist nur einzutragen, falls eine zeitliche Gültigkeitsdauer existiert
 * Das Datumsformat ist durch den ISO-Metadatenstandard vorgegeben: TT.MM.JJJJ
 
 #### Beispiel
-gültig ab 14.08.2024/gültig bis heute
+2026-01-01 >> 2026-06-30
 
 #### Sichtbarkeit in Anwendungen
 Der Gültigkeitszeitraum wird in der 
