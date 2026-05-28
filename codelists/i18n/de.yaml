@@ -45,7 +45,7 @@
   explanation: "Wann werden/wurden ihre Daten veröffentlicht?"
 
 11_LastUpdatedField:
-  label: "letzte Aktualisierung"
+  label: "Änderungsdatum"
   explanation: "Wann wurden ihre Daten letztmalig aktualisiert (nach der Erstellung)?"
 
 12_ValidityRangeField:
