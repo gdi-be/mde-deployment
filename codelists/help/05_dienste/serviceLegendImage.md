@@ -1,7 +1,7 @@
 ## Gesamtlegende
 
 #### Erläuterung
-Bitte stellen Sie eine Grafik im PNG-Format bereit. Als Bildgröße ist eine Breite von 500 Pixel bei 96 dpi vorgesehen. Die Bereitstellung ist Pflicht, sofern die Karte eine Legende benötigt, keine Pflicht z. B. bei Orthophotos.
+Bitte stellen Sie ein Legendenbild im PNG-Format bereit. Als Bildgröße ist eine Breite von maximal 500 Pixel bei 96 dpi vorgesehen. Die Bereitstellung ist Pflicht, sofern die Karte eine Legende benötigt, keine Pflicht z. B. bei Orthophotos. Sofern eine gültige URL auf eine Bilddatei eingetragen wird, werden die Angaben zur Breite, Höhe und Format automatisch ermittelt.
 
 #### Hinweise
 * Hilfe zur Legenden-Erstellung und Legenden-Gestaltung finden Sie auf den Intranetseiten von SenStadt IIID:  
