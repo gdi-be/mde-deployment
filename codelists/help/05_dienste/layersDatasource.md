@@ -5,7 +5,7 @@ Bitte geben oder beschreiben Sie hier den Ablageort oder die Quelle ihrer Daten 
 
 #### Hinweise
 * Es sind gültige Links als auch Fließtext erlaubt, um den Ablageort der Daten zu beschreiben.
-* Weitere Hinweise zu den Daten können den Redakteure auch über die Kommentarfunktion mitgeteilt werden.
+* Weitere Hinweise zu den Daten können der Redaktion auch über die Kommentarfunktion mitgeteilt werden.
 
 #### Beispiel
 file://senstadtfp12/alle/Daten_Welterbe/
