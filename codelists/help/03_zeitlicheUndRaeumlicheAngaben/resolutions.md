@@ -1,7 +1,7 @@
 ## Räumliche Auflösung
 
 #### Erläuterung
-Für welchen Maßstab wurde die Kartendarstellung optimiert oder in welchem Maßstab wurde erfasst? Handelt es sich bei dem Datenbestand um rasterbasierte Daten (z. B. Orthophotos), kann alternativ die "Bodenauflösung" in Metern angegeben werden.
+Unter dem "Vergleichsmaßstab" ist anzugeben in welchem Maßstab die Darstellung Ihrer Daten optimiert ist oder in welchem Maßstab diese erfasst wurden. Handelt es sich bei dem Datenbestand um rasterbasierte Daten (z. B. Orthophotos), kann alternativ die "Bodenauflösung" in Metern angegeben werden. Nur eine der beiden Angaben kann und muss erfasst werden.
 
 #### Hinweise
 * Geben Sie beim Vergleichsmaßstab nur die Maßstabszahl, also z. B. 5000, an.
