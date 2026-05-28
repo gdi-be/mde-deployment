@@ -1,7 +1,7 @@
 ## Weitere Informationen
 
 #### Erläuterung
-URLs zu weiterführenden Informationen, z. B. zum Fachauftritt bei SenStadt oder SenMVKU bzw. zu anderen Veröffentlichungen zum Thema, können hier angegeben werden.
+URLs zu weiterführenden Informationen, z. B. zu externen Webseiten oder anderen Veröffentlichungen zum Thema, können hier angegeben werden.
 
 #### Hinweise
 * Bitte tragen Sie die URL und den anzuzeigenden Text (Titel) ein, z. B. Wasserportal: https://wasserportal.berlin.de/start.php
