@@ -4,7 +4,8 @@
 Bitte geben Sie hier den Aliasnamen des Attributes ein, also die Bezeichnung des Attributs, welche in der tabellarischen Ansicht von Objektattributen im Geoportal Berlin angezeigt wird.
 
 #### Hinweise
-* Einheit (z. B. °C) kann in Alias ergänzt werden.
+* Schreiben Sie den Aliasnamen menschlesbar aus (keine Unterstriche, etc.)
+* Einheiten (z. B. °C) können in Alias ergänzt werden.
 
 #### Beispiel
 Referenznummer Welterbe
