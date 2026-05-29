@@ -275,7 +275,7 @@
 
 63_ColumnsForm:
   label: "Attribute"
-  explanation: "Über welche Attribute verfügt ihr FeatureType?"
+  explanation: "Über welche Attribute verfügen die Objekte in diesem FeatureType (Attributtabelle)?"
 
 64_AttributeName:
   label: "Attribut-Name"
