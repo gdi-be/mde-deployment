@@ -268,7 +268,7 @@
 
 61_FeatureTypeTitle:
   label: "Titel des FeatureTypes"
-  explanation: "Wie soll der Titel dieses FeatureType lauten? Passen Sie die Vorlage an."
+  explanation: "Wie soll der Titel dieses FeatureType (Attributtabelle) lauten?"
 
 62_FeatureTypeName:
   label: "Name des FeatureTypes"
