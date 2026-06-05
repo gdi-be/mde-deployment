@@ -8,7 +8,7 @@
 #    key_name: "Translated String"
 
 01_TitleField:
-  label: "Titel des Datenbestandes"
+  label: "Titel"
   explanation: "Unter welchem Titel soll Ihr Datenbestand gefunden werden?"
 
 02_DescriptionField:
@@ -602,6 +602,6 @@ validationdialog:
 welcome:
   loginButtonText: "Anmelden"
   loginText: "Bitte melden Sie sich an, um auf den Metadateneditor zuzugreifen."
-  overviewLinkText: "Zur Metadaten Übersicht"
+  overviewLinkText: "Zur Metadatenübersicht"
   welcomeText: "Willkommen beim Metadateneditor der GDI-Berlin"
   welcomeTitle: "Metadateneditor der GDI-Berlin"
