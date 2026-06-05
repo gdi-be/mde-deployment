@@ -6,7 +6,7 @@ Der "Titel" beschreibt den Namen ihres Datenbestandes. Es ist ein Pflichtfeld un
 #### Hinweise
 * Der Titel soll nicht länger als 100 Zeichen sein.
 * Verwenden Sie keine Abkürzungen.
-* Vermeiden Sie Dopplungen mit anderen Metadaten.
+* Vermeiden Sie Dopplungen mit anderen Metadaten. 
 
 #### Beispiel
 Welterbestätten Berlin
