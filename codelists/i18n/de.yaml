@@ -8,7 +8,7 @@
 #    key_name: "Translated String"
 
 01_TitleField:
-  label: "Titel"
+  label: "Titel des Datenbestandes"
   explanation: "Unter welchem Titel soll Ihr Datenbestand gefunden werden?"
 
 02_DescriptionField:
