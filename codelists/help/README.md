@@ -5,29 +5,29 @@ Um die Hilfen den entsprechenden Eingabefeldern im Metadateneditor zuzuordnen, m
 Der Pfad zur Hilfedatei ist dabei immer relativ zum Verzeichnis `help`.
 Die Datei ist so strukturiert, dass sie dem Datenmodell entspricht. Die Schlüssel dürfen entsprechend nicht verändert werden.
 
-Ein EingabeFeld kann zum Beispiel wie folgt konfiguriert werden:
+Ein Eingabe-Feld kann zum Beispiel wie folgt konfiguriert werden:
 
 ```yaml
 isoMetadata:
   title:
-    Administrator: "01_basisangaben/title.admin.md"
-    QualityAssurance: "01_basisangaben/title.qs.md"
-    DataOwner: "01_basisangaben/title.dhs.md"
-    # Editor: "01_basisangaben/title.redakteur.md"
+    MdeAdministrator: "01_basisangaben/title.admin.md"
+    MdeQualityAssurance: "01_basisangaben/title.qs.md"
+    MdeDataOwner: "01_basisangaben/title.dhs.md"
+    # MdeEditor: "01_basisangaben/title.redakteur.md"
     default: "01_basisangaben/title.md"
   services:
     legendImage:
       default: "05_dienste/serviceLegendImage.md"
 ```
 
-Standardmäßig wir die Hilfedatei mit dem Schlüssel `default` verwendet. Wenn ein Benutzer mit einer bestimmten Rolle angemeldet ist, wird die entsprechende Hilfedatei verwendet. Die Rollenzuordnung stellt sich wie folgt dar:
+Standardmäßig wird die Hilfedatei mit dem Schlüssel `default` verwendet. Wenn ein Benutzer mit einer bestimmten Rolle angemeldet ist, wird die entsprechende Hilfedatei verwendet. Die Rollenzuordnung stellt sich wie folgt dar:
 
-- Administrator --> Administrator
-- QualityAssurance --> Qualitätsmanagement
-- DataOwner --> Datenhaltende Stelle
-- Editor --> Redakteur
+- MdeAdministrator --> Administrator
+- MdeQualityAssurance --> Qualitätsmanagement
+- MdeDataOwner --> Datenhaltende Stelle
+- MdeEditor --> Redakteur
 
-Sollte für eine Eingabefeld keine garkeine Hilfedatei konfiguriert sein, so wir keine Hilfe angezeigt.
+Sollte für ein Eingabefeld keine Hilfedatei konfiguriert sein, so wird keine Hilfe angezeigt.
 
 Die Struktur des Verzeichnisbaums ist wie folgt:
 
