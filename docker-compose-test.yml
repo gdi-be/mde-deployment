@@ -111,7 +111,7 @@ services:
     volumes:
       - ./esdata-public:/usr/share/elasticsearch/data:z
   mde-backend:
-    image: ghcr.io/gdi-be/mde-backend:5.0.5
+    image: ghcr.io/gdi-be/mde-backend:5.2.1
     container_name: mde-backend
     hostname: mde-backend
     restart: always
@@ -130,6 +130,9 @@ services:
       CSW_PASSWORD: ${CSW_PASSWORD}
       CODELISTS_DIR: ${CODELISTS_DIR}
       JAVA_TOOL_OPTIONS: "-Dlog4j2.configurationFile=/config/log4j2.properties"
+      CLEANUP_USERS_ENABLED: false
+      CLEANUP_USERS_CRON: "0 0 0 ? * MON-FRI" # Every weekday at midnight
+
     volumes:
       - ./mde-backend/lucene:/lucene
       - ./mde-backend/keystore/cacerts:/opt/java/openjdk/lib/security/cacerts:U
@@ -138,7 +141,7 @@ services:
       - ./codelists:/data/codelists:U
     privileged: true
   mde-client:
-    image: ghcr.io/gdi-be/mde-client:6.1.12
+    image: ghcr.io/gdi-be/mde-client:6.4.1
     container_name: mde-client
     hostname: mde-client
     restart: always
