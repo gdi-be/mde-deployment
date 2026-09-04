@@ -34,7 +34,7 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - ./mde-postgres/postgresql_data:/var/lib/postgresql/data:rw,U
+      - ./mde-postgres/postgresql_data:/var/lib/postgresql/data:Z
       - ./mde-postgres/init_data:/docker-entrypoint-initdb.d
   mde-keycloak:
     container_name: mde-keycloak
