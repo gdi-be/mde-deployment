@@ -3,12 +3,11 @@ services:
     container_name: mde-nginx
     hostname: mde-nginx
     image: nginx
-    privileged: true
     restart: always
     volumes:
-      - ./mde-nginx/test/default.conf:/etc/nginx/conf.d/default.conf:rw,U
-      - ./mde-nginx/test/gdi-con-t-server.selfsign.crt:/etc/nginx/ssl/private/gdi-con-t-server.selfsign.crt:U
-      - ./mde-nginx/test/gdi-con-t-server.key:/etc/nginx/ssl/private/gdi-con-t-server.key:U
+      - ./mde-nginx/test/default.conf:/etc/nginx/conf.d/default.conf:ro,Z
+      - ./mde-nginx/test/gdi-con-t-server.selfsign.crt:/etc/nginx/ssl/private/gdi-con-t-server.selfsign.crt:ro,Z
+      - ./mde-nginx/test/gdi-con-t-server.key:/etc/nginx/ssl/private/gdi-con-t-server.key:ro,Z
     ports:
       - 80:80
       - 443:443
@@ -26,7 +25,6 @@ services:
     container_name: mde-postgres
     hostname: mde-postgres
     image: postgres:17
-    privileged: true
     restart: always
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
@@ -35,7 +33,7 @@ services:
       - 5432:5432
     volumes:
       - ./mde-postgres/postgresql_data:/var/lib/postgresql/data:Z
-      - ./mde-postgres/init_data:/docker-entrypoint-initdb.d
+      - ./mde-postgres/init_data:/docker-entrypoint-initdb.d:ro,Z
   mde-keycloak:
     container_name: mde-keycloak
     hostname: mde-keycloak
@@ -60,7 +58,7 @@ services:
     command:
       ["start", "--proxy-headers", "xforwarded", "--http-enabled", "true"]
     # volumes:
-    #   - ./mde-keycloak/cacerts:/etc/pki/ca-trust/extracted/java/cacerts:rw,U
+    #   - ./mde-keycloak/cacerts:/etc/pki/ca-trust/extracted/java/cacerts:Z
   mde-gnos:
     container_name: mde-gnos
     hostname: mde-gnos
@@ -83,8 +81,8 @@ services:
       GEONETWORK_DB_HOST: mde-postgres
       GEONETWORK_DB_PORT: 5432
     volumes:
-      - ./gn-public-data:/var/lib/geonetwork-data:z
-      - ./logs/:/var/lib/jetty/logs/:z
+      - ./gn-public-data:/var/lib/geonetwork-data:Z
+      - ./logs/:/var/lib/jetty/logs/:Z
   mde-elasticsearch:
     image: elasticsearch:8.18.0
     container_name: mde-elasticsearch
@@ -109,7 +107,7 @@ services:
       - xpack.security.enabled=false
       - xpack.security.enrollment.enabled=false
     volumes:
-      - ./esdata-public:/usr/share/elasticsearch/data:z
+      - ./esdata-public:/usr/share/elasticsearch/data:Z
   mde-backend:
     image: ghcr.io/gdi-be/mde-backend:5.2.1
     container_name: mde-backend
@@ -134,18 +132,16 @@ services:
       CLEANUP_USERS_CRON: "0 0 0 ? * MON-FRI" # Every weekday at midnight
     volumes:
       - ./mde-backend/lucene:/lucene
-      - ./mde-backend/keystore/cacerts:/opt/java/openjdk/lib/security/cacerts:U
-      - ./mde-backend/variables.json:/variables.json:U
-      - ./mde-backend/log4j2.properties:/config/log4j2.properties
-      - ./codelists:/data/codelists:U
-    privileged: true
+      - ./mde-backend/keystore/cacerts:/opt/java/openjdk/lib/security/cacerts:ro,Z
+      - ./mde-backend/variables.json:/variables.json:ro,Z
+      - ./mde-backend/log4j2.properties:/config/log4j2.properties:ro,Z
+      - ./codelists:/data/codelists:ro,Z
   mde-client:
     image: ghcr.io/gdi-be/mde-client:6.4.1
     container_name: mde-client
     hostname: mde-client
     restart: always
     volumes:
-      - .client-env:/app/.env:U
-      - ./codelists:/data/codelists:U
-      - ./mde-backend/variables.json:/data/variables.json:U
-    privileged: true
+      - .client-env:/app/.env:ro,Z
+      - ./mde-client-codelists:/data/codelists:ro,Z
+      - ./mde-client/variables.json:/data/variables.json:ro,Z
