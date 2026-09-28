@@ -4,7 +4,7 @@
 Die "Kurzbeschreibung" bietet eine kurze, aber prägnante Zusammenfassung des Inhalts des Datensatzes. Hier sollen die wesentlichen Informationen zu dem Datensatz zusammengefasst werden, um Nutzenden einen schnellen Überblick zu ermöglichen.
 
 #### Hinweise
-* Die Kurzbeschreibung soll nicht länger als 500 Zeichen sein.
+* Die Kurzbeschreibung soll nicht länger als 1250 Zeichen sein.
 * Nennen Sie relevante Informationen, die die Daten charakterisieren.
 * Vermeiden Sie zu spezifische oder detaillierte Informationen.
 

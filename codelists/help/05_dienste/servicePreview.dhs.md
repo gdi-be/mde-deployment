@@ -1,11 +1,11 @@
 ## Vorschau des Dienstes
 
 #### Erläuterung
-Bitte tragen Sie einen Link auf ein Vorschaubild ein. Das Vorschaubild soll Ihren Dienst gut veranschaulichen und sich möglichst von anderen Vorschaubildern abgrenzen.
+Bitte senden Sie der Redaktion per E-Mail eine Bilddatei der Vorschau des Dienstes, wenn diese von der Vorschau des Datenbestandes abweichen soll. Für Downloaddienste WFS und Atom ist das nicht notwendig, hier werden Standardvorschaubilder verwendet.
 
 #### Hinweise
-* Mit dem A-Button kann die Vorschau des Datenbestands übernommen werden.
-* Verlinken Sie ein quadratisches Bild mit einer Mindestgröße von 380x380 Pixeln.
+* Senden Sie eine Bilddatei per Email an die Redaktion.
+* Übermitteln Sie ein quadratisches Bild mit einer Mindestgröße von 380x380 Pixeln.
 * Verzichten Sie beim Erstellen von Schaubildern auf Text im Bild.
 
 #### Beispiel

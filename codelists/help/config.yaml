@@ -5,12 +5,14 @@ isoMetadata:
     # DataOwner: "01_basisangaben/title.dhs.md"
     # Editor: "01_basisangaben/title.redakteur.md"
     default: "01_basisangaben/title.md"
+    MdeDataOwner: "01_basisangaben/title.dhs.md"
   description:
     default: "01_basisangaben/description.md"
   keywords:
     default: "01_basisangaben/keywords.md"
   preview:
     default: "01_basisangaben/preview.md"
+    MdeDataOwner: "01_basisangaben/preview.dhs.md"
   pointsOfContact:
     default: "01_basisangaben/pointsOfContact.md"
   #02_einordnung
@@ -75,8 +77,10 @@ isoMetadata:
       default: "05_dienste/serviceIdentificator.md"
     preview:
       default: "05_dienste/servicePreview.md"
+      MdeDataOwner: "05_dienste/servicePreview.dhs.md"
     legendImage:
       default: "05_dienste/serviceLegendImage.md"
+      MdeDataOwner: "05_dienste/serviceLegendImage.dhs.md"
     featureTypes:
       default: "05_dienste/featureType.md"
       title:
@@ -110,6 +114,7 @@ clientMetadata:
       default: "05_dienste/layerStyleName.md"
     legendImage:
       default: "05_dienste/layerLegendImage.md"
+      MdeDataOwner: "05_dienste/layerLegendImage.dhs.md"
     shortDescription:
       default: "05_dienste/layerShortDescription.md"
     datasource:

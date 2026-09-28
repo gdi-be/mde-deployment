@@ -2,11 +2,12 @@
 
 #### Erläuterung
 
-Seit dem 01.06.2024 sind alle Öffentliche Stellen und Unternehmen der Daseinsvorsorge in der Europäischen Union verpflichtet, sogenannte "High Value Datasets" (HVD), also hochwertige Datensätze des öffentlichen Sektors, die von der EU-Kommission als besonders wertvoll für Gesellschaft, Wirtschaft und Umwelt eingestuft werden, kostenfrei zur Weiterverwendung bereitzustellen. Ist Ihr Datensatz ein "High Value" Datensatz, dann bestätigen Sie die Abfrage und wählen anschließend eines oder mehrere der sechs Kategorien aus, denen Ihr Datensatz zugehörig ist.
+Seit dem 01.06.2024 sind öffentliche Stellen und Unternehmen der Daseinsvorsorge in der Europäischen Union verpflichtet, sogenannte High-Value-Datasets (HVD) kostenfrei zur Weiterverwendung bereitzustellen. Diese hochwertigen Datensätze des öffentlichen Sektors werden von der EU-Kommission als besonders wertvoll für Gesellschaft, Wirtschaft und Umwelt eingestuft. Handelt es sich bei Ihrem Datensatz um ein High-Value-Dataset, bestätigen Sie dies und wählen Sie anschließend eine oder mehrere der sechs zugehörigen Kategorien aus.
 
 #### Hinweise
 
-- Sie benötigen Unterstützung bei der Beantwortung der Abfrage oder bei der Auswahl des Themenbereichs? Wenden Sie sich an die zuständige Stelle in Berlin: <a href="https://www.berlin.de/sen/uvk/umwelt/digitalisierung-und-umwelt/durchfuehrungsverordnung-hvd/" class="popup" target="_blank">https://www.berlin.de/sen/uvk/umwelt/digitalisierung-und-umwelt/durchfuehrungsverordnung-hvd/</a>.
+* Hier gelangen Sie zur <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32023R0138" class="popup" target="_blank">Durchführungsverordnung der EU vom 21. Dezember 2022</a>.
+* Hier gelangen Sie zu <a href="https://www.govdata.de/informationen/hochwertige-datensaetze" class="popup" target="_blank">häufig gestellten Fragen (FAQ) der Durchführungsverordnung</a>.
 
 #### Beispiel
 

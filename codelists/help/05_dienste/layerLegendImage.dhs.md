@@ -1,7 +1,7 @@
 ## Legende
 
 #### Erläuterung
-Bitte geben Sie für jede Kartenebene (Layer) eine entsprechende Legende an. Die Bereitstellung ist verpflichtend, wenn die Karte eine Legende benötigt. Bei Karten ohne Legendenbedarf (z. B. Orthophotos) ist sie optional.
+Bitte geben Sie für jede Kartenebene (Layer) eine entsprechende Legende an. Die Bereitstellung ist verpflichtend, wenn die Karte eine Legende benötigt. Bei Karten ohne Legendenbedarf (z. B. Orthophotos) ist sie optional. Bitte senden Sie der Redaktion per E-Mail eine Bilddatei der Einzellegende.
 
 #### Hinweise
 * Empfohlene Bildgröße und -format: maximal 500 Pixel Breite bei 96 dpi im PNG-Format
