@@ -13,7 +13,7 @@
 
 02_DescriptionField:
   label: "Kurzbeschreibung des Datenbestandes"
-  explanation: "Beschreiben Sie Ihren Datenbestand kurz und prägnant in 500 Zeichen. Für ausführlichere Informationen nutzen Sie die inhaltliche Beschreibung."
+  explanation: "Beschreiben Sie Ihren Datenbestand kurz und prägnant in 1250 Zeichen. Für ausführlichere Informationen nutzen Sie die inhaltliche Beschreibung."
 
 04_PrivacyField:
   label: "Datenschutz-Einstellungen"
@@ -129,7 +129,7 @@
 
 29_PreviewField:
   label: "Vorschaubild"
-  explanation: "Welcher Kartenausschnitt oder welches Schaubild charakterisiert ihren Datenbestand am besten? Zeigen Sie es uns, indem Sie einen Link zu einem Bild eintragen."
+  explanation: "Welcher Kartenausschnitt oder welches Schaubild charakterisiert ihren Datenbestand am besten? Lassen Sie das Eingabefeld leer und senden Sie eine Bilddatei per Email an die Redaktion."
 
 30_ContentDescription:
   label: "Inhaltliche Beschreibung"
@@ -199,7 +199,7 @@
 
 46_ServicePreview:
   label: "Vorschau des Dienstes"
-  explanation: "Soll die Vorschau des Kartendienstes von der Vorschau des Datenbestandes abweichen? Wenn ja, dann tragen Sie bitte einen Link zu einem Bild ein"
+  explanation: "Soll die Vorschau des Dienstes von der Vorschau des Datenbestandes abweichen? Falls ja, lassen Sie das Eingabefeld leer und senden Sie eine Bilddatei per Email an die Redaktion."
 
 47_ServiceLegendImage:
   format: "Format"
@@ -207,7 +207,7 @@
   url: "Url"
   width: "Breite"
   label: "Gesamtlegende"
-  explanation: "Tragen Sie hier einen Link zu der Gesamtlegende Ihres Kartendienstes ein"
+  explanation: "Benötigt Ihr Darstellungsdienst eine Legende? Falls ja, lassen Sie die Eingabefelder leer und senden Sie eine Bilddatei per Email an die Redaktion."
   label_url: "Url"
   explanation_url: "Wo kann die Gesamtlegende gefunden werden?"
   label_format: "Format"
@@ -218,15 +218,15 @@
   explanation_height: "In welcher Höhe wird die Gesamtlegende bereitgestellt?"
 
 48_LayersForm:
-  label: "Kartenebenen"
-  explanation: "Ihr Kartendienst muss mindestens aus einer Ebene bestehen. Geben Sie hier an, wieviele Ebenen ihr Kartendienst hat"
+  label: "Ebenen"
+  explanation: "Ihr Darstellungsdienst muss mindestens aus einer Ebene bestehen. Geben Sie hier an, wieviele Ebenen ihr Dienst hat"
 
 49_LayerTitle:
-  label: "Titel der Kartenebene"
-  explanation: "Wie heißt die Kartenebene?"
+  label: "Titel der Ebene"
+  explanation: "Wie heißt die Ebene?"
 
 50_LayerName:
-  label: "Name der Kartenebene"
+  label: "Name der Ebene"
 
 51_LayerStyleName:
   label: "Name des Styles"
@@ -236,11 +236,11 @@
 
 53_LayerLegendImage:
   label: "Legende"
-  explanation: "Tragen Sie hier einen Link zu einer Legende Ihrer Kartenebene ein"
+  explanation: "Benötigt Ihre Ebene eine Legende? Falls ja, lassen Sie das Eingabefeld leer und senden Sie eine Bilddatei per Email an die Redaktion"
 
 54_LayerDescription:
   label: "Kurzbeschreibung"
-  explanation: "Beschreiben sie den Inhalt der Kartenebene kurz und prägnant in 500 Zeichen"
+  explanation: "Beschreiben sie den Inhalt der Ebene kurz und prägnant in 500 Zeichen"
 
 55_LayerDatasource:
   label: "Ablageort der Daten"

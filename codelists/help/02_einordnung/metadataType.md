@@ -5,6 +5,8 @@ Laut der Verordnung der europäischen Union zu INSPIRE sollen alle Mitgliedstaat
 #### Hinweise
 * Überprüfen Sie eine Betroffenheit anhand der von INSPIRE relevanten Themen.
 * Die Auswahl hat Einfluss auf den Inhalt und den Umfang der ISO-Metadaten Ihres Datenbestandes.
+* Ist die INSPIRE-Betroffenheit noch nicht geklärt, wählen Sie "ISO" aus.
+* Zur Klärung der INSPIRE-Betroffenheit bitte Kontakt mit der aufnehmen <a href="mailto:Kontakt-GDI-BEsenstadt.berlin.de" class="popup" target="_blank">Kontaktstelle GDI-BE</a> aufnehmen.
 
 #### Beispiel
 INSPIRE identifiziert
