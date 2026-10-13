@@ -36,10 +36,16 @@ services:
       - ./mde-postgres/init_data/01_init_keycloak.sql:/docker-entrypoint-initdb.d/01_init_keycloak.sql:ro,Z
       - ./mde-postgres/init_data/02_init_mde_db.sql:/docker-entrypoint-initdb.d/02_init_mde_db.sql:ro,Z
       - ./mde-postgres/init_data/03_init_gnos_db.sql:/docker-entrypoint-initdb.d/03_init_gnos_db.sql:ro,Z
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+      timeout: 10s
   mde-keycloak:
     container_name: mde-keycloak
     hostname: mde-keycloak
-    image: quay.io/keycloak/keycloak:26.0
+    image: quay.io/keycloak/keycloak:26.7.5
     restart: always
     depends_on:
       - mde-postgres
@@ -57,14 +63,21 @@ services:
       KC_HTTP_RELATIVE_PATH: /auth
       KC_BOOTSTRAP_ADMIN_USERNAME: ${KEYCLOAK_ADMIN}
       KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD}
+      KC_HEALTH_ENABLED: "true"
     command:
       ["start", "--proxy-headers", "xforwarded", "--http-enabled", "true"]
+    healthcheck:
+      test: ["CMD-SHELL", "{ printf 'HEAD /auth/health/ready HTTP/1.0\r\n\r\n' >&0; grep 'HTTP/1.0 200'; } 0<>/dev/tcp/localhost/9000"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
     # volumes:
     #   - ./mde-keycloak/cacerts:/etc/pki/ca-trust/extracted/java/cacerts:Z
   mde-gnos:
     container_name: mde-gnos
     hostname: mde-gnos
-    image: geonetwork:4.4.7
+    image: geonetwork:4.4.12
     restart: always
     depends_on:
       - mde-postgres
@@ -85,6 +98,12 @@ services:
     volumes:
       - ./mde-geonetwork/gn-public-data:/var/lib/geonetwork-data:Z
       - ./mde-geonetwork/logs/:/var/lib/jetty/logs/:Z
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/geonetwork/srv/eng/info?type=me"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
   mde-elasticsearch:
     image: elasticsearch:8.18.0
     container_name: mde-elasticsearch
@@ -110,8 +129,15 @@ services:
       - xpack.security.enrollment.enabled=false
     volumes:
       - ./mde-elasticsearch/esdata-public:/usr/share/elasticsearch/data:Z
+    healthcheck:
+      test:
+        ["CMD", "curl", "-f", "http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=5s"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
   mde-backend:
-    image: ghcr.io/gdi-be/mde-backend:5.2.1
+    image: ghcr.io/gdi-be/mde-backend:6.0.0
     container_name: mde-backend
     hostname: mde-backend
     restart: always
@@ -129,6 +155,7 @@ services:
       CSW_USER: ${CSW_USER}
       CSW_PASSWORD: ${CSW_PASSWORD}
       CODELISTS_DIR: ${CODELISTS_DIR}
+      TE_BASE: "/tmp/teamengine"
       JAVA_TOOL_OPTIONS: "-Dlog4j2.configurationFile=/config/log4j2.properties"
       CLEANUP_USERS_ENABLED: false
       CLEANUP_USERS_CRON: "0 0 0 ? * MON-FRI" # Every weekday at midnight
@@ -138,6 +165,12 @@ services:
       - ./mde-backend/variables.json:/variables.json:ro,Z
       - ./mde-backend/log4j2.properties:/config/log4j2.properties:ro,Z
       - ./codelists:/data/codelists:ro,Z
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://localhost:8080/v3/api-docs/swagger-config"]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+      timeout: 10s
   mde-client:
     image: ghcr.io/gdi-be/mde-client:6.4.1
     container_name: mde-client
@@ -147,3 +180,15 @@ services:
       - .client-env:/app/.env:ro,Z
       - ./mde-client-codelists:/data/codelists:ro,Z
       - ./mde-client/variables.json:/data/variables.json:ro,Z
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "bun",
+          "-e",
+          "fetch('http://127.0.0.1:3000/').then(r => process.exit(r.ok ? 0 : 1), () => process.exit(1))",
+        ]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
