@@ -65,7 +65,14 @@ services:
       KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD}
       KC_HEALTH_ENABLED: "true"
     command:
-      ["start", "--proxy-headers", "xforwarded", "--http-enabled", "true"]
+      [
+        "start",
+        "--proxy-headers",
+        "xforwarded",
+        "--http-enabled",
+        "true",
+        "-Dcom.sun.jndi.ldap.object.disableEndpointIdentification=true",
+      ]
     healthcheck:
       test: ["CMD-SHELL", "{ printf 'HEAD /auth/health/ready HTTP/1.0\r\n\r\n' >&0; grep 'HTTP/1.0 200'; } 0<>/dev/tcp/localhost/9000"]
       interval: 30s
@@ -176,8 +183,10 @@ services:
     container_name: mde-client
     hostname: mde-client
     restart: always
+    env_file:
+      - .client-env
     volumes:
-      - .client-env:/app/.env:ro,Z
+      - ./.client-env:/app/.env:ro,Z
       - ./mde-client-codelists:/data/codelists:ro,Z
       - ./mde-client/variables.json:/data/variables.json:ro,Z
     healthcheck:
