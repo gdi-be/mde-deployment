@@ -5,7 +5,7 @@
 * add the line `net.ipv4.ip_unprivileged_port_start=80` to `/etc/sysctl.conf` and run `sysctl --system`
 * manually add an admin user in keycloak by changing into the container, cd to `/opt/keycloak/bin` and running `./kc.sh bootstrap-admin user`
 * run `./setEnvironment.sh` to prepare keystore for SSL communication during devlopment
-* an `.env` file has to be configured. Use `cp ./env.example ./.env` as a starting point.
+* an `.env` file has to be configured. Use `cp .env.example .env` as a starting point.
 * copy `.client-env.example` to `.client-env` and adapt the values
 
 ### Permissions setup/reset
@@ -42,4 +42,4 @@ To configure the keycloak user federation pointing to a AD instance:
 
 > Metadata is visible in the overview but can't be found in the MetadataSearchField (e.g. Neuerfassung -> Vorlage):
 
-Probably the search index was not created/updated correctly. You can trigger a manula update of the search index by opening /search/index/initialize as a logged in user. This will trigger a full reindex of all metadata.
+Probably the search index was not created/updated correctly. You can trigger a manual update of the search index by opening /search/index/initialize as a logged in user. This will trigger a full reindex of all metadata.
